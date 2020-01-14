@@ -1,0 +1,365 @@
+repunit,CU,CU_NAME,collection
+Russia,RU-01,Russia,APUKA_RIVER
+Russia,RU-01,Russia,AVACHA
+Russia,RU-01,Russia,BISTRAYA_RIVER
+Russia,RU-01,Russia,BOLSHAYA_RIVER
+Russia,RU-01,Russia,ICHA_RIVER
+Russia,RU-01,Russia,KAMCHATKA_RIVER
+Russia,RU-01,Russia,KARYMAY_RIVER
+Russia,RU-01,Russia,KIKCHIK_RIVER
+Russia,RU-01,Russia,KOL_RIVER
+Russia,RU-01,Russia,PAHACHA_RIVER
+Russia,RU-01,Russia,PALANA_RIVER
+Russia,RU-01,Russia,PYMTA_RIVER
+Russia,RU-01,Russia,TIGIL_RIVER
+Russia,RU-01,Russia,VOROVSKAJA_RIVER
+AKK,AK-02,Alaska_Koyukuk River,GISASA_RIVER
+AKK,AK-02,Alaska_Koyukuk River,HENSHAW_CREEK
+AKK,AK-02,Alaska_Koyukuk River,KATEEL_RIVER
+AKK,AK-02,Alaska_Koyukuk River,KOYUKUK_RIVER_MID_FORK
+AKK,AK-02,Alaska_Koyukuk River,KOYUKUK_RIVER_SOUTH_FORK
+AKT,AK-03,Alaska_Tanana River,CHATANIKA_RIVER
+AKT,AK-03,Alaska_Tanana River,CHENA_RIVER
+AKT,AK-03,Alaska_Tanana River,GOODPASTER_RIVER
+AKT,AK-03,Alaska_Tanana River,KANTISHNA_RIVER
+AKT,AK-03,Alaska_Tanana River,SALCHA_RIVER
+AKT,AK-03,Alaska_Tanana River,TEEDRAANJIK_RIVER
+AKYR-L,AK-04,Alaska_Lower Yukon River,ANDREAFSKY_RIVER
+AKYR-L,AK-04,Alaska_Lower Yukon River,ANDREAFSKY_RIVER_EAST_FORK
+AKYR-L,AK-04,Alaska_Lower Yukon River,ANVIK_RIVER
+AKYR-L,AK-04,Alaska_Lower Yukon River,ARCHUELINGIK_RIVER
+AKYR-M,AK-05,Alaska_Mid Yukon River,NULATO_RIVER_NORTH_FORK
+AKYR-M,AK-05,Alaska_Mid Yukon River,NULATO_RIVER_SOUTH_FORK
+AKYR-M,AK-05,Alaska_Mid Yukon River,TOZITA_RIVER
+AKYR-U,AK-06,Alaska_Upper Yukon River,BEAVER_CREEK
+AKYR-U,AK-06,Alaska_Upper Yukon River,CHANDALAR_RIVER
+AKYR-U,AK-06,Alaska_Upper Yukon River,KANDIK_RIVER
+AKYR-U,AK-06,Alaska_Upper Yukon River,SHEENJEK_RIVER
+NYR,76,Northern Yukon River and tributaries,CHANDINDU_RIVER
+NYR,76,Northern Yukon River and tributaries,KLONDIKE_RIVER
+NYR,76,Northern Yukon River and tributaries,YUKON_RIVER-LOWER
+SFork,77,Salmon Fork,SALMON_FORK_RIVER
+White,75,White and tributaries,NISLING_RIVER
+White,75,White and tributaries,TINCUP_CREEK
+Porcu,78,Porcupine,PORCUPINE_RIVER
+Norden,71,Nordenskiold,NORDENSKIOLD_RIVER
+UpperYR,69,Upper Yukon River,TAKHINI_RIVER
+UpperYR,69,Upper Yukon River,TESLIN_LAKE
+UpperYR,69,Upper Yukon River,TESLIN_RIVER
+UpperYR,69,Upper Yukon River,WHITEHORSE_RIVER
+MidYR,73,Middle Yukon River and tributaries,BIG_SALMON_RIVER
+MidYR,73,Middle Yukon River and tributaries,LITTLE_SALMON_RIVER
+MidYR,73,Middle Yukon River and tributaries,TATCHUN_RIVER
+Teslin,68,Yukon River-Teslin headwaters,HUNDRED-MILE_CREEK
+Teslin,68,Yukon River-Teslin headwaters,MCNEIL_RIVER
+Teslin,68,Yukon River-Teslin headwaters,MORLEY_RIVER
+Teslin,68,Yukon River-Teslin headwaters,NISUTLIN_RIVER
+Teslin,68,Yukon River-Teslin headwaters,SWIFT_RIVER
+Teslin,68,Yukon River-Teslin headwaters,WOLF_RIVER
+Pelly,72,Pelly,BLIND_CREEK
+Pelly,72,Pelly,EARN_RIVER
+Pelly,72,Pelly,GLENLYON_RIVER
+Pelly,72,Pelly,HOOLE_RIVER
+Pelly,72,Pelly,KALZAS_RIVER
+Pelly,72,Pelly,PELLY_RIVER
+Pelly,72,Pelly,ROSS_RIVER
+Stew,74,Stewart,MAYO_RIVER
+Stew,74,Stewart,MCQUESTEN_RIVER
+Stew,74,Stewart,STEWART_RIVER
+SEAK,AK-01,South East Alaska,BIG_BOULDER_CREEK
+SEAK,AK-01,South East Alaska,CHICKAMIN_RIVER
+SEAK,AK-01,South East Alaska,COLEEN_RIVER
+SEAK,AK-01,South East Alaska,KING_SALMON_RIVER
+SEAK,AK-01,South East Alaska,SITUK_RIVER
+SEAK,AK-01,South East Alaska,TAHINI_RIVER
+SEAK,AK-01,South East Alaska,UNUK_RIVER
+Alsek,67,Alsek,BLANCHARD_RIVER
+Alsek,67,Alsek,GOAT_CREEK(Alsek)
+Alsek,67,Alsek,KLUKSHU_RIVER
+Alsek,67,Alsek,KUDWAT_CREEK
+Alsek,67,Alsek,TAKHANNE_RIVER
+Alsek,67,Alsek,TATSHENSHINI_RIVER
+UNUK,59,Unuk,CRIPPLE_CREEK
+TAKU-early,63,Taku_early timing,DUDIDONTU_RIVER
+TAKU-early,63,Taku_early timing,NAHLIN_RIVER
+TAKU-early,63,Taku_early timing,TSETA_CREEK
+TAKU-mid,64,Taku_mid timing,LITTLE_TATSAMENIE_RIVER
+TAKU-mid,64,Taku_mid timing,NAKINA_RIVER
+TAKU-mid,64,Taku_mid timing,TATSAMENIE_(LAKE_OUTLET)
+TAKU-mid,64,Taku_mid timing,YETH_RIVER
+TAKU-late,65,Taku_late timing,HACKETT_RIVER
+TAKU-late,65,Taku_late timing,KOWATUA_CREEK
+LSTK-early,60,Stikine_early timing,CHRISTINA_CREEK
+LSTK-early,60,Stikine_early timing,JOHNNY_TASHOOTS_CREEK
+LSTK-early,60,Stikine_early timing,LITTLE_TAHLTAN_RIVER
+LSTK-early,60,Stikine_early timing,SHAKES_CREEK
+LSTK-early,60,Stikine_early timing,TAHLTAN_RIVER
+LSTK-late,61,Stikine_late timing,CRAIG_RIVER
+LSTK-late,61,Stikine_late timing,TUYA_RIVER
+LSTK-late,61,Stikine_late timing,VERRETT_RIVER
+HGN,43,Haida Gwaii-North,YAKOUN_RIVER
+UNR,58,Upper Nass,CRANBERRY_RIVER
+UNR,58,Upper Nass,DAMDOCHAX_CREEK
+UNR,58,Upper Nass,KITEEN_RIVER
+UNR,58,Upper Nass,KWINAGEESE_RIVER
+UNR,58,Upper Nass,MEZIADIN_RIVER
+UNR,58,Upper Nass,OWEEGEE_CREEK
+UNR,58,Upper Nass,SNOWBANK_CREEK
+UNR,58,Upper Nass,TSEAX_SLOUGH
+LNR-P,57,Portland Sound-Observatory Inlet-Lower Nass,ISHKHEENICKH_RIVER
+LNR-P,57,Portland Sound-Observatory Inlet-Lower Nass,KATEEN_RIVER
+LNR-P,57,Portland Sound-Observatory Inlet-Lower Nass,KINCOLITH_RIVER
+LNR-P,57,Portland Sound-Observatory Inlet-Lower Nass,KWINAMASS_RIVER
+LNR-P,57,Portland Sound-Observatory Inlet-Lower Nass,SEASKINNISH_CREEK
+ECST,46,Ecstall,ECSTALL_RIVER
+SKEst,45,Skeena Estuary,KLOIYA_RIVER
+LSK,48,Lower Skeena,EXCHAMSIKS_RIVER
+LSK,48,Lower Skeena,EXSTEW_RIVER
+LSK,48,Lower Skeena,FIDDLER_CREEK
+LSK,48,Lower Skeena,GITNADOIX_RIVER
+LSK,48,Lower Skeena,KASIKS_RIVER
+LSK,48,Lower Skeena,KHYEX_RIVER
+LSK,48,Lower Skeena,ZYMAGOTITZ_RIVER
+KALUM-E,49,Kalum_early timing,CEDAR_RIVER
+KALUM-L,50,Kalum_late timing,GOAT_CREEK
+KALUM-L,50,Kalum_late timing,KITSUMKALUM_RIVER-LOWER
+ZYM,80,Zymoetz,THOMAS_CREEK
+SIC,81,Sicintine,SICINTINE_RIVER
+MSK-LGLKS,53,Middle Skeena-large lakes,BABINE_RIVER-SECTIONS_1_TO_3
+MSK-LGLKS,53,Middle Skeena-large lakes,MORICE_RIVER
+USK,56,Upper Skeena,BEAR_RIVER
+USK,56,Upper Skeena,KLUATANTAN_RIVER
+USK,56,Upper Skeena,KLUAYAZ_CREEK
+USK,56,Upper Skeena,OTSI_CREEK
+USK,56,Upper Skeena,SQUINGULA_RIVER
+USK,56,Upper Skeena,SUSTUT_RIVER
+MSK-UprBulk,55,Upper Bulkley River,BULKLEY_RIVER-UPPER
+NCC-lake,41,North and Central Coast-late timing,KITLOPE_RIVER
+NCC-lake,41,North and Central Coast-late timing,MARBLE_CREEK_CC
+NCC-stream,42,North and Central Coast-early timing,HIRSCH_CREEK
+NCC-stream,42,North and Central Coast-early timing,KILDALA_RIVER
+NCC-stream,42,North and Central Coast-early timing,KITIMAT_RIVER
+RI,37,Rivers Inlet,ASHLULM_CREEK
+RI,37,Rivers Inlet,CHUCKWALLA_RIVER
+RI,37,Rivers Inlet,KILBELLA_RIVER
+RI,37,Rivers Inlet,NEECHANZ_RIVER
+WANN,38,Wannock,WANNOCK_RIVER
+BCR-BENT,39,Bella Coola-Bentinck,ATNARKO_RIVER
+BCR-BENT,39,Bella Coola-Bentinck,ATNARKO_RIVER_UPPER
+BCR-BENT,39,Bella Coola-Bentinck,NUSATSUM_RIVER
+BCR-BENT,39,Bella Coola-Bentinck,SALLOOMT_RIVER
+DEAN,40,Dean River,DEAN_RIVER-LOWER
+DEAN,40,Dean River,DEAN_RIVER-UPPER
+DEAN,40,Dean River,TAKIA_RIVER
+DOCEE,36,Docee,DOCEE_RIVER
+KLINA,35,Klinaklini_SU_1.3,DEVEREUX_CREEK
+KLINA,35,Klinaklini_SU_1.3,KLINAKLINI_RIVER
+SMn-SFj,28,Southern Mainland-Southern Fjords_FA_0.x,PHILLIPS_RIVER
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,ASHLU_CREEK
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,CHEAKAMUS_RIVER
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,CHEAKAMUS_RIVER-TENDERFOOT
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,CHEAKAMUS_RIVER_FALL
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,CHEAKAMUS_RIVER_SUMMER
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,MAMQUAM_RIVER
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,PORTEAU_COVE
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,SHOVELNOSE_CREEK
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,SQUAMISH_RIVER
+SMn-GStr,20,Southern Mainland-Georgia Strait_FA_0.x,TENDERFOOT_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,BOWRON_RIVER
+UFR-spring,12,Upper Fraser River_SP_1.3,DOME_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,FONTONIKO_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,GOAT_RIVER
+UFR-spring,12,Upper Fraser River_SP_1.3,HOLMES_RIVER
+UFR-spring,12,Upper Fraser River_SP_1.3,HORSEY_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,INDIANPOINT_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,KENNETH_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,MCGREGOR_RIVER
+UFR-spring,12,Upper Fraser River_SP_1.3,MORKILL_RIVER
+UFR-spring,12,Upper Fraser River_SP_1.3,PTARMIGAN_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,SALMON_RIVER
+UFR-spring,12,Upper Fraser River_SP_1.3,SLIM_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,SWIFT_CREEK
+UFR-spring,12,Upper Fraser River_SP_1.3,TETE_JAUNE
+UFR-spring,12,Upper Fraser River_SP_1.3,TORPY_RIVER
+UFR-spring,12,Upper Fraser River_SP_1.3,WILLOW_RIVER
+MFR-summer,11,Middle Fraser River_SU_1.3,CARIBOO_RIVER
+MFR-summer,11,Middle Fraser River_SU_1.3,CHILKO_RIVER
+MFR-summer,11,Middle Fraser River_SU_1.3,ELKIN_CREEK
+MFR-summer,11,Middle Fraser River_SU_1.3,KUZKWA_RIVER
+MFR-summer,11,Middle Fraser River_SU_1.3,NECHAKO_RIVER
+MFR-summer,11,Middle Fraser River_SU_1.3,PINCHI_CREEK
+MFR-summer,11,Middle Fraser River_SU_1.3,QUESNEL_RIVER
+MFR-summer,11,Middle Fraser River_SU_1.3,STUART_RIVER
+MFR-summer,11,Middle Fraser River_SU_1.3,TASEKO_RIVER
+MFR-spring,10,Middle Fraser River_SP_1.3,BAKER_CREEK
+MFR-spring,10,Middle Fraser River_SP_1.3,BRIDGE_RIVER
+MFR-spring,10,Middle Fraser River_SP_1.3,CARIBOO_RIVER-UPPER
+MFR-spring,10,Middle Fraser River_SP_1.3,CHILCOTIN_RIVER-LOWER
+MFR-spring,10,Middle Fraser River_SP_1.3,CHILCOTIN_RIVER-UPPER
+MFR-spring,10,Middle Fraser River_SP_1.3,COTTONWOOD_RIVER_LOWER
+MFR-spring,10,Middle Fraser River_SP_1.3,ENDAKO_RIVER
+MFR-spring,10,Middle Fraser River_SP_1.3,HORSEFLY_RIVER
+MFR-spring,10,Middle Fraser River_SP_1.3,NAZKO_RIVER
+MFR-spring,10,Middle Fraser River_SP_1.3,SHOVEL_CREEK
+MFR-spring,10,Middle Fraser River_SP_1.3,WEST_ROAD_(BLACKWATER)_RIVER
+Portage,9,Middle Fraser River-Portage_FA_1.3,PORTAGE_CREEK
+FRCanyon,8,Middle Fraser-Fraser Canyon_SP_1.3,NAHATLATCH_RIVER
+NTh-spr,18,North Thompson_SP_1.3,BLUE_RIVER
+NTh-spr,18,North Thompson_SP_1.3,FINN_CREEK
+NTh-sum,19,North Thompson_SU_1.3,BARRIERE_RIVER
+NTh-sum,19,North Thompson_SU_1.3,CLEARWATER_RIVER
+NTh-sum,19,North Thompson_SU_1.3,LEMIEUX_CREEK
+NTh-sum,19,North Thompson_SU_1.3,NORTH_THOMPSON_RIVER
+NTh-sum,19,North Thompson_SU_1.3,RAFT_RIVER
+STh-SHUR,15,Shuswap River_SU_0.3,SHUSWAP_RIVER-LOWER
+STh-SHUR,15,Shuswap River_SU_0.3,SHUSWAP_RIVER-MIDDLE
+STh-BESS,16,South Thompson-Bessette Creek_SU_1.2,BESSETTE_CREEK
+STh-BESS,16,South Thompson-Bessette Creek_SU_1.2,DUTEAU_CREEK
+STh-0.3,13,South Thompson_SU_0.3,ADAMS_RIVER
+STh-0.3,13,South Thompson_SU_0.3,LITTLE_RIVER
+STh-0.3,13,South Thompson_SU_0.3,SOUTH_THOMPSON_RIVER
+STh-0.3,13,South Thompson_SU_0.3,THOMPSON_RIVER_BELOW_KAMLOOPS_LAKE
+STh-1.3,14,South Thompson_SU_1.3,EAGLE_RIVER
+STh-1.3,14,South Thompson_SU_1.3,SALMON_RIVER(Thom)
+STh-1.3,14,South Thompson_SU_1.3,SEYMOUR_RIVER
+LTh,17,Lower Thompson_SP_1.2,BONAPARTE_RIVER
+LTh,17,Lower Thompson_SP_1.2,COLDWATER_RIVER
+LTh,17,Lower Thompson_SP_1.2,COLDWATER_RIVER-UPPER
+LTh,17,Lower Thompson_SP_1.2,DEADMAN_RIVER
+LTh,17,Lower Thompson_SP_1.2,LOUIS_CREEK
+LTh,17,Lower Thompson_SP_1.2,NICOLA_RIVER
+LTh,17,Lower Thompson_SP_1.2,SPIUS_CREEK
+LTh,17,Lower Thompson_SP_1.2,SPIUS_CREEK-UPPER
+LFR-spring,4,Lower Fraser River_SP_1.3,BIRKENHEAD_RIVER
+LFR-summer,6,Lower Fraser River_SU_1.3,BIG_SILVER_CREEK
+LFR-summer,6,Lower Fraser River_SU_1.3,SLOQUET_CREEK
+LFR-UPITT,5,Lower Fraser River-Upper Pitt_SU_1.3,BLUE_CREEK
+LFR-UPITT,5,Lower Fraser River-Upper Pitt_SU_1.3,PITT_RIVER-UPPER
+Maria,7,Maria Slough_SU_0.3,MARIA_SLOUGH
+LFR-fall,3,Lower Fraser River_FA_0.3,CAPILANO_RIVER
+LFR-fall,3,Lower Fraser River_FA_0.3,CHEHALIS_RIVER
+LFR-fall,3,Lower Fraser River_FA_0.3,CHILLIWACK_VEDDER_RIVER
+LFR-fall,3,Lower Fraser River_FA_0.3,HARRISON_RIVER
+LFR-fall,3,Lower Fraser River_FA_0.3,STAVE_RIVER
+NEVI,29,East Vancouver Island-North_FA_0.x,CAMPBELL_RIVER
+NEVI,29,East Vancouver Island-North_FA_0.x,NIMPKISH_RIVER
+NEVI,29,East Vancouver Island-North_FA_0.x,QUATSE_RIVER
+NEVI,29,East Vancouver Island-North_FA_0.x,QUINSAM_RIVER
+NEVI,29,East Vancouver Island-North_FA_0.x,WOSS_Lake
+QP-fall,27,East Vancouver Island-Qualicum and Puntledge_FA_0.x,LITTLE_QUALICUM_RIVER
+QP-fall,27,East Vancouver Island-Qualicum and Puntledge_FA_0.x,PUNTLEDGE_RIVER(fall)
+QP-fall,27,East Vancouver Island-Qualicum and Puntledge_FA_0.x,QUALICUM_RIVER
+EVI-fall,25,East Vancouver Island-Nanaimo and Chemainus_FA_0.x,CHEMAINUS_RIVER
+EVI-fall,25,East Vancouver Island-Nanaimo and Chemainus_FA_0.x,NANAIMO_RIVER_F
+NanR-spr,23,East Vancouver Island-Nanaimo_SP_1.x,NANAIMO_RIVER-UPPER
+EVIGStr-sum,83,East Vancouver Island-Georgia Strait_SU_0.3,COWICHAN_RIVER
+EVIGStr-sum,83,East Vancouver Island-Georgia Strait_SU_0.3,NANAIMO_RIVER_S
+EVIGStr-sum,83,East Vancouver Island-Georgia Strait_SU_0.3,PUNTLEDGE_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,ARTLISH_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,BURMAN_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,CONUMA_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,KAOUK_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,LEINER_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,TAHSIS_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,TAHSISH_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,TLUPANA_RIVER
+NoKy,32,West Vancouver Island-Nootka and Kyuquot_FA_0.x,ZEBALLOS_RIVER
+NWVI,33,West Vancouver Island-North_FA_0.x,COLONIAL_CREEK
+NWVI,33,West Vancouver Island-North_FA_0.x,MARBLE_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,BEDWELL_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,CYPRE_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,GORDON_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,KENNEDY_RIVER-LOWER
+SWVI,31,West Vancouver Island-South_FA_0.x,MEGIN_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,MOYEHA_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,NAHMINT_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,NITINAT_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,ROBERTSON_CREEK
+SWVI,31,West Vancouver Island-South_FA_0.x,SAN_JUAN_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,SARITA_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,SOOKE_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,STAMP_RIVER-ABOVE_FALLS
+SWVI,31,West Vancouver Island-South_FA_0.x,THORNTON_CREEK
+SWVI,31,West Vancouver Island-South_FA_0.x,TOQUART_RIVER
+SWVI,31,West Vancouver Island-South_FA_0.x,TRANQUIL_CREEK
+OK,1,Okanagan_1.x,OKANAGAN_RIVER
+JDF,WAO-01,Juan de Fuca,ELWHA_FALL
+COWA,WAO-02,Coastal Washington,FORKS_CREEK_HATCHERY
+COWA,WAO-02,Coastal Washington,HOH_RIVER
+COWA,WAO-02,Coastal Washington,QUEETS_RIVER
+COWA,WAO-02,Coastal Washington,QUINAULT_RIVER
+COWA,WAO-02,Coastal Washington,SOL_DUC_RIVER
+NPS,WAO-03,North Puget Sound,NOOKSACK_RIVER
+NPS,WAO-03,North Puget Sound,SKAGIT_RIVER
+NPS,WAO-03,North Puget Sound,SNOHOMISH_RIVER
+NPS,WAO-03,North Puget Sound,STILLAGUAMISH_RIVER
+MPS,WAO-04,Mid Puget Sound,SKYKOMISH_RIVER
+MPS,WAO-04,Mid Puget Sound,WHITE_RIVER
+SPS,WAO-05,South Puget Sound,GREEN_RIVER
+SPS,WAO-05,South Puget Sound,GREEN_RIVER-Kendal
+SPS,WAO-05,South Puget Sound,SOOS_CREEK
+LCR,WAO-06,Lower Columbia River,ABERNATHY_RIVER
+LCR,WAO-06,Lower Columbia River,COWEEMAN
+LCR,WAO-06,Lower Columbia River,COWLITZ_HATCHERY_SPRING
+MCR-Sp,WAO-07,Mid Columbia River_SP,GRANITE_CREEK
+MCR-Sp,WAO-07,Mid Columbia River_SP,JOHN_DAY_EAST_FORK
+MCR-Sp,WAO-07,Mid Columbia River_SP,JOHN_DAY_MAIN_FORK
+MCR-Sp,WAO-07,Mid Columbia River_SP,JOHN_DAY_NORTH_FORK
+MCR-Sp,WAO-07,Mid Columbia River_SP,NACHES_RIVER
+MCR-Sp,WAO-07,Mid Columbia River_SP,SPRING_CREEK_HATCHERY
+UCR-Sp,WAO-08,Upper Columbia River_SP,CHEWUCK_RIVER
+UCR-Sp,WAO-08,Upper Columbia River_SP,CHIWAWA_RIVER_SPRING
+UCR-Sp,WAO-08,Upper Columbia River_SP,ENTIAT_RIVER
+UCR-Sp,WAO-08,Upper Columbia River_SP,TWISP_RIVER
+UCR-SuF,WAO-09,Upper Columbia River_SU_FA,DESCHUTES_RIVER
+UCR-SuF,WAO-09,Upper Columbia River_SU_FA,HANFORD_REACH
+UCR-SuF,WAO-09,Upper Columbia River_SU_FA,OSOYOOS_LAKE
+UCR-SuF,WAO-09,Upper Columbia River_SU_FA,SIMILKAMEEN
+UCR-SuF,WAO-09,Upper Columbia River_SU_FA,WENATCHEE_RIVER
+SR-F,WAO-10,Snake River_FA,LYON'S_FERRY
+SR-SpSu,WAO-11,Snake River_SP_SU,FRENCHMAN_CREEK
+SR-SpSu,WAO-11,Snake River_SP_SU,IMNAHA
+SR-SpSu,WAO-11,Snake River_SP_SU,JOHNSON_CREEK
+SR-SpSu,WAO-11,Snake River_SP_SU,MARSH_CREEK
+SR-SpSu,WAO-11,Snake River_SP_SU,MCCALL_CREEK
+SR-SpSu,WAO-11,Snake River_SP_SU,MCCALL_HATCHERY
+SR-SpSu,WAO-11,Snake River_SP_SU,MINAM_CREEK
+SR-SpSu,WAO-11,Snake River_SP_SU,RAPID_RIVER
+SR-SpSu,WAO-11,Snake River_SP_SU,SALMON_RIVER_CR_EAST_FORK
+SR-SpSu,WAO-11,Snake River_SP_SU,SECECH_RIVER
+SR-SpSu,WAO-11,Snake River_SP_SU,TUCANNON_RIVER
+SR-SpSu,WAO-11,Snake River_SP_SU,UPPER_SALMON_SR
+SR-SpSu,WAO-11,Snake River_SP_SU,UPPER_VALLEY_CREEK
+SR-SpSu,WAO-11,Snake River_SP_SU,WENAHA_RIVER
+NCOR,WAO-12,North & Central Oregon,CLE_ELUM_HATCHERY
+NCOR,WAO-12,North & Central Oregon,EUCHRE_CREEK
+NCOR,WAO-12,North & Central Oregon,NEHALEM_RIVER
+NCOR,WAO-12,North & Central Oregon,SIUSLAW_RIVER
+NCOR,WAO-12,North & Central Oregon,SMITH_RIVER_(UMPQUA)
+NCOR,WAO-12,North & Central Oregon,TRASK_HATCHERY
+UWR,WAO-13,Upper Willamette River,CLACKAMAS_RIVER
+UWR,WAO-13,Upper Willamette River,SANDY_RIVER
+UWR,WAO-13,Upper Willamette River,SANTIAM_RIVER_North
+SOR,WAO-14,South Oregon coastal,COLE_RIVER
+SOR,WAO-14,South Oregon coastal,HUNTER_CREEK
+SOR,WAO-14,South Oregon coastal,LOBSTER_CREEK
+SOR,WAO-14,South Oregon coastal,NESTUCCA_RIVER_FALL
+SOR,WAO-14,South Oregon coastal,PISTOL_RIVER
+SOR,WAO-14,South Oregon coastal,UMPQUA_SPRING
+SOR,WAO-14,South Oregon coastal,WINCHUK_RIVER
+CAKT,CA-01,California Klamath Trinity,BLUE_CREEK_CA
+CAKT,CA-01,California Klamath Trinity,SALMON_RIVER_CA_SPRING
+CAKT,CA-01,California Klamath Trinity,TRINITY_RIVER_HATCHERY_FALL
+CACV-F,CA-02,California Central Valley_Fall,AMERICAN_RIVER
+CACV-F,CA-02,California Central Valley_Fall,BATTLE_CREEK
+CACV-F,CA-02,California Central Valley_Fall,BUTTE_CREEK_FALL
+CACV-F,CA-02,California Central Valley_Fall,FEATHER_RIVER_FALL
+CACV-F,CA-02,California Central Valley_Fall,MERCED_RIVER
+CACV-F,CA-02,California Central Valley_Fall,SACRAMENTO_RIVER-LATE_FALL
+CACV-F,CA-02,California Central Valley_Fall,STANISLAUS_RIVER
+CACV-F,CA-02,California Central Valley_Fall,TOULUMNE_RIVER
+CACV-F,CA-02,California Central Valley_Fall,YUBA_RIVER._FALL
+CACV-Sp,CA-03,California Central Valley_Spring,BUTTE_CREEK
+CACV-Sp,CA-03,California Central Valley_Spring,FEATHER_RIVER_SPRING
+CACV-Sp,CA-03,California Central Valley_Spring,YUBA_RIVER_SPRING
+CACO,CA-04,Coastal California,EEL_RIVER_FALL
