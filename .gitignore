@@ -1,0 +1,35 @@
+*.aux
+*.bbl
+*.blg
+*~*
+*.dvi
+*.log
+*.lot
+*.pdf
+*.ps
+*.toc
+# *.txt
+*.out
+*.snm
+*.nav
+*.synctex.gz*
+knitr-cache
+*.accdb
+*.laccdb
+*.mdb
+#*.rds
+
+# History files
+.Rhistory
+.Rapp.history
+
+myNotes.*
+.Rproj.user/
+.Rproj.user
+*.html
+scripts/*cache*
+*.o
+*.so
+
+R/defunct/
+data/gsiCatchData/commTroll/defunct/
