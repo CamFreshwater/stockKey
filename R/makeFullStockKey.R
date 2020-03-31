@@ -235,6 +235,7 @@ stockKeyOut <- stockKey1 %>%
              grepl("Puget", Region1Name) ~ "Puget Sound",
              grepl("Oregon", Region1Name) ~ "Oregon/California",
              Region1Name == "Washington_Coast" ~ "Washington Coast",
+             Region3Name == "Coastal Washington" ~ "Washington Coast",
              grepl("NIMP", stock) ~ "North/Central BC",
              Region1Name == "ECVI" ~ "SOG",
              stock %in% c("CAPILANO") ~ "Fraser River",
