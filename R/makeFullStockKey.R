@@ -281,7 +281,7 @@ stockKeyOut %>%
   filter(is.na(Region4Name)) %>%
   distinct()
 
-saveRDS(stockKeyOut, here::here("data", "generated", "finalStockList.rds"))
-write.csv(stockKeyOut, here::here("data", "generated", "finalStockList.csv"),
+saveRDS(stockKeyOut, here::here("data", "generated", "finalStockList_Mar2020.rds"))
+write.csv(stockKeyOut, here::here("data", "generated", "finalStockList_Mar2020.csv"),
           row.names = FALSE)
 
