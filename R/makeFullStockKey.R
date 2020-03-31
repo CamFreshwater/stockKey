@@ -1,5 +1,5 @@
 ## Short script to build a more complete stock key
-# October 18, 2019
+# March 31, 2020
 
 library(tidyverse)
 
@@ -9,7 +9,8 @@ scStockKey <- read.csv(here::here("data", "southCoastStockKey.csv")) %>%
 
 # list of observed stocks from high seas
 stockKeyHS <- readRDS(here::here("data", "highSeasChinoookStockKey.RDS")) %>%
-  select(stock = STOCK_1, region, -HSS_REGION_1) %>%
+# stockKeyHS <- readRDS(here::here("data", "tempStockList.rds")) %>%
+  # select(stock = STOCK_1, region, -HSS_REGION_1) %>%
   full_join(., scStockKey, by = "stock") %>% 
   mutate(Region1Name = as.character(Region1Name),
          Region2Name = as.character(Region2Name),
@@ -274,6 +275,10 @@ stockKeyOut %>%
   select(stock, Region1Name:Region3Name) %>%
   filter(is.na(stock) | is.na(Region1Name) | is.na(Region2Name) |
            is.na(Region3Name))
+stockKeyOut %>%
+  select(stock, Region1Name, Region4Name) %>%
+  filter(is.na(Region4Name)) %>%
+  distinct()
 
 saveRDS(stockKeyOut, here::here("data", "generated", "finalStockList.rds"))
 write.csv(stockKeyOut, here::here("data", "generated", "finalStockList.csv"),
