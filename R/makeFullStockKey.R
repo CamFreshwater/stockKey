@@ -103,7 +103,7 @@ stockKeyOut <- stockKey1 %>%
         grepl("L_KAL", stock) ~ "Skeena Lower",
         grepl("DESC", stock) ~ "U_Columbia_R_su/fa",
         grepl("LITTLEC", stock) ~ "N_Puget_Sound",
-        grepl("STILLAG", stock) ~ "C_Puget_Sound",
+        grepl("STILLAG", stock) ~ "N_Puget_Sound",
         grepl("TYNE", stock) ~ "N_Puget_Sound",
         grepl("SERP", stock) ~ "LWFR-F",
         grepl("ELK", stock) ~ "MUFR",
@@ -287,11 +287,6 @@ stockKeyOut %>%
   filter(is.na(Region4Name)) %>%
   distinct()
 
-saveRDS(stockKeyOut, here::here("data", "generated", "finalStockList_Mar2020.rds"))
-write.csv(stockKeyOut, here::here("data", "generated", "finalStockList_Mar2020.csv"),
-          row.names = FALSE)
-
-
 ## Incorporate CWT data
 cwt <- readRDS(here::here("data", "cwt_stock_key.RDS")) %>% 
   mutate(stock = toupper(stock),
@@ -305,54 +300,72 @@ for (i in 1:nrow(cwt)) {
   cwt$Region1Name[i] <- stockKeyOut$Region1Name[match]
 }
 
-cwt %>% 
-  select(basin, rmis_region, state, Region1Name) %>% 
-  # select(rmis_region, state) %>% 
-  distinct() %>% 
-  arrange(state, rmis_region)
-
 cwt_out <- cwt %>% 
-  mutate(gsi_stock = case_when(
-    state == "AK" ~ "Alaska",
-    basin == "UPTR" ~ "SOTH",
-    basin == "SKNA" ~ "Skeena Bulkley",
-    basin %in% c("SWVI", "NWVI") ~ "WCVI",
-    rmis_region %in% c("SAFA", "CECA") ~ "Central_Valley_fa",
-    rmis_region == "KLTR" ~ "Klamath_R",
-    rmis_region == "SNAK" ~ "Snake_R_sp/su",
-    basin == "CLEA" ~ "Snake_R_fa",
-    basin %in% c("UPSN", "SALM", "SIYA") ~ "Snake_R_sp/su",
-    basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG") ~ "U_Columbia_R_su/fa",
-    basin %in% c("WILL", "YOCL") ~ "Willamette_R",
-    basin %in% c("SAND") ~ "L_Columbia_R_fa",
-    basin %in% c("TILN", "NEHA") ~ "N_Oregon_Coast"
-    basin == "UMPQ" ~ "Mid_Oregon_Coast"
-    basin == "SIXE" ~ "N_California/S_Oregon_Coast"
-    basin == "ROGU" ~ "Rogue_R",
-    basin == "WIND" ~ "L_Columbia_R_sp",
-    basin == "GHLC" ~ "Washington_Coast",
-    
-  ))
+  mutate(
+    Region1Name = case_when(
+      state == "AK" ~ "Alaska",
+      basin == "UPTR" ~ "SOTH",
+      basin == "SKNA" ~ "Skeena Bulkley",
+      basin %in% c("SWVI", "NWVI") ~ "WCVI",
+      rmis_region %in% c("SAFA", "CECA") ~ "Central_Valley_fa",
+      rmis_region == "KLTR" ~ "Klamath_R",
+      rmis_region == "SNAK" ~ "Snake_R_sp/su",
+      basin == "CLEA" ~ "Snake_R_fa",
+      basin %in% c("UPSN", "SALM", "SIYA") ~ "Snake_R_sp/su",
+      basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG", "WAGN") ~ 
+        "U_Columbia_R_su/fa",
+      rmis_region == "UPCR" ~ "U_Columbia_R_su/fa",
+      basin %in% c("WILL", "YOCL") ~ "Willamette_R",
+      basin %in% c("SAND", "SAWA", "GREL") ~ "L_Columbia_R_fa",
+      basin %in% c("TILN", "NEHA") ~ "N_Oregon_Coast",
+      basin == "UMPQ" ~ "Mid_Oregon_Coast",
+      basin == "SIXE" ~ "N_California/S_Oregon_Coast",
+      basin == "ROGU" ~ "Rogue_R",
+      basin %in% c("LEWI", "WIND", "COWL") ~ "L_Columbia_R_sp",
+      basin == "GHLC" ~ "Washington_Coast",
+      rmis_region %in% c("WILP", "NWC") ~ "Washington_Coast",
+      rmis_region == "HOOD" ~ "Hood_Canal",
+      rmis_region == "JUAN" ~ "Juan_de_Fuca",
+      rmis_region == "MPS" ~ "C_Puget_Sound",
+      rmis_region %in% c("NPS", "NOWA", "SKAG") ~ "N_Puget_Sound",
+      rmis_region == "SPS" ~ "S_Puget_Sound",
+      TRUE ~ Region1Name
+      ),
+    Region2Name = NA,
+    stock = case_when(
+      is.na(stock) ~ hatchery,
+      TRUE ~ stock
+    )
+    ) %>%
+  left_join(., 
+            stockKeyOut %>% 
+              select(-stock, -Region2Name) %>% 
+              distinct(), 
+            by = c("Region1Name")) %>% 
+  mutate(
+    Region3Name = case_when(
+      rmis_region %in% c("GST", "JNST") ~ "SOG",
+      TRUE ~ Region3Name
+    ),
+    Region4Name = case_when(
+      rmis_region == "GST" ~ "SalSea",
+      TRUE ~ Region4Name
+    ),
+    id_type = "cwt"
+  ) %>% 
+  select(stock, Region1Name:id_type) %>% 
+  distinct()
 
-stockKeyOut %>% 
-  filter(Region3Name == "Snake") %>% 
-  # select(Region1Name, Region2Name, Region3Name, Region4Name) %>% 
-  distinct() %>% 
-  arrange(Region1Name) %>% 
-  print(n = Inf)
+# combine cwt and gsi stock keys w/ identifiers
+stock_key_out_cwt <- stockKeyOut %>% 
+  mutate(id_type = "gsi") %>% 
+  rbind(., cwt_out)
+  
+saveRDS(stock_key_out_cwt, here::here("data", "generated", "finalStockList_Apr2020.rds"))
+write.csv(stock_key_out_cwt, here::here("data", "generated", "finalStockList_Apr2020.csv"),
+          row.names = FALSE)
 
-cwt %>% 
-  filter(basin == "GHLC")
 
-stockKeyOut %>% 
-  filter(Region1Name %in% c("N_California/S_Oregon_Coast")) %>% 
-  select(stock, Region1Name) %>% 
-  distinct() %>% 
-  print(n = Inf)
 
-stockKeyOut %>% 
-  filter(grepl("CHEH", stock)) %>% 
-  pull(Region1Name)
-unique(stockKeyOut$Region1Name)
 
 
