@@ -29,10 +29,6 @@ stockKey1 <- stockKeyTroll %>%
   # full_join(., stockKeySNP, by = "stock") %>% 
   distinct()
 
-stockKey1 %>% 
-  filter(grepl("ROG", stock)) %>% 
-  pull(stock)
-
 # Associate misspelled and unknown stocks with higher level regions
 stockKeyOut <- stockKey1 %>% 
     select(stock, region, Region1Name
@@ -295,7 +291,7 @@ cwt <- readRDS(here::here("data", "cwt_stock_key.RDS")) %>%
 
 # first match automatically using amatch
 for (i in 1:nrow(cwt)) {
-  match <- amatch(cwt$stock[i], stockKeyOut$stock, maxDist = 8)
+  match <- stringdist::amatch(cwt$stock[i], stockKeyOut$stock, maxDist = 8)
   cwt$gsi_stock[i] <- stockKeyOut$stock[match]
   cwt$Region1Name[i] <- stockKeyOut$Region1Name[match]
 }
@@ -331,11 +327,12 @@ cwt_out <- cwt %>%
       rmis_region == "SPS" ~ "S_Puget_Sound",
       TRUE ~ Region1Name
       ),
-    Region2Name = NA,
-    stock = case_when(
-      is.na(stock) ~ hatchery,
-      TRUE ~ stock
-    )
+    Region2Name = NA
+    # ,
+    # stock = case_when(
+    #   is.na(stock) ~ hatchery,
+    #   TRUE ~ stock
+    # )
     ) %>%
   left_join(., 
             stockKeyOut %>% 
@@ -353,19 +350,17 @@ cwt_out <- cwt %>%
     ),
     id_type = "cwt"
   ) %>% 
-  select(stock, Region1Name:id_type) %>% 
+  select(stock, cwt_hatchery = hatchery, Region1Name:id_type) %>% 
   distinct()
 
 # combine cwt and gsi stock keys w/ identifiers
 stock_key_out_cwt <- stockKeyOut %>% 
-  mutate(id_type = "gsi") %>% 
+  mutate(id_type = "gsi",
+         cwt_hatchery = NA) %>%
+  select(stock, cwt_hatchery, Region1Name:id_type) %>% 
   rbind(., cwt_out)
   
 saveRDS(stock_key_out_cwt, here::here("data", "generated", "finalStockList_Apr2020.rds"))
 write.csv(stock_key_out_cwt, here::here("data", "generated", "finalStockList_Apr2020.csv"),
           row.names = FALSE)
-
-
-
-
 
