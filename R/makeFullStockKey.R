@@ -1,5 +1,5 @@
 ## Short script to build a more complete stock key
-# March 31, 2020
+# April 21, 2020
 
 library(tidyverse)
 
@@ -62,7 +62,7 @@ stockKeyOut <- stockKey1 %>%
         stock == "HOMATHKO" ~ "SOMN",
         stock == "SALOOMPT" ~ "NOMN",
         grepl("SNOHOMISH", stock) ~ "N_Puget_Sound",
-        stock == "LYON'S_FERRY_F" ~ "Snake_R_fa",
+        grepl("LYO", stock) ~ "Snake_R_fa",
         grepl("ADAMS", stock) ~ "SOTH",
         grepl("SKAGIT", stock) ~ "N_Puget_Sound",
         grepl("UMPQUA", stock) ~ "Mid_Oregon_Coast",
@@ -305,8 +305,9 @@ cwt_out <- cwt %>%
       basin %in% c("SWVI", "NWVI") ~ "WCVI",
       rmis_region %in% c("SAFA", "CECA") ~ "Central_Valley_fa",
       rmis_region == "KLTR" ~ "Klamath_R",
-      rmis_region == "SNAK" ~ "Snake_R_sp/su",
       basin == "CLEA" ~ "Snake_R_fa",
+      stock == "LYONS FERRY HATCHERY" ~ "Snake_R_fa",
+      rmis_region == "SNAK" ~ "Snake_R_sp/su",
       basin %in% c("UPSN", "SALM", "SIYA") ~ "Snake_R_sp/su",
       basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG", "WAGN") ~ 
         "U_Columbia_R_su/fa",
@@ -358,8 +359,23 @@ stock_key_out_cwt <- stockKeyOut %>%
   mutate(id_type = "gsi",
          cwt_hatchery = NA) %>%
   select(stock, cwt_hatchery, Region1Name:id_type) %>% 
-  rbind(., cwt_out)
-  
+  rbind(., cwt_out) %>% 
+  #add pst specific aggregates based on Appendix E
+  mutate(pst_agg = case_when(
+    Region3Name == "Oregon/California" ~ "CA_ORCST",
+    Region3Name == "Washington Coast" ~ "WACST",
+    Region3Name == "Puget Sound" ~ "PSD",
+    Region3Name %in% c("Alaska South SE", "North/Central BC") ~ "NBC_SEAK",
+    Region1Name == "LWFR-F" ~ "FR-late",
+    Region3Name == "Fraser River" ~ "FR-early",
+    Region1Name %in% c("L_Columbia_R_fa") ~ "CR-tule",
+    Region1Name %in% c("L_Columbia_R_sp", "Snake_R_sp/su",
+                       "Mid_and_Upper_Columbia_R_sp", "Willamette_R") ~ "CR-sp&su",
+    Region1Name %in% c("U_Columbia_R_su/fa", "Snake_R_fa",
+                       "Mid_Columbia_R_tule") ~ "CR-bright",
+    TRUE ~ Region3Name
+  ))
+
 saveRDS(stock_key_out_cwt, here::here("data", "generated", "finalStockList_Apr2020.rds"))
 write.csv(stock_key_out_cwt, here::here("data", "generated", "finalStockList_Apr2020.csv"),
           row.names = FALSE)
