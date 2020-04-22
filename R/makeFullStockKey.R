@@ -287,7 +287,8 @@ stockKeyOut %>%
 cwt <- readRDS(here::here("data", "cwt_stock_key.RDS")) %>% 
   mutate(stock = toupper(stock),
          gsi_stock = NA,
-         Region1Name = NA)
+         Region1Name = NA) %>% 
+  select(-release)
 
 # first match automatically using amatch
 for (i in 1:nrow(cwt)) {
@@ -299,6 +300,12 @@ for (i in 1:nrow(cwt)) {
 cwt_out <- cwt %>% 
   mutate(
     Region1Name = case_when(
+      grepl("COLE RIVERS", stock) ~ "Rogue_R",
+      grepl("COLUMBIA R UPRIVER S", stock) ~ "L_Columbia_R_sp",
+      stock == "COWLITZ R    26.0002" ~ "L_Columbia_R_fa",
+      stock == "MINTER CR    15.0048" ~ "S_Puget_Sound",
+      grepl("WELLS HATCH", stock) ~ "U_Columbia_R_su/fa",
+      stock == "WHITE R      10.0031" ~ "C_Puget_Sound",
       state == "AK" ~ "Alaska",
       basin == "UPTR" ~ "SOTH",
       basin == "SKNA" ~ "Skeena Bulkley",
@@ -329,11 +336,6 @@ cwt_out <- cwt %>%
       TRUE ~ Region1Name
       ),
     Region2Name = NA
-    # ,
-    # stock = case_when(
-    #   is.na(stock) ~ hatchery,
-    #   TRUE ~ stock
-    # )
     ) %>%
   left_join(., 
             stockKeyOut %>% 
@@ -351,14 +353,16 @@ cwt_out <- cwt %>%
     ),
     id_type = "cwt"
   ) %>% 
-  select(stock, cwt_hatchery = hatchery, Region1Name:id_type) %>% 
+  select(stock, Region1Name:id_type) %>%
   distinct()
+
+# n_occur <- data.frame(table(cwt_out$stock))
+# n_occur[n_occur$Freq > 1, ]
 
 # combine cwt and gsi stock keys w/ identifiers
 stock_key_out_cwt <- stockKeyOut %>% 
-  mutate(id_type = "gsi",
-         cwt_hatchery = NA) %>%
-  select(stock, cwt_hatchery, Region1Name:id_type) %>% 
+  mutate(id_type = "gsi") %>%
+  select(stock, Region1Name:id_type) %>% 
   rbind(., cwt_out) %>% 
   #add pst specific aggregates based on Appendix E
   mutate(pst_agg = case_when(
@@ -370,7 +374,8 @@ stock_key_out_cwt <- stockKeyOut %>%
     Region3Name == "Fraser River" ~ "FR-early",
     Region1Name %in% c("L_Columbia_R_fa") ~ "CR-tule",
     Region1Name %in% c("L_Columbia_R_sp", "Snake_R_sp/su",
-                       "Mid_and_Upper_Columbia_R_sp", "Willamette_R") ~ "CR-sp&su",
+                       "Mid_and_Upper_Columbia_R_sp", "Willamette_R") ~ 
+      "CR-sp&su",
     Region1Name %in% c("U_Columbia_R_su/fa", "Snake_R_fa",
                        "Mid_Columbia_R_tule") ~ "CR-bright",
     TRUE ~ Region3Name
