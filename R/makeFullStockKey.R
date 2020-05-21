@@ -90,10 +90,12 @@ stockKeyOut <- stockKey2 %>%
             "L_Columbia_R_sp",
         grepl("LEWIS", stock) ~ "L_Columbia_R_sp",
         stock %in% c("L_CARIBOO") ~ "Fraser_Summer_5.2",
-        stock %in% c("BAEZAEKO", "BAKER_CR", "CHILAKO", 
+        stock %in% c("BAEZAEKO", "CHILAKO", 
                      "ENDAKO", "NAZKO", "NECHAKO", "TASEKO", "U_CARIBOO", 
                      "WESTROAD", "HOLMES", "INDIANPOINT", "JAMES", "MCGREGOR",
                      "MORKILL") ~ "Fraser_Spring_5.2",
+        grepl("BLACKW", stock) ~ "Fraser_Spring_5.2",
+        grepl("BAKER_", stock) ~ "Fraser_Spring_5.2",
         grepl("BRIDGE", stock) ~ "Fraser_Spring_5.2",
         grepl("GOAT", stock) ~ "Fraser_Spring_5.2",
         grepl("BLUE", stock) ~ "Fraser_Spring_5.2",
@@ -122,8 +124,10 @@ stockKeyOut <- stockKey2 %>%
         grepl("ELKI", stock) ~ "Fraser_Summer_5.2",
         grepl("KUZK", stock) ~ "Fraser_Summer_5.2",
         grepl("SOUTH_TH", stock) ~ "Fraser_Summer_4.1",
+        grepl("SHUSWAP_RIVER-", stock) ~ "Fraser_Summer_4.1",
         grepl("MARIA", stock) ~ "Fraser_Summer_4.1",
         grepl("LITTLE_R", stock) ~ "Fraser_Summer_4.1",
+        grepl("STAVE", stock) ~ "Fraser_Fall",
         grepl("HARRISON", stock) ~ "Fraser_Fall",
         grepl("PORTA", stock) ~ "Fraser_Fall",
         grepl("DUNGE", stock) ~ "Juan_de_Fuca",
@@ -306,7 +310,8 @@ stockKeyOut <- stockKey2 %>%
       )
     ) %>%
   select(-region, -sc_reg1) %>% 
-  distinct() %>% 
+  distinct() %>%
+  glimpse()
   left_join(., 
             stockKey2 %>% 
               select(Region1Name, Region2Name, Region3Name) %>% 
@@ -496,6 +501,7 @@ cwt_out <- cwt %>%
       ),
     Region2Name = NA
     ) %>%
+  glimpse()
   left_join(., 
             stockKeyOut %>% 
               select(-stock, -Region2Name) %>% 
@@ -517,6 +523,20 @@ cwt_out <- cwt %>%
 
 # n_occur <- data.frame(table(cwt_out$stock))
 # n_occur[n_occur$Freq > 1, ]
+
+# check for gaps
+cwt_out %>%
+  select(stock, Region1Name, Region2Name) %>%
+  filter(is.na(Region2Name)) %>%
+  distinct()
+cwt_out %>%
+  select(stock, Region1Name:Region3Name) %>%
+  filter(is.na(stock) | is.na(Region1Name) | is.na(Region2Name) |
+           is.na(Region3Name))
+cwt_out %>%
+  select(stock, Region1Name, Region4Name) %>%
+  filter(is.na(Region4Name)) %>%
+  distinct()
 
 # combine cwt and gsi stock keys w/ identifiers
 stock_key_out_cwt <- stockKeyOut %>% 
