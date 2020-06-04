@@ -319,9 +319,9 @@ cwt <- readRDS(here::here("data", "cwt_stock_key.RDS")) %>%
 
 # first match automatically using amatch
 for (i in 1:nrow(cwt)) {
-  match <- stringdist::amatch(cwt$stock[i], stockKeyOut$stock, maxDist = 8)
-  cwt$gsi_stock[i] <- stockKeyOut$stock[match]
-  cwt$Region1Name[i] <- stockKeyOut$Region1Name[match]
+  match <- stringdist::amatch(cwt$stock[i], key1$stock, maxDist = 8)
+  cwt$gsi_stock[i] <- key1$stock[match]
+  cwt$Region1Name[i] <- key1$Region1Name[match]
 }
 
 cwt_out <- cwt %>% 
@@ -473,13 +473,29 @@ key_out <- key2 %>%
       )
   ) %>% 
   distinct() %>% 
-  arrange(Region4Name, Region3Name, Region2Name, Region1Name, stock)
+  arrange(Region4Name, Region3Name, Region2Name, Region1Name, stock) %>% 
+  #add PST aggregate names
+  mutate(pst_agg = case_when(
+    Region3Name == "Oregon/California" ~ "CA_ORCST",
+    Region3Name == "Washington Coast" ~ "WACST",
+    Region3Name == "Puget Sound" ~ "PSD",
+    Region3Name %in% c("Alaska South SE", "North/Central BC") ~ "NBC_SEAK",
+    Region1Name == "Fraser_Fall" ~ "FR-late",
+    Region3Name == "Fraser River" ~ "FR-early",
+    Region1Name %in% c("L_Columbia_R_fa") ~ "CR-tule",
+    Region1Name %in% c("L_Columbia_R_sp", "Snake_R_sp/su",
+                       "Mid_and_Upper_Columbia_R_sp", "Willamette_R") ~ 
+      "CR-sp&su",
+    Region1Name %in% c("U_Columbia_R_su/fa", "Snake_R_fa",
+                       "Mid_Columbia_R_tule") ~ "CR-bright",
+    TRUE ~ Region3Name
+  ))
 
 
 # checks
 key_out %>%
-  select(stock, Region1Name, Region2Name) %>%
-  filter(is.na(Region2Name)) %>%
+  select(stock, Region1Name, pst_agg) %>%
+  filter(is.na(pst_agg)) %>%
   distinct()
 
 key_out %>% 
