@@ -329,9 +329,14 @@ cwt_out <- cwt %>%
     Region1Name = case_when(
       grepl("COLE RIVERS", stock) ~ "Rogue_R",
       grepl("COLUMBIA R UPRIVER S", stock) ~ "L_Columbia_R_sp",
+      grepl("WASHOUGAL", stock) ~ "L_Columbia_R_fa",
+      grepl("TANNER", stock) ~ "L_Columbia_R_fa",
       stock == "COWLITZ R    26.0002" ~ "L_Columbia_R_fa",
+      stock == "SANDY HATCHERY (SANDY R)" ~ "L_Columbia_R_fa",
       stock == "MINTER CR    15.0048" ~ "S_Puget_Sound",
       grepl("WELLS HATCH", stock) ~ "U_Columbia_R_su/fa",
+      grepl("S-BEDWELL", stock) ~ "WCVI",
+      grepl("SKAGIT", stock) ~ "N_Puget_Sound",
       grepl("WHITE", stock) ~ "C_Puget_Sound",
       state == "AK" ~ "Alaska",
       basin == "UPTR" ~ "Fraser_Summer_4.1",
@@ -341,7 +346,6 @@ cwt_out <- cwt %>%
       rmis_region == "KLTR" ~ "Klamath_R",
       basin == "CLEA" ~ "Snake_R_fa",
       stock == "LYONS FERRY HATCHERY" ~ "Snake_R_fa",
-      rmis_region == "SNAK" ~ "Snake_R_sp/su",
       basin %in% c("UPSN", "SALM", "SIYA") ~ "Snake_R_sp/su",
       basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG", "WAGN") ~ 
         "U_Columbia_R_su/fa",
@@ -349,11 +353,13 @@ cwt_out <- cwt %>%
       basin %in% c("WILL", "YOCL") ~ "Willamette_R",
       basin %in% c("SAND", "SAWA", "GREL") ~ "L_Columbia_R_fa",
       basin %in% c("TILN", "NEHA") ~ "N_Oregon_Coast",
+      grepl("CLEAR CR", stock) ~ "S_Puget_Sound",
       basin == "UMPQ" ~ "Mid_Oregon_Coast",
       basin == "SIXE" ~ "N_California/S_Oregon_Coast",
       basin == "ROGU" ~ "Rogue_R",
       basin %in% c("LEWI", "WIND", "COWL") ~ "L_Columbia_R_sp",
       basin == "GHLC" ~ "Washington_Coast",
+      rmis_region == "SNAK" ~ "Snake_R_sp/su",
       rmis_region %in% c("WILP", "NWC") ~ "Washington_Coast",
       rmis_region == "HOOD" ~ "Hood_Canal",
       rmis_region == "JUAN" ~ "Juan_de_Fuca",
@@ -361,13 +367,14 @@ cwt_out <- cwt %>%
       rmis_region %in% c("NPS", "NOWA", "SKAG") ~ "N_Puget_Sound",
       rmis_region == "SPS" ~ "S_Puget_Sound",
       TRUE ~ Region1Name
+    ),
+    # snake run timing distinguished at basin level, adjust stock name 
+    # accordingly
+    stock = case_when(
+      basin == "CLEA" ~ "SNAKE R FALL",
+      TRUE ~ stock
     )
   ) 
-
-key2 <- rbind(key1,
-              cwt_out %>% 
-                select(stock, Region1Name)) %>% 
-  mutate(Region1Name = gsub(" ", "_", Region1Name))
 
 
 # ADD REGIONAL ROLL UPS --------------------------------------------------------
@@ -508,6 +515,6 @@ unique(key_out$Region4Name)
 
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_May2020.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_May2020.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_June2020.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_June2020.csv"),
           row.names = FALSE)
