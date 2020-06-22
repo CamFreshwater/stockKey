@@ -327,6 +327,8 @@ for (i in 1:nrow(cwt)) {
 cwt_out <- cwt %>% 
   mutate(
     Region1Name = case_when(
+      grepl("INCH CR", stock) ~ "Fraser_Fall",
+      grepl("WOSS", stock) ~ "ECVI",
       grepl("COLE RIVERS", stock) ~ "Rogue_R",
       grepl("COLUMBIA R UPRIVER S", stock) ~ "L_Columbia_R_sp",
       grepl("WASHOUGAL", stock) ~ "L_Columbia_R_fa",
@@ -339,6 +341,8 @@ cwt_out <- cwt %>%
       grepl("S-BEDWELL", stock) ~ "WCVI",
       grepl("SKYK", stock) ~ "N_Puget_Sound",
       grepl("SKAGIT", stock) ~ "N_Puget_Sound",
+      basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG", "WAGN") ~ 
+        "U_Columbia_R_su/fa",
       grepl("WHITE", stock) ~ "C_Puget_Sound",
       state == "AK" ~ "Alaska",
       basin == "UPTR" ~ "Fraser_Summer_4.1",
@@ -349,8 +353,6 @@ cwt_out <- cwt %>%
       basin == "CLEA" ~ "Snake_R_fa",
       stock == "LYONS FERRY HATCHERY" ~ "Snake_R_fa",
       basin %in% c("UPSN", "SALM", "SIYA") ~ "Snake_R_sp/su",
-      basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG", "WAGN") ~ 
-        "U_Columbia_R_su/fa",
       rmis_region == "NOCA" ~ "N_California/S_Oregon_Coast",
       rmis_region == "UPCR" ~ "U_Columbia_R_su/fa",
       basin %in% c("WILL", "YOCL") ~ "Willamette_R",
@@ -377,7 +379,8 @@ cwt_out <- cwt %>%
       basin == "CLEA" ~ "SNAKE R FALL",
       TRUE ~ stock
     )
-  ) 
+  ) %>% 
+  distinct()
 
 # join initial keys together
 key2 <- rbind(key1, 
