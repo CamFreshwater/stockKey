@@ -311,7 +311,7 @@ key1 <- key_rts %>%
 
 # ADD CWT DATA -----------------------------------------------------------------
 
-cwt <- readRDS(here::here("data", "cwt_stock_key.RDS")) %>% 
+cwt <- readRDS(here::here("data", "cwt_stock_key_out.RDS")) %>% 
   mutate(stock = toupper(stock),
          gsi_stock = NA,
          Region1Name = NA) %>% 
@@ -333,9 +333,11 @@ cwt_out <- cwt %>%
       grepl("TANNER", stock) ~ "L_Columbia_R_fa",
       stock == "COWLITZ R    26.0002" ~ "L_Columbia_R_fa",
       stock == "SANDY HATCHERY (SANDY R)" ~ "L_Columbia_R_fa",
+      stock == "NISQUALLY R  11.0008" ~ "S_Puget_Sound",
       stock == "MINTER CR    15.0048" ~ "S_Puget_Sound",
       grepl("WELLS HATCH", stock) ~ "U_Columbia_R_su/fa",
       grepl("S-BEDWELL", stock) ~ "WCVI",
+      grepl("SKYK", stock) ~ "N_Puget_Sound",
       grepl("SKAGIT", stock) ~ "N_Puget_Sound",
       grepl("WHITE", stock) ~ "C_Puget_Sound",
       state == "AK" ~ "Alaska",
@@ -349,6 +351,7 @@ cwt_out <- cwt %>%
       basin %in% c("UPSN", "SALM", "SIYA") ~ "Snake_R_sp/su",
       basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG", "WAGN") ~ 
         "U_Columbia_R_su/fa",
+      rmis_region == "NOCA" ~ "N_California/S_Oregon_Coast",
       rmis_region == "UPCR" ~ "U_Columbia_R_su/fa",
       basin %in% c("WILL", "YOCL") ~ "Willamette_R",
       basin %in% c("SAND", "SAWA", "GREL") ~ "L_Columbia_R_fa",
@@ -375,6 +378,12 @@ cwt_out <- cwt %>%
       TRUE ~ stock
     )
   ) 
+
+# join initial keys together
+key2 <- rbind(key1, 
+              cwt_out %>%
+                select(stock, Region1Name)) %>% 
+  mutate(Region1Name = gsub(" ", "_", Region1Name))
 
 
 # ADD REGIONAL ROLL UPS --------------------------------------------------------
