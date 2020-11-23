@@ -18,8 +18,7 @@ stockKeyHS <- readRDS(here::here("data", "highSeasChinoookStockKey.RDS")) %>%
 
 
 # list of observed stocks from WCVI troll
-stockKeyTroll <- readRDS(here::here("data", "wcviTrollStocks.rds")) 
-
+stockKeyTroll <- readRDS(here::here("data", "comm_gsi_stocks.rds")) 
 
 # list of stocks from MGL SNP analyses (currently not integrated)
 # stockKeySNP <- read.csv(here::here("data", "snpStockKey.csv")) %>% 
@@ -181,15 +180,37 @@ key1 <- key_rts %>%
       grepl("UMPQUA", stock) ~ "Mid_Oregon_Coast",
       grepl("SOOS_", stock) ~ "S_Puget_Sound",
       grepl("GREEN", stock) ~ "S_Puget_Sound",
-      grepl("WILLA", stock) ~ "Washington_Coast",
+      grepl("WILLAP", stock) ~ "Washington_Coast",
       grepl("SKYKOMISH", stock) ~ "C_Puget_Sound",
       stock == "BUTE" ~ "SOMN",
-      grepl("METHOW", stock) ~ "U_Columbia_R_su/fa",
-      grepl("HANFORD", stock) ~ "U_Columbia_R_su/fa",
-      grepl("SIMILKAMEEN", stock) ~ "U_Columbia_R_su/fa",
-      grepl("OSOY", stock) ~ "U_Columbia_R_su/fa",
-      grepl("SILMIL", stock) ~ "U_Columbia_R_su/fa",
-      grepl("WARM", stock) ~ "U_Columbia_R_su/fa",
+      
+      grepl("ENTI", stock) ~ "Mid_and_Upper_Columbia_R_sp",
+      grepl("NACH", stock) ~ "Mid_and_Upper_Columbia_R_sp",
+      grepl("CHEWU", stock) ~ "Mid_and_Upper_Columbia_R_sp",
+      grepl("CHIW", stock) ~ "Mid_and_Upper_Columbia_R_sp",
+      grepl("COLUMBIA-SP", region) ~ "Mid_and_Upper_Columbia_R_sp",
+      stock %in% c("METHOW_R_SP", "WENATCHEE_H_SP", "WENATCHEE_R_SP") ~ 
+        "Mid_and_Upper_Columbia_R_sp",
+      region == "MID COL-SP" ~ "Mid_and_Upper_Columbia_R_sp",
+      
+      
+      grepl("OKAN", stock) ~ "U_Columbia_R_su",
+      grepl("METHOW", stock) ~ "U_Columbia_R_su",
+      grepl("WENATCH", stock) ~ "U_Columbia_R_su",
+      grepl("SILMIL", stock) ~ "U_Columbia_R_su",
+      grepl("SIMIL", stock) ~ "U_Columbia_R_su",
+      grepl("WELLS_H", stock) ~ "U_Columbia_R_su",
+      grepl("OSOY", stock) ~ "U_Columbia_R_su",
+      
+      grepl("DESC", stock) ~ "U_Columbia_R_fa",
+      grepl("HANFORD", stock) ~ "U_Columbia_R_fa",
+      grepl("WARM", stock) ~ "U_Columbia_R_fa",
+      grepl("UMAT", stock) ~ "U_Columbia_R_fa",
+      grepl("MARION_DRAIN", stock) ~ "U_Columbia_R_fa",
+      grepl("PRIEST", stock) ~ "U_Columbia_R_fa",
+      stock == "L_WH_SAL_H_SF" ~ "U_Columbia_R_fa",
+      
+      grepl("UPPER COLUMBIA-SU", region) ~ "U_Columbia_R_su",
       grepl("HOH_RI", stock) ~ "Washington_Coast",
       grepl("CLE_ELM", stock) ~ "S_Puget_Sound",
       grepl("QUINA", stock) ~ "Washington_Coast",
@@ -204,8 +225,6 @@ key1 <- key_rts %>%
       grepl("QUATSE", stock) ~ "ECVI",
       grepl("WOSS", stock) ~ "ECVI",
       grepl("QUAL", stock) ~ "ECVI",
-      grepl("OKANAG", stock) ~ "U_Columbia_R_su/fa",
-      grepl("WENATCH", stock) ~ "U_Columbia_R_su/fa",
       grepl("COLE", stock) ~ "N_California/S_Oregon_Coast",
       grepl("SEASKINN", stock) ~ "Nass",
       grepl("KWIN", stock) ~ "Nass",
@@ -230,7 +249,6 @@ key1 <- key_rts %>%
       grepl("GITNAD", stock) ~ "Skeena Lower",
       grepl("EXCHAM", stock) ~ "Skeena Lower",
       grepl("EXSTEW", stock) ~ "Skeena Lower",
-      grepl("DESC", stock) ~ "U_Columbia_R_su/fa",
       grepl("LITTLEC", stock) ~ "N_Puget_Sound",
       grepl("STILLAG", stock) ~ "N_Puget_Sound",
       grepl("TYNE", stock) ~ "N_Puget_Sound",
@@ -249,8 +267,6 @@ key1 <- key_rts %>%
       grepl("LEMI", stock) ~ "Fraser_Summer_5.2",
       grepl("SIUS", stock) ~ "Mid_Oregon_Coast",
       grepl("TOUL", stock) ~ "Central_Valley_fa",
-      grepl("ENTI", stock) ~ "Mid_and_Upper_Columbia_R_sp",
-      grepl("NACH", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("STAN", stock) ~ "Central_Valley_fa",
       grepl("TAKIA", stock) ~ "NOMN",
       grepl("ELWHA", stock) ~ "Washington_Coast",
@@ -258,6 +274,7 @@ key1 <- key_rts %>%
       grepl("TRASK", stock) ~ "N_Oregon_Coast",
       grepl("CHEHA", stock) ~ "Washington_Coast",
       grepl("EAGL", stock) ~ "Fraser_Summer_4.1",
+      grepl("SEYMOUR", stock) ~ "Fraser_Summer_4.1",
       grepl("NEST", stock) ~ "N_Oregon_Coast",
       grepl("COWEE", stock) ~ "L_Columbia_R_fa",
       grepl("LOBST", stock) ~ "N_California/S_Oregon_Coast",
@@ -272,8 +289,6 @@ key1 <- key_rts %>%
       grepl("TRAPP", stock) ~ "Taku_R",
       stock == "EEL_F" ~ "California_Coast",
       grepl("ATN", stock) ~ "NOMN",
-      grepl("CHEWU", stock) ~ "Mid_and_Upper_Columbia_R_sp",
-      grepl("CHIW", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("NEVI", stock) ~ "Fraser_Spring_5.2",
       grepl("PTARM", stock) ~ "Fraser_Spring_5.2",
       grepl("NAHAT", stock) ~ "Fraser_Fall",
@@ -291,13 +306,10 @@ key1 <- key_rts %>%
       region == "SKEENA LOWER" ~ "Skeena Lower",
       region == "MUFR" ~ "MUFR",
       region == "Alaska" ~ "SSE_Alaska",
-      grepl("COLUMBIA-SP", region) ~ "Mid_and_Upper_Columbia_R_sp",
-      grepl("UPPER COLUMBIA-SU", region) ~ "U_Columbia_R_su/fa",
       grepl("TRINITY", region) ~ "Klamath_R",
       region == "SNAKE-SP/SU" ~ "Snake_R_sp/su",
-      region == "MID COL-SP" ~ "Mid_and_Upper_Columbia_R_sp",
-      region == "UPPER WILLAMETTE" ~ "L_Columbia_R_fa",
-      region == "UP WILLAMETTE" ~ "L_Columbia_R_fa",
+      region == "UPPER WILLAMETTE" ~ "Willamette_R",
+      region == "UP WILLAMETTE" ~ "Willamette_R",
       region == "CENTRAL VALLEY-F" ~ "Central_Valley_fa",
       region == "CENT VAL-F" ~ "Central_Valley_fa",
       region == "CENTRAL VALLEY-SP" ~ "Central_Valley_sp",
@@ -328,13 +340,12 @@ cwt_out <- cwt %>%
   mutate(
     Region1Name = case_when(
       grepl("COLE RIVERS", stock) ~ "Rogue_R",
-      grepl("COLUMBIA R UPRIVER S", stock) ~ "L_Columbia_R_sp",
+      grepl("COLUMBIA R UPRIVER S", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("WASHOUGAL", stock) ~ "L_Columbia_R_fa",
       grepl("TANNER", stock) ~ "L_Columbia_R_fa",
       stock == "COWLITZ R    26.0002" ~ "L_Columbia_R_fa",
       stock == "SANDY HATCHERY (SANDY R)" ~ "L_Columbia_R_fa",
       stock == "MINTER CR    15.0048" ~ "S_Puget_Sound",
-      grepl("WELLS HATCH", stock) ~ "U_Columbia_R_su/fa",
       grepl("S-BEDWELL", stock) ~ "WCVI",
       grepl("SKAGIT", stock) ~ "N_Puget_Sound",
       grepl("WHITE", stock) ~ "C_Puget_Sound",
@@ -347,9 +358,14 @@ cwt_out <- cwt %>%
       basin == "CLEA" ~ "Snake_R_fa",
       stock == "LYONS FERRY HATCHERY" ~ "Snake_R_fa",
       basin %in% c("UPSN", "SALM", "SIYA") ~ "Snake_R_sp/su",
+      basin %in% c("WECH", "MEOK") ~ "U_Columbia_R_su",
+      grepl("WELLS", stock) ~ "U_Columbia_R_su",
+      grepl("WENAT", stock) ~ "U_Columbia_R_su",
+      grepl("OKAN", stock) ~ "U_Columbia_R_su",
+      grepl("CHELA", stock) ~ "U_Columbia_R_su",
       basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG", "WAGN") ~ 
-        "U_Columbia_R_su/fa",
-      rmis_region == "UPCR" ~ "U_Columbia_R_su/fa",
+        "U_Columbia_R_fa",
+      grepl("YAKI", stock) ~ "U_Columbia_R_fa",
       basin %in% c("WILL", "YOCL") ~ "Willamette_R",
       basin %in% c("SAND", "SAWA", "GREL") ~ "L_Columbia_R_fa",
       basin %in% c("TILN", "NEHA") ~ "N_Oregon_Coast",
@@ -376,6 +392,12 @@ cwt_out <- cwt %>%
     )
   ) 
 
+# join initial keys together
+key2 <- rbind(key1, 
+              cwt_out %>%
+                select(stock, Region1Name)) %>% 
+  mutate(Region1Name = gsub(" ", "_", Region1Name))
+
 
 # ADD REGIONAL ROLL UPS --------------------------------------------------------
 
@@ -401,10 +423,10 @@ key_out <- key2 %>%
         Region1Name == "Alaska" ~ "Alaska South SE",
         Region1Name == "L_Columbia_R_sp" ~ "Spring Cowlitz",
         Region1Name == "Snake_R_sp/su" ~ "Snake Sp-Su",
-        Region1Name == "U_Columbia_R_su/fa" ~
+        Region1Name %in% c("U_Columbia_R_su", "U_Columbia_R_fa") ~
           "Up-Columbia S-F",
         Region1Name == "Mid_and_Upper_Columbia_R_sp" ~
-          "Mid-Columbia Brights/Upriver Brights",
+          "Up-Columbia_sp",
         Region1Name == "Mid_Columbia_R_tule" ~ 
           "Mid-Columbia Brights/Upriver Brights",
         stock %in% c("SKAGIT_SU", "SKYKOMISH_SU") ~ "Puget Sound Summer",
@@ -489,12 +511,13 @@ key_out <- key2 %>%
     Region3Name %in% c("Alaska South SE", "North/Central BC") ~ "NBC_SEAK",
     Region1Name == "Fraser_Fall" ~ "FR-late",
     Region3Name == "Fraser River" ~ "FR-early",
-    Region1Name %in% c("L_Columbia_R_fa") ~ "CR-tule",
+    Region1Name %in% c("L_Columbia_R_fa",
+                       "Mid_Columbia_R_tule") ~ "CR-tule",
     Region1Name %in% c("L_Columbia_R_sp", "Snake_R_sp/su",
                        "Mid_and_Upper_Columbia_R_sp", "Willamette_R") ~ 
-      "CR-sp&su",
-    Region1Name %in% c("U_Columbia_R_su/fa", "Snake_R_fa",
-                       "Mid_Columbia_R_tule") ~ "CR-bright",
+      "CR-sp",
+    Region1Name %in% c("U_Columbia_R_su", "U_Columbia_R_fa", 
+                       "Snake_R_fa") ~ "CR-bright",
     TRUE ~ Region3Name
   ))
 
