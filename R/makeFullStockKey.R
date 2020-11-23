@@ -323,7 +323,7 @@ key1 <- key_rts %>%
 
 # ADD CWT DATA -----------------------------------------------------------------
 
-cwt <- readRDS(here::here("data", "cwt_stock_key.RDS")) %>% 
+cwt <- readRDS(here::here("data", "cwt_stock_key_out.RDS")) %>% 
   mutate(stock = toupper(stock),
          gsi_stock = NA,
          Region1Name = NA) %>% 
@@ -339,14 +339,18 @@ for (i in 1:nrow(cwt)) {
 cwt_out <- cwt %>% 
   mutate(
     Region1Name = case_when(
+      grepl("INCH CR", stock) ~ "Fraser_Fall",
+      grepl("WOSS", stock) ~ "ECVI",
       grepl("COLE RIVERS", stock) ~ "Rogue_R",
       grepl("COLUMBIA R UPRIVER S", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("WASHOUGAL", stock) ~ "L_Columbia_R_fa",
       grepl("TANNER", stock) ~ "L_Columbia_R_fa",
       stock == "COWLITZ R    26.0002" ~ "L_Columbia_R_fa",
       stock == "SANDY HATCHERY (SANDY R)" ~ "L_Columbia_R_fa",
+      stock == "NISQUALLY R  11.0008" ~ "S_Puget_Sound",
       stock == "MINTER CR    15.0048" ~ "S_Puget_Sound",
       grepl("S-BEDWELL", stock) ~ "WCVI",
+      grepl("SKYK", stock) ~ "N_Puget_Sound",
       grepl("SKAGIT", stock) ~ "N_Puget_Sound",
       grepl("WHITE", stock) ~ "C_Puget_Sound",
       state == "AK" ~ "Alaska",
@@ -366,6 +370,7 @@ cwt_out <- cwt %>%
       basin %in% c("DESC", "UMAT", "HOO", "KLIC", "CRGNG", "WAGN") ~ 
         "U_Columbia_R_fa",
       grepl("YAKI", stock) ~ "U_Columbia_R_fa",
+      rmis_region == "NOCA" ~ "N_California/S_Oregon_Coast",
       basin %in% c("WILL", "YOCL") ~ "Willamette_R",
       basin %in% c("SAND", "SAWA", "GREL") ~ "L_Columbia_R_fa",
       basin %in% c("TILN", "NEHA") ~ "N_Oregon_Coast",
@@ -390,7 +395,14 @@ cwt_out <- cwt %>%
       basin == "CLEA" ~ "SNAKE R FALL",
       TRUE ~ stock
     )
-  ) 
+  ) %>% 
+  distinct()
+
+# join initial keys together
+key2 <- rbind(key1, 
+              cwt_out %>%
+                select(stock, Region1Name)) %>% 
+  mutate(Region1Name = gsub(" ", "_", Region1Name))
 
 # join initial keys together
 key2 <- rbind(key1, 
