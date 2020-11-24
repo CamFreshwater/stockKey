@@ -404,12 +404,6 @@ key2 <- rbind(key1,
                 select(stock, Region1Name)) %>% 
   mutate(Region1Name = gsub(" ", "_", Region1Name))
 
-# join initial keys together
-key2 <- rbind(key1, 
-              cwt_out %>%
-                select(stock, Region1Name)) %>% 
-  mutate(Region1Name = gsub(" ", "_", Region1Name))
-
 
 # ADD REGIONAL ROLL UPS --------------------------------------------------------
 
@@ -550,6 +544,6 @@ unique(key_out$Region4Name)
 
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_June2020.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_June2020.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Nov2020.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Nov2020.csv"),
           row.names = FALSE)
