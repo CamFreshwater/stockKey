@@ -541,6 +541,9 @@ key_out %>%
   select(stock, Region1Name)
 
 unique(key_out$Region4Name)
+key_out %>% 
+  filter(Region1Name == "Mid_Columbia_R_tule") %>% 
+  select(stock)
 
 
 # save
