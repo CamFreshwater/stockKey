@@ -156,8 +156,7 @@ key1 <- key_rts %>%
       stock %in% c("BUTTE_CR_SP", "BUTTE_CREEK", "FEATHER_RIVER_SPRING",
                    "SALMON_RIVER_CA_SPRING") ~ 
         "Central_Valley_sp",
-      stock %in% c("BUTTE_CR_F", "AMERICAN_RIVER", "BUTTE_CREEK_FALL", 
-                   "FEATHER_RIVER_FALL", "MERCED_RIVER") ~ "Central_Valley_fa",
+      grepl("WARM", stock) ~ "Central_Valley_sp",
       grepl("BIG_CR", stock) ~ "Willamette_R",
       grepl("CLACK", stock) ~ "Willamette_R",
       stock == "BIG_BOULDER_CR" ~ "NSE_Alaska_Chilkat_R",
@@ -192,8 +191,6 @@ key1 <- key_rts %>%
       stock %in% c("METHOW_R_SP", "WENATCHEE_H_SP", "WENATCHEE_R_SP") ~ 
         "Mid_and_Upper_Columbia_R_sp",
       region == "MID COL-SP" ~ "Mid_and_Upper_Columbia_R_sp",
-      
-      
       grepl("OKAN", stock) ~ "U_Columbia_R_su",
       grepl("METHOW", stock) ~ "U_Columbia_R_su",
       grepl("WENATCH", stock) ~ "U_Columbia_R_su",
@@ -201,15 +198,12 @@ key1 <- key_rts %>%
       grepl("SIMIL", stock) ~ "U_Columbia_R_su",
       grepl("WELLS_H", stock) ~ "U_Columbia_R_su",
       grepl("OSOY", stock) ~ "U_Columbia_R_su",
-      
       grepl("DESC", stock) ~ "U_Columbia_R_fa",
       grepl("HANFORD", stock) ~ "U_Columbia_R_fa",
-      grepl("WARM", stock) ~ "U_Columbia_R_fa",
       grepl("UMAT", stock) ~ "U_Columbia_R_fa",
       grepl("MARION_DRAIN", stock) ~ "U_Columbia_R_fa",
       grepl("PRIEST", stock) ~ "U_Columbia_R_fa",
       stock == "L_WH_SAL_H_SF" ~ "U_Columbia_R_fa",
-      
       grepl("UPPER COLUMBIA-SU", region) ~ "U_Columbia_R_su",
       grepl("HOH_RI", stock) ~ "Washington_Coast",
       grepl("CLE_ELM", stock) ~ "S_Puget_Sound",
