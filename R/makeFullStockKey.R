@@ -82,7 +82,8 @@ key1 <- key_rts %>%
       stock == "BEAR" ~ "NOMN",
       stock %in% c("COWLITZ_HATCHERY_SPRING", "COWLITZ_H_SP") ~ 
         "L_Columbia_R_sp",
-      grepl("LEWIS", stock) ~ "L_Columbia_R_sp",
+      stock == "LEWIS_H_SP" ~ "L_Columbia_R_sp",
+      grepl("LEWIS", stock) ~ "L_Columbia_R_fa",
       stock %in% c("L_CARIBOO") ~ "Fraser_Summer_5.2",
       stock %in% c("BAEZAEKO", "CHILAKO", 
                    "ENDAKO", "NAZKO", "NECHAKO", "TASEKO", "U_CARIBOO", 
@@ -153,11 +154,14 @@ key1 <- key_rts %>%
       grepl("CLEAR_C", stock) ~ "Central_Valley_fa",
       grepl("SPRING_CR", stock) ~ "Mid_Columbia_R_tule",
       grepl("CHICKA", stock) ~ "SSE_Alaska",
+      grepl("MERCED", stock) ~ "Central_Valley_fa",
+      stock %in% c("BUTTE_CREEK_FALL", "FEATHER_RIVER_FALL") ~ 
+        "Central_Valley_fa",
       stock %in% c("BUTTE_CR_SP", "BUTTE_CREEK", "FEATHER_RIVER_SPRING",
                    "SALMON_RIVER_CA_SPRING") ~ 
         "Central_Valley_sp",
       grepl("WARM", stock) ~ "Central_Valley_sp",
-      grepl("BIG_CR", stock) ~ "Willamette_R",
+      grepl("BIG_CR", stock) ~ "L_Columbia_R_fa",
       grepl("CLACK", stock) ~ "Willamette_R",
       stock == "BIG_BOULDER_CR" ~ "NSE_Alaska_Chilkat_R",
       stock %in% c("CLEARWATERRFA", "SALMON_R_F") ~ "Snake_R_fa",
@@ -512,15 +516,14 @@ key_out <- key2 %>%
     Region1Name == "Fraser_Fall" ~ "FR-late",
     Region3Name == "Fraser River" ~ "FR-early",
     Region1Name %in% c("L_Columbia_R_fa",
-                       "Mid_Columbia_R_tule") ~ "CR-tule",
-    Region1Name %in% c("L_Columbia_R_sp", "Snake_R_sp/su",
-                       "Mid_and_Upper_Columbia_R_sp", "Willamette_R") ~ 
-      "CR-sp",
+                       "Mid_Columbia_R_tule") ~ "CR-lower_fa",
+    Region1Name == "L_Columbia_R_sp" ~ "CR-lower_sp",
+    Region1Name %in% c("Snake_R_sp/su", "Mid_and_Upper_Columbia_R_sp", 
+                       "Willamette_R") ~ "CR-upper_sp",
     Region1Name %in% c("U_Columbia_R_su", "U_Columbia_R_fa", 
-                       "Snake_R_fa") ~ "CR-bright",
+                       "Snake_R_fa") ~ "CR-upper_su/fa",
     TRUE ~ Region3Name
   ))
-
 
 # checks
 key_out %>%
@@ -534,7 +537,6 @@ key_out %>%
   arrange(stock) %>% 
   select(stock, Region1Name)
 
-unique(key_out$Region4Name)
 key_out %>% 
   filter(Region1Name == "Mid_Columbia_R_tule") %>% 
   select(stock)
