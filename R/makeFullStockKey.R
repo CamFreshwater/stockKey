@@ -8,8 +8,6 @@ scStockKey <- read.csv(here::here("data", "southCoastStockKey.csv")) %>%
 
 # list of observed stocks from high seas
 stockKeyHS <- readRDS(here::here("data", "highSeasChinoookStockKey.RDS")) %>%
-  # stockKeyHS <- readRDS(here::here("data", "tempStockList.rds")) %>%
-  # select(stock = STOCK_1, region, -HSS_REGION_1) %>%
   full_join(., scStockKey, by = "stock") %>% 
   mutate(Region1Name = as.character(Region1Name),
          Region2Name = as.character(Region2Name),
@@ -20,14 +18,9 @@ stockKeyHS <- readRDS(here::here("data", "highSeasChinoookStockKey.RDS")) %>%
 # list of observed stocks from WCVI troll
 stockKeyTroll <- readRDS(here::here("data", "comm_gsi_stocks.rds")) 
 
-# list of stocks from MGL SNP analyses (currently not integrated)
-# stockKeySNP <- read.csv(here::here("data", "snpStockKey.csv")) %>% 
-#   select(snp_repunit = repunit, snp_cu = CU_NAME, stock = collection)
-
 
 stockKey1 <- stockKeyTroll %>% 
   full_join(., stockKeyHS, by = c("stock", "Region1Name")) %>% 
-  # full_join(., stockKeySNP, by = "stock") %>% 
   distinct()
 
 
@@ -49,7 +42,8 @@ for (i in 1:nrow(stockKeyRec)) {
   stockKeyRec$Region1Name[i] <- stockKey1$Region1Name[match]
 }
 
-# as above but with new stock list
+
+# as above but with stocks from south coast
 new_rec <- readRDS(here::here("data", "southcoast_missing_stocks.rds"))  %>% 
   rename(sc_reg1 = region) %>% 
   mutate(trim_stock = str_remove_all(stock, paste(remove, collapse = "|")),
@@ -62,7 +56,6 @@ for (i in 1:nrow(new_rec)) {
   new_rec$new_stock[i] <- stockKey1$stock[match]
   new_rec$Region1Name[i] <- stockKey1$Region1Name[match]
 }
-
 
 # preliminary coarse corrections to rec data
 rec_out1 <- rbind(stockKeyRec, new_rec) %>% 
@@ -77,16 +70,49 @@ rec_out1 <- rbind(stockKeyRec, new_rec) %>%
     )
   )
 
+# as above but with stocks from hake offload
+hake_stocks <- readRDS(here::here("data", "hake_missing_stocks.rds"))  %>% 
+  mutate(stock = toupper(stock))  %>% 
+  mutate(trim_stock = str_remove_all(stock, paste(remove, collapse = "|")),
+         new_stock = NA,
+         Region1Name = NA) 
+
+for (i in 1:nrow(hake_stocks)) {
+  match <- stringdist::amatch(hake_stocks$trim_stock[i], stockKey1$stock, 
+                              maxDist = 2)
+  hake_stocks$new_stock[i] <- stockKey1$stock[match]
+  hake_stocks$Region1Name[i] <- stockKey1$Region1Name[match]
+}
+
+# preliminary coarse corrections to rec data
+hake_out <- hake_stocks %>% 
+  mutate(
+    region = NA,
+    Region1Name = case_when(
+      cu %in% c("EVI-fall", "EVIGStr-sum", "QP-fall") ~ "ECVI",
+      grepl("LFR", cu) ~ "LWFR-F",
+      cu == "SPS" ~ "S_Puget_Sound",
+      grepl("UFR", cu) ~ "UPFR",
+      cu == "LTh" ~ "UPFR",
+      TRUE ~ Region1Name
+    )
+  ) %>% 
+  select(stock, region, Region1Name) %>% 
+  distinct()
+
 
 ## COMBINE REC, TROLL, HIGH SEAS KEYS ------------------------------------------
 
 key_rts <- stockKey1 %>% 
   full_join(., rec_out1, by = c("stock", "Region1Name")) %>% 
-  distinct()
+  distinct() #%>% 
+  # rbind(., hake_out)
+
 
 # Associate misspelled and unknown stocks with higher level regions
 key1 <- key_rts %>% 
-  select(stock, sc_reg1, region, Region1Name) %>%
+  select(stock, region, Region1Name) %>%
+  rbind(., hake_out) %>% 
   mutate(
     #add unknown stocks
     stock = case_when(
@@ -152,9 +178,14 @@ key1 <- key_rts %>%
       grepl("MEGI", stock) ~ "WCVI",
       grepl("CONU", stock) ~ "WCVI",
       grepl("GOLD_R", stock) ~ "WCVI",
+      grepl("GOLD R", stock) ~ "WCVI",
+      grepl("ALBERNI", stock) ~ "WCVI",
+      grepl("SUCWOA", stock) ~ "WCVI",
       grepl("BEDWELL", stock) ~ "WCVI",
+      grepl("TAHSIS", stock) ~ "WCVI",
       grepl("ROBERT", stock) ~ "WCVI",
       grepl("THORN", stock) ~ "WCVI",
+      grepl("OMEGA PACIFIC", stock) ~ "WCVI",
       grepl("TRANQ", stock) ~ "WCVI",
       grepl("SAN JUAN", stock) ~ "WCVI",
       grepl("SAN_JUAN", stock) ~ "WCVI",
@@ -282,6 +313,7 @@ key1 <- key_rts %>%
       grepl("CAPIL", stock) ~ "SOMN",
       grepl("PORTE", stock) ~ "SOMN",
       grepl("KLINAK", stock) ~ "SOMN",
+      grepl("KEOGH", stock) ~ "ECVI",
       grepl("NANA", stock) ~ "ECVI",
       grepl("DISCOVERY PASSAGE SEAPENS", stock) ~ "ECVI",
       grepl("COWICH", stock) ~ "ECVI",
@@ -362,7 +394,7 @@ key1 <- key_rts %>%
       grepl("TRAPP", stock) ~ "Taku_R",
       stock == "EEL_F" ~ "California_Coast",
       grepl("ATN", stock) ~ "NOMN",
-     grepl("NAHAT", stock) ~ "Fraser_Fall",
+      grepl("NAHAT", stock) ~ "Fraser_Fall",
       grepl("TUY", stock) ~ "Stikine",
       grepl("HAMMA_", stock) ~ "Hood_Canal",
       grepl("SOTH", Region1Name) ~ "Fraser_Summer_4.1",
@@ -379,6 +411,7 @@ key1 <- key_rts %>%
       region == "Alaska" ~ "SSE_Alaska",
       grepl("TRINITY", region) ~ "Klamath_R",
       grepl("TRINITY", stock) ~ "Klamath_R",
+      grepl("RAPID", stock) ~ "Snake_R_sp/su",
       region == "SNAKE-SP/SU" ~ "Snake_R_sp/su",
       region == "UPPER WILLAMETTE" ~ "Willamette_R",
       region == "UP WILLAMETTE" ~ "Willamette_R",
@@ -388,12 +421,12 @@ key1 <- key_rts %>%
       TRUE ~ as.character(Region1Name)
     )
   ) %>%
-  select(-region, -sc_reg1) %>% 
+  select(-region) %>% 
   distinct() %>%
   glimpse()
 
-
-key1 %>% filter(is.na(Region1Name)) %>% 
+key1 %>% 
+  filter(is.na(Region1Name))%>% 
   left_join(., new_rec %>% select(stock, sc_reg1), by = "stock")
 
 
@@ -511,6 +544,8 @@ key_out <- key2 %>%
           "Up-Columbia_sp",
         Region1Name == "Mid_Columbia_R_tule" ~ 
           "Mid-Columbia Brights/Upriver Brights",
+        grepl("Keogh", stock) ~ "North/Central BC",
+        grepl("OMEGA", stock) ~ "West Coast Hatchery",
         stock %in% c("SKAGIT_SU", "SKYKOMISH_SU") ~ "Puget Sound Summer",
         stock == "NOOKSACK_SP@KE" ~ "Puget Sound Spring",
         Region1Name == "N_Puget_Sound" ~ "North Puget Sound Fall",
@@ -605,8 +640,8 @@ key_out <- key2 %>%
 
 # checks
 key_out %>%
-  select(stock, Region1Name, pst_agg) %>%
-  filter(is.na(pst_agg)) %>%
+  select(stock, Region1Name, Region3Name) %>%
+  filter(is.na(Region3Name)) %>%
   distinct()
 
 key_out %>% 
@@ -616,6 +651,6 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_Oct2022.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_Oct2022.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Jan2023.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Jan2023.csv"),
           row.names = FALSE)
