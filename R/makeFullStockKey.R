@@ -71,7 +71,13 @@ rec_out1 <- rbind(stockKeyRec, new_rec) %>%
   )
 
 # as above but with stocks from hake offload
+# extra ID'd later on and added manually
+dum_stock <- data.frame(
+  stock = c("WALKER_CREEK", "EEL_RIVER_FALL"),
+  cu = c("UFR-spring", "CACO")
+)
 hake_stocks <- readRDS(here::here("data", "hake_missing_stocks.rds"))  %>% 
+  rbind(., dum_stock) %>% 
   mutate(stock = toupper(stock))  %>% 
   mutate(trim_stock = str_remove_all(stock, paste(remove, collapse = "|")),
          new_stock = NA,
@@ -393,6 +399,7 @@ key1 <- key_rts %>%
       grepl("CLEEL", stock) ~ "Mid_Oregon_Coast",
       grepl("TRAPP", stock) ~ "Taku_R",
       stock == "EEL_F" ~ "California_Coast",
+      stock == "EEL_RIVER_FALL" ~ "California_Coast",
       grepl("ATN", stock) ~ "NOMN",
       grepl("NAHAT", stock) ~ "Fraser_Fall",
       grepl("TUY", stock) ~ "Stikine",
