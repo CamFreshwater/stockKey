@@ -68,7 +68,9 @@ rec_out1 <- rbind(stockKeyRec, new_rec) %>%
         "Washington_Coast",
       TRUE ~ Region1Name
     )
-  )
+  ) %>% 
+  select(-sc_reg1) %>% 
+  distinct()
 
 # as above but with stocks from hake offload
 # extra ID'd later on and added manually
@@ -110,10 +112,9 @@ hake_out <- hake_stocks %>%
 ## COMBINE REC, TROLL, HIGH SEAS KEYS ------------------------------------------
 
 key_rts <- stockKey1 %>% 
-  full_join(., rec_out1, by = c("stock", "Region1Name")) %>% 
-  distinct() #%>% 
-  # rbind(., hake_out)
-
+  # full_join(., rec_out1, by = c("stock", "Region1Name")) %>% 
+  distinct() %>% 
+  filter(!is.na(Region2Name))
 
 # Associate misspelled and unknown stocks with higher level regions
 key1 <- key_rts %>% 
@@ -130,6 +131,7 @@ key1 <- key_rts %>%
       stock %in% c("COWLITZ_HATCHERY_SPRING", "COWLITZ_H_SP") ~ 
         "L_Columbia_R_sp",
       stock == "LEWIS_H_SP" ~ "L_Columbia_R_sp",
+      grepl("MOKELUMNE", stock) ~ "Central_Valley_fa",
       grepl("LEWIS", stock) ~ "L_Columbia_R_fa",
       grepl("SPIUS", stock) ~ "Fraser_Spring_4.2",
       stock %in% c("L_CARIBOO") ~ "Fraser_Summer_5.2",
@@ -285,6 +287,7 @@ key1 <- key_rts %>%
       grepl("HOKO", stock) ~ "Washington_Coast",
       grepl("SKYKOMISH", stock) ~ "C_Puget_Sound",
       stock == "BUTE" ~ "SOMN",
+      grepl("SHOVEL", stock) ~ "SOMN",
       grepl("ENTI", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("NACH", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("CHEWU", stock) ~ "Mid_and_Upper_Columbia_R_sp",
@@ -429,8 +432,7 @@ key1 <- key_rts %>%
     )
   ) %>%
   select(-region) %>% 
-  distinct() %>%
-  glimpse()
+  distinct()
 
 key1 %>% 
   filter(is.na(Region1Name))%>% 
@@ -456,6 +458,7 @@ cwt_out <- cwt %>%
   mutate(
     Region1Name = case_when(
       grepl("INCH CR", stock) ~ "Fraser_Fall",
+      grepl("MOKEL", stock) ~ "Central_Valley_fa",
       grepl("WOSS", stock) ~ "ECVI",
       grepl("COLE RIVERS", stock) ~ "Rogue_R",
       grepl("COLUMBIA R UPRIVER S", stock) ~ "Mid_and_Upper_Columbia_R_sp",
@@ -480,6 +483,7 @@ cwt_out <- cwt %>%
       basin %in% c("UPSN", "SALM", "SIYA") ~ "Snake_R_sp/su",
       basin %in% c("WECH", "MEOK") ~ "U_Columbia_R_su",
       grepl("WELLS", stock) ~ "U_Columbia_R_su",
+      grepl("SHOVEL", stock) ~ "SOMN",
       grepl("WENAT", stock) ~ "U_Columbia_R_su",
       grepl("OKAN", stock) ~ "U_Columbia_R_su",
       grepl("CHELA", stock) ~ "U_Columbia_R_su",
@@ -528,7 +532,8 @@ key_out <- key2 %>%
             key_rts %>% 
               select(Region1Name, Region2Name, Region3Name) %>% 
               distinct(), 
-            by = "Region1Name") %>% 
+            by = "Region1Name",
+            relationship = "many-to-many") %>% 
   distinct() %>%
   mutate(
     Region2Name =
