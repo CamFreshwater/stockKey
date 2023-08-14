@@ -134,6 +134,7 @@ key1 <- key_rts %>%
         "L_Columbia_R_sp",
       grepl("COWLITZ", stock) ~ "L_Columbia_R_fa",
       Region1Name == "NASS" ~ "Nass",
+      stock == "CRANBERRY RIVER" ~ "Nass",
       stock == "LEWIS_H_SP" ~ "L_Columbia_R_sp",
       grepl("MOKELUMNE", stock) ~ "Central_Valley_fa",
       grepl("LEWIS", stock) ~ "L_Columbia_R_fa",
@@ -227,6 +228,9 @@ key1 <- key_rts %>%
       grepl("NUSATS", stock) ~ "NOMN",
       grepl("SALLOOM", stock) ~ "NOMN",
       grepl("SALLOOM", stock) ~ "NOMN",
+      stock == "TIGIL_RIVER" ~ "Russia",
+      stock == "AVACHA" ~ "Russia",
+      stock == "BOLSHAYA_RIVER" ~ "Russia",
       grepl("MARBLE_C", stock) ~ "Central_Valley_fa",
       grepl("SACR", stock) ~ "Central_Valley_fa",
       grepl("MAKAH", stock) ~ "Washington_Coast",
@@ -262,6 +266,7 @@ key1 <- key_rts %>%
       stock == "IRRIGON HATCHERY" ~ "Snake_R_fa",
       stock %in% c("BUTTE_CREEK_FALL", "FEATHER_RIVER_FALL") ~ 
         "Central_Valley_fa",
+      stock == "SALMON_RIVER_JNST" ~ "SOMN",
       stock %in% c("BUTTE_CR_SP", "BUTTE_CREEK", "FEATHER_RIVER_SPRING",
                    "SALMON_RIVER_CA_SPRING", "FEATHER_SP") ~ 
         "Central_Valley_sp",
@@ -378,6 +383,9 @@ key1 <- key_rts %>%
       grepl("SQUIN", stock) ~ "Skeena Upper",
       grepl("KLUATAN", stock) ~ "Skeena Upper",
       grepl("SLAMGEESH", stock) ~ "Skeena Upper",
+      grepl("KULDO", stock) ~ "Skeena Upper",
+      grepl("SQUINGULA", stock) ~ "Skeena Upper",
+      grepl("SHEGUNIA", stock) ~ "Skeena Mid",
       grepl("KISPI", stock) ~ "Skeena Mid",
       grepl("SWEET", stock) ~ "Skeena Mid",
       grepl("NANGE", stock) ~ "Skeena Mid",
@@ -392,6 +400,7 @@ key1 <- key_rts %>%
       grepl("STILLAG", stock) ~ "N_Puget_Sound",
       grepl("TYNE", stock) ~ "N_Puget_Sound",
       grepl("SERP", stock) ~ "Fraser_Fall",
+      grepl("NICOMEKL", stock) ~ "Fraser_Fall",
       grepl("NOBLE CR", stock) ~ "Mid_Oregon_Coast",
       grepl("ELK", stock) ~ "Mid_Oregon_Coast",
       grepl("CHILL", stock) ~ "Fraser_Fall",
@@ -444,6 +453,7 @@ key1 <- key_rts %>%
       grepl("ATN", stock) ~ "NOMN",
       grepl("NAHAT", stock) ~ "Fraser_Fall",
       grepl("TUY", stock) ~ "Stikine",
+      grepl("QUILCENE", stock) ~ "Hood_Canal",
       grepl("HAMMA_", stock) ~ "Hood_Canal",
       grepl("SOTH", Region1Name) ~ "Fraser_Summer_4.1",
       grepl("LWFR-F", Region1Name) ~ "Fraser_Fall",
@@ -638,6 +648,7 @@ key_out <- key2 %>%
         Region2Name == " Up-Columbia S-F" ~ "Up-Columbia S-F",
         Region1Name == "SOMN" ~ "Upper Strait of Georgia",
         Region1Name == "NOMN" ~ "North/Central BC",
+        Region1Name == "Russia" ~ "Russia",
         TRUE ~ as.character(Region2Name)
       ),
     Region3Name = 
@@ -660,6 +671,7 @@ key_out <- key2 %>%
         Region2Name == "North/Central BC" ~ "North/Central BC",
         Region1Name == "Willamette_R" ~ "Columbia",
         Region1Name == "WCVI" ~ "WCVI",
+        Region1Name == "Russia" ~ "Russia",
         TRUE ~ as.character(Region3Name)
       ),
     Region4Name =
@@ -671,6 +683,7 @@ key_out <- key2 %>%
         Region3Name %in% c("Columbia", "Snake") ~ "ColR",
         Region3Name == "North/Central BC" ~ "NBC",
         Region3Name == "Alaska South SE" ~ "SEAK",
+        Region1Name == "Russia" ~ "Russia",
         TRUE ~ Region3Name
       )
   ) %>% 
