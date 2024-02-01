@@ -57,6 +57,7 @@ for (i in 1:nrow(new_rec)) {
   new_rec$Region1Name[i] <- stockKey1$Region1Name[match]
 }
 
+
 # preliminary coarse corrections to rec data
 rec_out1 <- rbind(stockKeyRec, new_rec) %>% 
   mutate(
@@ -110,6 +111,39 @@ hake_out <- hake_stocks %>%
   distinct()
 
 
+# as above but with missing troll stocks 
+new_troll <- read.csv(
+  here::here("data", "missing_troll_stocks.csv")
+) %>% 
+  rename(troll_region = agg) %>% 
+  mutate(trim_stock = str_remove_all(stock, paste(remove, collapse = "|")),
+         new_stock = NA,
+         Region1Name = NA) 
+
+for (i in 1:nrow(new_troll)) {
+  match <- stringdist::amatch(new_troll$trim_stock[i], stockKey1$stock, 
+                              maxDist = 2)
+  new_troll$new_stock[i] <- stockKey1$stock[match]
+  new_troll$Region1Name[i] <- stockKey1$Region1Name[match]
+}
+
+new_troll_out <- new_troll %>% 
+  mutate(
+    region = NA,
+    Region1Name = case_when(
+      troll_region == "BB" ~ "SOMN",
+      troll_region == "BCD" ~ "NOMN",
+      troll_region == "COWA" ~ "Washington_Coast",
+      troll_region == "Nahwitti" ~ "NEVI",
+      troll_region == "Rivers" ~ "Central_Coast",
+      troll_region == "SC+SFj" ~ "SOMN"
+    )
+  ) %>% 
+  select(stock, region, Region1Name) %>% 
+  distinct()
+
+
+
 ## COMBINE REC, TROLL, HIGH SEAS KEYS ------------------------------------------
 
 key_rts <- stockKey1 %>% 
@@ -122,6 +156,7 @@ key1 <- key_rts %>%
   select(stock, region, Region1Name) %>%
   rbind(., hake_out) %>% 
   rbind(., rec_out1) %>% 
+  rbind(., new_troll_out) %>% 
   mutate(
     #add unknown stocks
     stock = case_when(
@@ -138,6 +173,8 @@ key1 <- key_rts %>%
       stock == "ISHKHEENICKH" ~ "Nass",
       stock == "SNOWBANK" ~ "Nass",
       stock == "CRANBERRY RIVER" ~ "Nass",
+      grepl("PALLANT", stock) ~ "Haida_Gwaii",
+      grepl("DEENA", stock) ~ "Haida_Gwaii",
       stock == "LEWIS_H_SP" ~ "L_Columbia_R_sp",
       grepl("MOKELUMNE", stock) ~ "Central_Valley_fa",
       grepl("LEWIS", stock) ~ "L_Columbia_R_fa",
@@ -173,34 +210,53 @@ key1 <- key_rts %>%
       grepl("SLIM", stock) ~ "Fraser_Spring_5.2",
       grepl("DUTEAU", stock) ~ "Fraser_Spring_4.2",
       grepl("COLDW", stock) ~ "Fraser_Spring_4.2",
+      grepl("BESSETTE", stock) ~ "Fraser_Spring_4.2",
       grepl("NICOLA", stock) ~ "Fraser_Spring_4.2",
       grepl("DEADM", stock) ~ "Fraser_Spring_4.2",
+      grepl("MCKINLEY", stock) ~ "Fraser_Spring_5.2",
       grepl("PITT_RIVER", stock) ~ "Fraser_Spring_5.2",
       grepl("GOAT", stock) ~ "Fraser_Spring_5.2",
       grepl("NEVI", stock) ~ "Fraser_Spring_5.2",
       grepl("PTARM", stock) ~ "Fraser_Spring_5.2",
       grepl("ENDAKO", stock) ~ "Fraser_Spring_5.2",
+      grepl("SALMON_CR", stock) ~ "Fraser_Spring_5.2",
+      grepl("BIRKENHEAD", stock) ~ "Fraser_Spring_5.2",
+      grepl("SAMPSON", stock) ~ "Fraser_Spring_5.2",
       grepl("CHILK", stock) ~ "Fraser_Summer_5.2",
       grepl("TASEKO", stock) ~ "Fraser_Summer_5.2",
+      grepl("GATES", stock) ~ "Fraser_Summer_5.2",
       grepl("SLOQ", stock) ~ "Fraser_Summer_5.2",
       grepl("STUART", stock) ~ "Fraser_Summer_5.2",
       grepl("CLEARWA", stock) ~ "Fraser_Summer_5.2",
       grepl("NECHAK", stock) ~ "Fraser_Summer_5.2",
       grepl("BARR", stock) ~ "Fraser_Summer_5.2",
       grepl("BIG_SILVER", stock) ~ "Fraser_Summer_5.2",
+      grepl("AVOLA", stock) ~ "Fraser_Summer_5.2",
+      grepl("FENNELL", stock) ~ "Fraser_Summer_5.2",
       grepl("N_THOM@", stock) ~ "Fraser_Summer_5.2",
       grepl("QUES", stock) ~ "Fraser_Summer_5.2",
+      grepl("BIRCH_ISLAND", stock) ~ "Fraser_Summer_5.2",
       grepl("ELKI", stock) ~ "Fraser_Summer_5.2",
       grepl("KUZK", stock) ~ "Fraser_Summer_5.2",
       grepl("SHUSWAP", stock) ~ "Fraser_Summer_4.1",
+      grepl("HARBOUR", stock) ~ "Fraser_Summer_4.1",
+      grepl("MOMICH", stock) ~ "Fraser_Summer_4.1",
       grepl("SOUTH_TH", stock) ~ "Fraser_Summer_4.1",
       grepl("MARIA", stock) ~ "Fraser_Summer_4.1",
       grepl("LITTLE_R", stock) ~ "Fraser_Summer_4.1",
+      grepl("NORRISH", stock) ~ "Fraser_Fall",
+      grepl("SILVERDALE", stock) ~ "Fraser_Fall",
+      grepl("POST", stock) ~ "Fraser_Fall",
       grepl("STAVE", stock) ~ "Fraser_Fall",
+      grepl("ALOUETTE", stock) ~ "Fraser_Fall",
+      grepl("WORTH", stock) ~ "Fraser_Fall",
+      grepl("HICKS", stock) ~ "Fraser_Fall",
+      grepl("CHILQUA", stock) ~ "Fraser_Fall",
       grepl("HARRISON", stock) ~ "Fraser_Fall",
       grepl("PORTA", stock) ~ "Fraser_Fall",
       grepl("DUNGE", stock) ~ "Juan_de_Fuca",
       grepl("TLUPANA", stock) ~ "WCVI",
+      grepl("KOOTOWIS", stock) ~ "WCVI",
       grepl("KENNEDY", stock) ~ "WCVI",
       grepl("KAOUK", stock) ~ "WCVI",
       grepl("ZEBALLOS", stock) ~ "WCVI",
@@ -260,6 +316,10 @@ key1 <- key_rts %>%
       grepl("MERCED", stock) ~ "Central_Valley_fa",
       grepl("INCH CR", stock) ~ "Fraser_Fall",
       grepl("S-FIRST LK/GSVI", stock) ~ "ECVI",
+      grepl("NATHAN_CR_VI", stock) ~ "ECVI",
+      grepl("SORENSON", stock) ~ "ECVI",
+      grepl("TRENT", stock) ~ "ECVI",
+      grepl("GOLDSTREAM", stock) ~ "ECVI",
       grepl("WOSS", stock) ~ "ECVI",
       grepl("OYSTER", stock) ~ "ECVI",
       grepl("COLE RIVERS", stock) ~ "Rogue_R",
@@ -293,6 +353,7 @@ key1 <- key_rts %>%
       grepl("FEATHER_F", stock) ~ "Central_Valley_fa",
       grepl("BUTTE_F", stock) ~ "Central_Valley_fa",
       grepl("WARM", stock) ~ "Central_Valley_sp",
+      grepl("BING_CR", stock) ~ "L_Columbia_R_fa",
       grepl("BIG CR", stock) ~ "L_Columbia_R_fa",
       grepl("BIG_CR", stock) ~ "L_Columbia_R_fa",
       grepl("KLASKANINE", stock) ~ "L_Columbia_R_fa",
@@ -318,14 +379,15 @@ key1 <- key_rts %>%
       stock == "ALSEA_R" ~ "Mid_Oregon_Coast",
       grepl("SOLDUC", stock) ~ "Washington_Coast",
       stock %in% c("HOMATHKO", "ASHLULM") ~ "SOMN",
-      grepl("NEECH", stock) ~ "NOMN",
       grepl("SNOHOMISH", stock) ~ "N_Puget_Sound",
       grepl("LYO", stock) ~ "Snake_R_fa",
       grepl("WENAHA", stock) ~ "Snake_R_fa",
       grepl("NEZ_PERCET", stock) ~ "Snake_R_fa",
       grepl("ADAMS", stock) ~ "Fraser_Summer_4.1",
       grepl("LUMMI", stock) ~ "N_Puget_Sound",
+      grepl("JONES", stock) ~ "N_Puget_Sound",
       grepl("MARBLEMOUNT", stock) ~ "N_Puget_Sound",
+      grepl("GRIZZLY", stock) ~ "N_Puget_Sound",
       grepl("SKAGIT", stock) ~ "N_Puget_Sound",
       grepl("U_SAUK", stock) ~ "N_Puget_Sound",
       grepl("MILLI", stock) ~ "Mid_Oregon_Coast",
@@ -334,6 +396,7 @@ key1 <- key_rts %>%
       grepl("BERNIE", stock) ~ "S_Puget_Sound",
       grepl("CLARKS CRK", stock) ~ "S_Puget_Sound",
       grepl("BRENNER", stock) ~ "S_Puget_Sound",
+      grepl("PUYALLUP", stock) ~ "S_Puget_Sound",
       grepl("GARRISON", stock) ~ "S_Puget_Sound",
       grepl("MINTER", stock) ~ "S_Puget_Sound",
       grepl("SOOS", stock) ~ "S_Puget_Sound",
@@ -349,8 +412,10 @@ key1 <- key_rts %>%
       grepl("WILLAP", stock) ~ "Washington_Coast",
       grepl("HOKO", stock) ~ "Washington_Coast",
       grepl("SKYKOMISH", stock) ~ "C_Puget_Sound",
+      grepl("SKYKOMISH", stock) ~ "C_Puget_Sound",
       stock == "BUTE" ~ "SOMN",
       grepl("SHOVEL", stock) ~ "SOMN",
+      grepl("CLE_ELUM", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("ENTI", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("NACH", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("CHEWU", stock) ~ "Mid_and_Upper_Columbia_R_sp",
@@ -386,23 +451,28 @@ key1 <- key_rts %>%
       grepl("CAPIL", stock) ~ "SOMN",
       grepl("PORTE", stock) ~ "SOMN",
       grepl("KLINAK", stock) ~ "SOMN",
-      grepl("KEOGH", stock) ~ "ECVI",
+      grepl("KEOGH", stock) ~ "NEVI",
       grepl("NANA", stock) ~ "ECVI",
       grepl("DISCOVERY PASSAGE SEAPENS", stock) ~ "ECVI",
       grepl("COWICH", stock) ~ "ECVI",
       grepl("QUATSE", stock) ~ "ECVI",
-      grepl("WOSS", stock) ~ "ECVI",
+      grepl("WOSS", stock) ~ "NEVI",
       grepl("QUAL", stock) ~ "ECVI",
       grepl("COLE", stock) ~ "N_California/S_Oregon_Coast",
+      grepl("TSEAX", stock) ~ "Nass",
       grepl("SEASKINN", stock) ~ "Nass",
       grepl("KINCOLITH", stock) ~ "Nass",
       grepl("KITEEN", stock) ~ "Nass",
       grepl("KWIN", stock) ~ "Nass",
+      grepl("TANKEEAH", stock) ~ "NOMN",
+      grepl("NEECH", stock) ~ "NOMN",
+      grepl("QUAAL", stock) ~ "NOMN",
       grepl("HOMATHKO", stock) ~ "NOMN",
       grepl("KITLOPE", stock) ~ "NOMN",
       grepl("KILBE", stock) ~ "NOMN",
       grepl("KASIK", stock) ~ "NOMN",
-      grepl("WANN", stock) ~ "NOMN",
+      grepl("NEKITE", stock) ~ "Central_Coast",
+      grepl("WANN", stock) ~ "Central_Coast",
       grepl("KITI", stock) ~ "NOMN",
       grepl("HIRS", stock) ~ "NOMN",
       grepl("DEAN", stock) ~ "NOMN",
@@ -495,9 +565,17 @@ key1 <- key_rts %>%
       stock == "EEL_RIVER_FALL" ~ "California_Coast",
       stock == "CHUCKWALLA" ~ "Central_Coast",
       stock == "RIVERS INLET SEAPEN" ~ "Central_Coast",
+      grepl("KHUTZE", stock) ~ "NOMN",
+      grepl("DRAKE", stock) ~ "NOMN",
+      grepl("HUGH", stock) ~ "NOMN",
+      grepl("EVELYN", stock) ~ "NOMN",
+      grepl("DUNN", stock) ~ "NOMN",
+      grepl("AALTANHASH", stock) ~ "NOMN",
+      grepl("KILTUISH", stock) ~ "NOMN",
       grepl("ATN", stock) ~ "NOMN",
       grepl("NAHAT", stock) ~ "Fraser_Fall",
       grepl("TUY", stock) ~ "Stikine",
+      grepl("DEWATTO", stock) ~ "Hood_Canal",
       grepl("QUILCENE", stock) ~ "Hood_Canal",
       grepl("HAMMA_", stock) ~ "Hood_Canal",
       grepl("SOTH", Region1Name) ~ "Fraser_Summer_4.1",
@@ -565,7 +643,7 @@ cwt_out <- cwt %>%
     Region1Name = case_when(
       grepl("INCH CR", stock) ~ "Fraser_Fall",
       grepl("MOKEL", stock) ~ "Central_Valley_fa",
-      grepl("WOSS", stock) ~ "ECVI",
+      grepl("WOSS", stock) ~ "NEVI",
       grepl("COLE RIVERS", stock) ~ "Rogue_R",
       grepl("COLUMBIA R UPRIVER S", stock) ~ "Mid_and_Upper_Columbia_R_sp",
       grepl("WASHOUGAL", stock) ~ "L_Columbia_R_fa",
@@ -700,6 +778,8 @@ key_out <- key2 %>%
         Region2Name == "Califormia" ~ "California",
         Region2Name == " Up-Columbia S-F" ~ "Up-Columbia S-F",
         Region1Name == "SOMN" ~ "Upper Strait of Georgia",
+        Region1Name == "Haida_Gwaii" ~ "North/Central BC",
+        Region1Name == "NEVI" ~ "North/Central BC",
         Region1Name == "NOMN" ~ "North/Central BC",
         Region1Name == "Russia" ~ "Russia",
         TRUE ~ as.character(Region2Name)
@@ -762,8 +842,8 @@ key_out <- key2 %>%
 
 # checks
 key_out %>%
-  select(stock, Region1Name, Region2Name) %>%
-  filter(is.na(Region2Name)) %>%
+  select(stock, Region1Name, pst_agg) %>%
+  filter(is.na(pst_agg)) %>%
   distinct()
 
 key_out %>% 
@@ -773,6 +853,6 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_Jul2023.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_Jul2023.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Jan2024.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Jan2024.csv"),
           row.names = FALSE)
