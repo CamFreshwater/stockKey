@@ -80,9 +80,9 @@ rec_out1 <- rbind(stockKeyRec, new_rec) %>%
 dum_stock <- data.frame(
   stock = c("WALKER_CREEK", "EEL_RIVER_FALL", 
             "ROB@GOLD", "SLIM", "R_CHEHALIS", "W_CHILLIWACK", "PORTAGE", 
-            "R_CHILLIWACK", "EAGLE", "ELKIN", "NEVIN_CR", "RAFT", "LITTLECAMPBELL", 
-            "STAMP", "GOLD(83-86)", "OKANAGAN_R", "L_KALUM@AC", "SNAKE_S", "GREEN", 
-            "SKEENA@TERRACE"),
+            "R_CHILLIWACK", "EAGLE", "ELKIN", "NEVIN_CR", "RAFT", 
+            "LITTLECAMPBELL", "STAMP", "GOLD(83-86)", "OKANAGAN_R", 
+            "L_KALUM@AC", "SNAKE_S", "GREEN", "SKEENA@TERRACE"),
   cu = NA
 )
 hake_stocks <- readRDS(here::here("data", "hake_missing_stocks.rds"))  %>% 
@@ -287,6 +287,7 @@ key1 <- key_rts %>%
       grepl("CONU", stock) ~ "WCVI",
       grepl("GOLD_R", stock) ~ "WCVI",
       grepl("GOLD R", stock) ~ "WCVI",
+      stock %in% c("ROB@GOLD", "GOLD(83-86)") ~ "WCVI",
       grepl("S-MARBLE R", stock) ~ "WCVI",
       grepl("SARITA", stock) ~ "WCVI",
       grepl("NAHMINT", stock) ~ "WCVI",
@@ -388,6 +389,7 @@ key1 <- key_rts %>%
       stock == "BIG_BOULDER_CR" ~ "NSE_Alaska_Chilkat_R",
       stock == "S-SALMON R/JNST" ~ "Snake_R_fa",
       grepl("OXBOW", stock) ~ "Snake_R_sp/su",
+      stock == "SNAKE_S" ~ "Snake_R_sp/su",
       grepl("FRENCHMAN-", stock) ~ "Snake_R_sp/su",
       grepl("CEDA", stock) ~ "C_Puget_Sound",
       stock %in% c("BEAR_CR_SUFA") ~ "C_Puget_Sound",
@@ -514,6 +516,7 @@ key1 <- key_rts %>%
       grepl("ZYMOGOTITZ_R", stock) ~ "Skeena Mid",
       grepl("KITSUMKALUM", stock) ~ "Skeena Mid",
       grepl("KITWANGA", stock) ~ "Skeena Mid",
+      grepl("SKEENA@TERRACE", stock) ~ "Skeena Mid",
       grepl("BABINE", stock) ~ "Skeena Mid",
       grepl("OTSI_CR", stock) ~ "Skeena Upper",
       grepl("SQUIN", stock) ~ "Skeena Upper",
@@ -889,7 +892,7 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_Jan2024.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_Jan2024.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Mar2024.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Mar2024.csv"),
           row.names = FALSE)
 
