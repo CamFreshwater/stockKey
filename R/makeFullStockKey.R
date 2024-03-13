@@ -75,11 +75,15 @@ rec_out1 <- rbind(stockKeyRec, new_rec) %>%
   select(stock, region, Region1Name) %>% 
   distinct() 
 
-# as above but with stocks from hake offload
+# as above but with stocks from hake offload and SRKW diet
 # extra ID'd later on and added manually
 dum_stock <- data.frame(
-  stock = c("WALKER_CREEK", "EEL_RIVER_FALL"),
-  cu = c("UFR-spring", "CACO")
+  stock = c("WALKER_CREEK", "EEL_RIVER_FALL", 
+            "ROB@GOLD", "SLIM", "R_CHEHALIS", "W_CHILLIWACK", "PORTAGE", 
+            "R_CHILLIWACK", "EAGLE", "ELKIN", "NEVIN_CR", "RAFT", "LITTLECAMPBELL", 
+            "STAMP", "GOLD(83-86)", "OKANAGAN_R", "L_KALUM@AC", "SNAKE_S", "GREEN", 
+            "SKEENA@TERRACE"),
+  cu = NA
 )
 hake_stocks <- readRDS(here::here("data", "hake_missing_stocks.rds"))  %>% 
   rbind(., dum_stock) %>% 
