@@ -236,6 +236,7 @@
 "CLACKAMAS_N","Willamette_R","Fall Cowlitz/Willamette","Columbia","ColR","CR-upper_sp"
 "CLACKAMAS_RIVER","Willamette_R","Fall Cowlitz/Willamette","Columbia","ColR","CR-upper_sp"
 "CLACKAMUS_R","Willamette_R","Fall Cowlitz/Willamette","Columbia","ColR","CR-upper_sp"
+"MACKENZIE","Willamette_R","Fall Cowlitz/Willamette","Columbia","ColR","CR-upper_sp"
 "MCKENZIE HATCHERY","Willamette_R","Fall Cowlitz/Willamette","Columbia","ColR","CR-upper_sp"
 "MCKENZIE_H","Willamette_R","Fall Cowlitz/Willamette","Columbia","ColR","CR-upper_sp"
 "MID WILLAMETTE R","Willamette_R","Fall Cowlitz/Willamette","Columbia","ColR","CR-upper_sp"
@@ -1292,4 +1293,3 @@
 "TOZITA_RIVER","Yukon","Yukon","Yukon","Yukon","Yukon"
 "WOLF_RIVER","Yukon","Yukon","Yukon","Yukon","Yukon"
 "YUKON_RIVER-LOWER","Yukon","Yukon","Yukon","Yukon","Yukon"
-"MACKENZIE",NA,NA,NA,NA,NA

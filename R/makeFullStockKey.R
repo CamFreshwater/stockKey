@@ -75,14 +75,42 @@ rec_out1 <- rbind(stockKeyRec, new_rec) %>%
   select(stock, region, Region1Name) %>% 
   distinct() 
 
-# as above but with stocks from hake offload and SRKW diet
+# as above but with stocks from hake offload, SRKW diet and juv salmon database
 # extra ID'd later on and added manually
 dum_stock <- data.frame(
   stock = c("WALKER_CREEK", "EEL_RIVER_FALL", 
             "ROB@GOLD", "SLIM", "R_CHEHALIS", "W_CHILLIWACK", "PORTAGE", 
             "R_CHILLIWACK", "EAGLE", "ELKIN", "NEVIN_CR", "RAFT", 
             "LITTLECAMPBELL", "STAMP", "GOLD(83-86)", "OKANAGAN_R", 
-            "L_KALUM@AC", "SNAKE_S", "GREEN", "SKEENA@TERRACE"),
+            "L_KALUM@AC", "SNAKE_S", "GREEN", "SKEENA@TERRACE",
+            "ANDREW_CREEK",
+            "BABINE_RIVER___SECTION_4",
+            "BABINE_RIVER_SECTIONS_1_TO_3",
+            "BAEZAEKO_RIVER",
+            "CHILAKO_RIVER",
+            "CHILCOTIN_RIVER",
+            "DEAN_RIVER",
+            "ELK_RIVER",
+            "ELOCHOMAN",
+            "JAMES_CREEK",
+            "LEWIS_LAKE",
+            "LITTLE_CAMPBELL_RIVER",
+            "LITTLE_TRAPPER",
+            "MACKENZIE",
+            "MCCALL_RIVER",
+            "NANAIMO_UNKNOWN",
+            "NANGEESE_RIVER",
+            "NEVIN_CREEK",
+            "SKEENA_RIVER",
+            "STAMP_RIVER",
+            "TAHKENITCH_LAKE",
+            "TATSAMENIE_LAKE_OUTLET",
+            "TEIGEN_CREEK",
+            "TRINITY_SPRING",
+            "UPPER_SALMON_SNAKE_R",
+            "VALLEY_CREEK",
+            "WILLIPA_CREEK"
+            ),
   cu = NA
 )
 hake_stocks <- readRDS(here::here("data", "hake_missing_stocks.rds"))  %>% 
@@ -184,6 +212,7 @@ key1 <- key_rts %>%
       grepl("COWLITZ", stock) ~ "L_Columbia_R_fa",
       Region1Name == "NASS" ~ "Nass",
       stock == "TEIGEN" ~ "Nass",
+      grepl("KING_SALMON", stock) ~ "Alaska",
       grepl("ISHKHEENICKH", stock) ~ "Nass",
       stock == "SNOWBANK" ~ "Nass",
       grepl("CRANBERRY", stock) ~ "Nass",
@@ -191,6 +220,7 @@ key1 <- key_rts %>%
       grepl("PALLANT", stock) ~ "Haida_Gwaii",
       grepl("DEENA", stock) ~ "Haida_Gwaii",
       stock == "LEWIS_H_SP" ~ "L_Columbia_R_sp",
+      stock == "MACKENZIE" ~ "Willamette_R",
       grepl("MOKELUMNE", stock) ~ "Central_Valley_fa",
       grepl("LEWIS", stock) ~ "L_Columbia_R_fa",
       stock %in% c("CLEARWATERRFA", "SALMON_R_F") ~ "Snake_R_fa",
@@ -364,10 +394,11 @@ key1 <- key_rts %>%
       stock %in% c("BUTTE_CREEK_FALL", "FEATHER_RIVER_FALL", 
                    "FEATHER R HATCHERY") ~ 
         "Central_Valley_fa",
-      stock == "SALMON_RIVER_JNST" ~ "SOMN",
+      stock %in% c("SALMON_RIVER_JNST", "S-SALMON R/JNST") ~ "SOMN",
       stock %in% c("BUTTE_CR_SP", "BUTTE_CREEK", "FEATHER_RIVER_SPRING",
-                   "SALMON_RIVER_CA_SPRING", "FEATHER_SP") ~ 
+                   "FEATHER_SP") ~ 
         "Central_Valley_sp",
+      stock == "SALMON_RIVER_CA_SPRING" ~ "California_Coast",
       grepl("SALMON_CAL", stock) ~ "California_Coast",
       grepl("SALMON_RIVER", stock) ~ "Fraser_Spring_5.2",
       grepl("FEATHER_F", stock) ~ "Central_Valley_fa",
@@ -387,8 +418,11 @@ key1 <- key_rts %>%
       grepl("CLACK", stock) ~ "Willamette_R",
       grepl("CHRISTINA", stock) ~ "Stikine",
       stock == "BIG_BOULDER_CR" ~ "NSE_Alaska_Chilkat_R",
-      stock == "S-SALMON R/JNST" ~ "Snake_R_fa",
       grepl("OXBOW", stock) ~ "Snake_R_sp/su",
+      stock == "SALMON_R_F" ~ "Snake_R_fa",
+      stock == "VALLEY_CREEK" ~ "Snake_R_sp/su",
+      stock %in% c("UPPER_SALMON_SR", "UPPER_SALMON_SNAKE_R") ~ "Snake_R_sp/su",
+      stock == "MCCALL_RIVER" ~ "Snake_R_sp/su",
       stock == "SNAKE_S" ~ "Snake_R_sp/su",
       grepl("FRENCHMAN-", stock) ~ "Snake_R_sp/su",
       grepl("CEDA", stock) ~ "C_Puget_Sound",
@@ -413,7 +447,8 @@ key1 <- key_rts %>%
       grepl("U_SAUK", stock) ~ "N_Puget_Sound",
       grepl("MILLI", stock) ~ "Mid_Oregon_Coast",
       grepl("UMPQUA", stock) ~ "Mid_Oregon_Coast",
-      stock == "SALMON R HATCHERY" ~ "Mid_Oregon_Coast",
+      stock %in% c("SALMON R HATCHERY", "SALMON R FISH CULTUR") ~
+        "Mid_Oregon_Coast",
       grepl("BERNIE", stock) ~ "S_Puget_Sound",
       grepl("CLARKS CRK", stock) ~ "S_Puget_Sound",
       grepl("BRENNER", stock) ~ "S_Puget_Sound",
@@ -431,6 +466,7 @@ key1 <- key_rts %>%
       stock == "GORST CR REARING PND" ~ "S_Puget_Sound",
       grepl("GROVERS", stock) ~ "S_Puget_Sound",
       grepl("WILLAP", stock) ~ "Washington_Coast",
+      grepl("WILLIP", stock) ~ "Washington_Coast",
       grepl("HOKO", stock) ~ "Washington_Coast",
       grepl("SKYKOMISH", stock) ~ "C_Puget_Sound",
       grepl("SKYKOMISH", stock) ~ "C_Puget_Sound",
@@ -512,7 +548,9 @@ key1 <- key_rts %>%
       grepl("CRAIG", stock) ~ "Stikine",
       grepl("NAKINA", stock) ~ "Taku",
       grepl("DUDI", stock) ~ "Taku",
+      Region1Name == "Take_R" ~ "Taku",
       grepl("ANDR", stock) ~ "Stikine",
+      stock == "SKEENA_RIVER" ~ "Skeena Mid",
       grepl("ZYMOGOTITZ_R", stock) ~ "Skeena Mid",
       grepl("KITSUMKALUM", stock) ~ "Skeena Mid",
       grepl("KITWANGA", stock) ~ "Skeena Mid",
@@ -581,6 +619,7 @@ key1 <- key_rts %>%
       grepl("EAGL", stock) ~ "Fraser_Spring_5.2",
       grepl("SEYMOUR", stock) ~ "Fraser_Spring_5.2",
       grepl("NEST", stock) ~ "N_Oregon_Coast",
+      grepl("TAHKENITCH", stock) ~ "Mid_Oregon_Coast",
       grepl("MORGAN CR", stock) ~ "Mid_Oregon_Coast",
       stock == "RINGOLD SPRINGS HATCHERY" ~ "U_Columbia_R_su/fa",
       grepl("COWEE", stock) ~ "L_Columbia_R_fa",
@@ -610,6 +649,7 @@ key1 <- key_rts %>%
       grepl("KILTUISH", stock) ~ "NOMN",
       grepl("ATN", stock) ~ "NOMN",
       grepl("NAHAT", stock) ~ "Fraser_Fall",
+      grepl("TATSAMENIE", stock) ~ "Taku",
       grepl("TUY", stock) ~ "Stikine",
       grepl("DEWATTO", stock) ~ "Hood_Canal",
       grepl("QUILCENE", stock) ~ "Hood_Canal",
@@ -892,7 +932,7 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_Mar2024.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_Mar2024.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Apr2024.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Apr2024.csv"),
           row.names = FALSE)
 
