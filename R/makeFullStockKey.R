@@ -303,6 +303,7 @@ key1 <- key_rts %>%
       grepl("HARRISON", stock) ~ "Fraser_Fall",
       grepl("PORTA", stock) ~ "Fraser_Summer_5.2",
       grepl("DUNGE", stock) ~ "Juan_de_Fuca",
+      stock == "SOOKE HARBOUR SEAPEN" ~ "WCVI",
       grepl("TLUPANA", stock) ~ "WCVI",
       grepl("KOOTOWIS", stock) ~ "WCVI",
       grepl("KENNEDY", stock) ~ "WCVI",
@@ -438,6 +439,8 @@ key1 <- key_rts %>%
       grepl("LYO", stock) ~ "Snake_R_fa",
       grepl("WENAHA", stock) ~ "Snake_R_fa",
       grepl("NEZ_PERCET", stock) ~ "Snake_R_fa",
+      grepl("GEORGE_ADAMS", stock) ~ "Hood_Canal",
+      grepl("GEORGE ADAMS", stock) ~ "Hood_Canal",
       grepl("ADAMS", stock) ~ "Fraser_Summer_4.1",
       grepl("LUMMI", stock) ~ "N_Puget_Sound",
       grepl("JONES", stock) ~ "N_Puget_Sound",
@@ -627,6 +630,7 @@ key1 <- key_rts %>%
       grepl("LOBST", stock) ~ "N_California/S_Oregon_Coast",
       grepl("PIST", stock) ~ "N_California/S_Oregon_Coast",
       grepl("HUNTER", stock) ~ "N_California/S_Oregon_Coast",
+      grepl("NORTH_THOMP", stock) ~ "Fraser_Summer_5.2",
       grepl("THOMP", stock) ~ "Fraser_Summer_4.1",
       grepl("SANDY", stock) ~ "L_Columbia_R_fa",
       grepl("FALLERT CR", stock) ~ "L_Columbia_R_fa",
@@ -932,7 +936,7 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_Apr2024.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_Apr2024.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_May2024.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_May2024.csv"),
           row.names = FALSE)
 
