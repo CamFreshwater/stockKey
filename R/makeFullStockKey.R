@@ -109,7 +109,13 @@ dum_stock <- data.frame(
             "TRINITY_SPRING",
             "UPPER_SALMON_SNAKE_R",
             "VALLEY_CREEK",
-            "WILLIPA_CREEK"
+            "WILLIPA_CREEK",
+            "BANDON HATCHERY",
+            "H-SAN JUAN R",        
+            "HUMPTULIPS HATCHERY", 
+            "METHOW R     48.0007",
+            "PALMER HATCHERY",     
+            "THORNTON CREEK H"
             ),
   cu = NA
 )
@@ -433,6 +439,7 @@ key1 <- key_rts %>%
       grepl("NIMBUS", stock) ~ "Central_Valley_fa",
       grepl("AMERICAN", stock) ~ "Central_Valley_fa",
       stock == "ALSEA_R" ~ "Mid_Oregon_Coast",
+      grepl("BANDON", stock) ~ "Mid_Oregon_Coast",
       grepl("SOLDUC", stock) ~ "Washington_Coast",
       stock %in% c("HOMATHKO", "ASHLULM") ~ "SOMN",
       grepl("SNOHOMISH", stock) ~ "N_Puget_Sound",
@@ -453,6 +460,7 @@ key1 <- key_rts %>%
       stock %in% c("SALMON R HATCHERY", "SALMON R FISH CULTUR") ~
         "Mid_Oregon_Coast",
       grepl("BERNIE", stock) ~ "S_Puget_Sound",
+      grepl("PALMER H", stock) ~ "S_Puget_Sound",
       grepl("CLARKS CRK", stock) ~ "S_Puget_Sound",
       grepl("BRENNER", stock) ~ "S_Puget_Sound",
       grepl("PUYALLUP", stock) ~ "S_Puget_Sound",
@@ -936,7 +944,7 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_May2024.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_May2024.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Jul2024.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Jul2024.csv"),
           row.names = FALSE)
 
