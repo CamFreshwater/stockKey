@@ -28,8 +28,7 @@ dum <- stock_key %>%
         "SoG Coastal",
       pst_agg %in% c("WCVI", "NBC_SEAK", "Russia", "Yukon") ~ pst_agg
     )
-  ) %>% 
-  select(stock, stock_group = Region1Name, juv_marine)
+  ) 
 
 saveRDS(
   dum, here::here("data", "generated", "seb_key.rds")
