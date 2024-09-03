@@ -219,6 +219,7 @@ key1 <- key_rts %>%
       Region1Name == "NASS" ~ "Nass",
       stock == "TEIGEN" ~ "Nass",
       grepl("KING_SALMON", stock) ~ "Alaska",
+      grepl("SERP", stock) ~ "Fraser_Fall",
       grepl("ISHKHEENICKH", stock) ~ "Nass",
       stock == "SNOWBANK" ~ "Nass",
       grepl("CRANBERRY", stock) ~ "Nass",
@@ -594,7 +595,6 @@ key1 <- key_rts %>%
       grepl("LITTLEC", stock) ~ "N_Puget_Sound",
       grepl("STILLAG", stock) ~ "N_Puget_Sound",
       grepl("TYNE", stock) ~ "N_Puget_Sound",
-      grepl("SERP", stock) ~ "Fraser_Fall",
       grepl("NICOMEKL", stock) ~ "Fraser_Fall",
       grepl("COOS", stock) ~ "Mid_Oregon_Coast",
       grepl("NOBLE CR", stock) ~ "Mid_Oregon_Coast",
@@ -945,7 +945,7 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_Jul2024.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_Jul2024.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Sep2024.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Sep2024.csv"),
           row.names = FALSE)
 
