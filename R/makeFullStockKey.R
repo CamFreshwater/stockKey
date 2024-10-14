@@ -109,7 +109,13 @@ dum_stock <- data.frame(
             "TRINITY_SPRING",
             "UPPER_SALMON_SNAKE_R",
             "VALLEY_CREEK",
-            "WILLIPA_CREEK"
+            "WILLIPA_CREEK",
+            "BANDON HATCHERY",
+            "H-SAN JUAN R",        
+            "HUMPTULIPS HATCHERY", 
+            "METHOW R     48.0007",
+            "PALMER HATCHERY",     
+            "THORNTON CREEK H"
             ),
   cu = NA
 )
@@ -213,6 +219,7 @@ key1 <- key_rts %>%
       Region1Name == "NASS" ~ "Nass",
       stock == "TEIGEN" ~ "Nass",
       grepl("KING_SALMON", stock) ~ "Alaska",
+      grepl("SERP", stock) ~ "Fraser_Fall",
       grepl("ISHKHEENICKH", stock) ~ "Nass",
       stock == "SNOWBANK" ~ "Nass",
       grepl("CRANBERRY", stock) ~ "Nass",
@@ -226,8 +233,9 @@ key1 <- key_rts %>%
       stock %in% c("CLEARWATERRFA", "SALMON_R_F") ~ "Snake_R_fa",
       grepl("SPIUS", stock) ~ "Fraser_Spring_4.2",
       stock %in% c("L_CARIBOO") ~ "Fraser_Summer_5.2",
-      stock %in% c("BAEZAEKO", "CHILAKO", "BAEZAEKO_RIVER", "CHILAKO_RIVER",
-                   "ENDAKO", "NAZKO", "NECHAKO", "TASEKO", "U_CARIBOO", 
+      grepl("BAEZAEKO", stock) ~ "Fraser_Spring_5.2",
+      grepl("CHILAKO", stock) ~ "Fraser_Spring_5.2",
+      stock %in% c("ENDAKO", "NAZKO", "NECHAKO", "TASEKO", "U_CARIBOO", 
                    "WESTROAD", "HOLMES", "INDIANPOINT", "JAMES", "MCGREGOR",
                    "MORKILL") ~ "Fraser_Spring_5.2",
       grepl("BRENNER", stock) ~ "Fraser_Spring_5.2",
@@ -434,6 +442,7 @@ key1 <- key_rts %>%
       grepl("NIMBUS", stock) ~ "Central_Valley_fa",
       grepl("AMERICAN", stock) ~ "Central_Valley_fa",
       stock == "ALSEA_R" ~ "Mid_Oregon_Coast",
+      grepl("BANDON", stock) ~ "Mid_Oregon_Coast",
       grepl("SOLDUC", stock) ~ "Washington_Coast",
       stock %in% c("HOMATHKO", "ASHLULM") ~ "SOMN",
       grepl("SNOHOMISH", stock) ~ "N_Puget_Sound",
@@ -454,6 +463,7 @@ key1 <- key_rts %>%
       stock %in% c("SALMON R HATCHERY", "SALMON R FISH CULTUR") ~
         "Mid_Oregon_Coast",
       grepl("BERNIE", stock) ~ "S_Puget_Sound",
+      grepl("PALMER H", stock) ~ "S_Puget_Sound",
       grepl("CLARKS CRK", stock) ~ "S_Puget_Sound",
       grepl("BRENNER", stock) ~ "S_Puget_Sound",
       grepl("PUYALLUP", stock) ~ "S_Puget_Sound",
@@ -586,7 +596,6 @@ key1 <- key_rts %>%
       grepl("LITTLEC", stock) ~ "N_Puget_Sound",
       grepl("STILLAG", stock) ~ "N_Puget_Sound",
       grepl("TYNE", stock) ~ "N_Puget_Sound",
-      grepl("SERP", stock) ~ "Fraser_Fall",
       grepl("NICOMEKL", stock) ~ "Fraser_Fall",
       grepl("COOS", stock) ~ "Mid_Oregon_Coast",
       grepl("NOBLE CR", stock) ~ "Mid_Oregon_Coast",
@@ -937,7 +946,7 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_May2024.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_May2024.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Sep2024.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Sep2024.csv"),
           row.names = FALSE)
 
