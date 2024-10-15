@@ -253,6 +253,7 @@ key1 <- key_rts %>%
                    "WESTROAD", "HOLMES", "INDIANPOINT", "JAMES", "MCGREGOR",
                    "MORKILL") ~ "Fraser_Spring_5.2",
       grepl("BRENNER", stock) ~ "Fraser_Spring_5.2",
+      grepl("BONNEVILLE", stock) ~ "L_Columbia_R_fa",
       grepl("BONAPARTE", stock) ~ "Fraser_Spring_4.2",
       grepl("BLACKW", stock) ~ "Fraser_Spring_5.2",
       grepl("BAKER_", stock) ~ "Fraser_Spring_5.2",
