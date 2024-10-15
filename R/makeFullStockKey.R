@@ -133,7 +133,7 @@ dum_stock <- data.frame(
             "SQUINGULA", "NAHATLATCH_R" , "NEVIN", "GRIZZLY", "CLEARWA US",
             "KHUTZE RIVER", "AALTANHASH R" , "TENDERFOOT", "TAHKENITCH_L" , 
             "BABINE FENCE" , "WILLAPA", "BOOTH CR", "LEWIS", "COWLITZ",
-            "ELOCHOMAN E"
+            "ELOCHOMAN E", "BIGQUL@LANG"
             ),
   cu = NA
 )
@@ -225,10 +225,6 @@ key1 <- key_rts %>%
   rbind(., snp_key) %>% 
   mutate(
     #add unknown stocks
-    stock = case_when(
-      stock == "BIGQUL@LANG" ~ "BIG_Q",
-      TRUE ~ stock
-    ),
     Region1Name = case_when(
       stock %in% c("BEAR", "BEAR_RIVER") ~ "Skeena Upper",
       stock %in% c("COWLITZ_HATCHERY_SPRING", "COWLITZ_H_SP") ~ 
@@ -561,6 +557,7 @@ key1 <- key_rts %>%
       grepl("COWICH", stock) ~ "ECVI",
       grepl("QUATSE", stock) ~ "NEVI",
       grepl("WOSS", stock) ~ "NEVI",
+      grepl("BIGQUL@LANG", stock) ~ "ECVI",
       grepl("QUAL", stock) ~ "ECVI",
       grepl("COLE", stock) ~ "N_California/S_Oregon_Coast",
       grepl("TSEAX", stock) ~ "Nass",
