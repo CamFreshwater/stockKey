@@ -398,7 +398,6 @@ key1 <- key_rts %>%
       grepl("SORENSON", stock) ~ "ECVI",
       grepl("TRENT", stock) ~ "ECVI",
       grepl("GOLDSTREAM", stock) ~ "ECVI",
-      grepl("WOSS", stock) ~ "ECVI",
       grepl("OYSTER", stock) ~ "ECVI",
       grepl("COLE RIVERS", stock) ~ "Rogue_R",
       grepl("COLUMBIA R UPRIVER S", stock) ~ "Mid_and_Upper_Columbia_R_sp",
