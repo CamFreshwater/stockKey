@@ -7,10 +7,18 @@ stock_key <- readRDS(
   here::here("data", "generated", "finalStockList_Oct2024.rds")
   )
 
+seb_key <- read.csv(
+  here::here(
+    "data", "juvenile-marine-chinook-key-20240829-pardo.csv"
+    )
+)
+
 
 dum <- stock_key %>% 
   mutate(
     juv_marine = case_when(
+      Region1Name %in% c("NEVI", "NOMN", "Central_Coast") | 
+        stock %in% c("DEENA_CR", "PALLANT_CR") ~ "Central BC",
       Region1Name %in% c("Mid_and_Upper_Columbia_R_sp", "Snake_R_sp/su") ~ 
         "Upper Col. Yearling",
       Region1Name %in% c("L_Columbia_R_fa", "Snake_R_fa", 
