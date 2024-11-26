@@ -328,7 +328,7 @@ key1 <- key_rts %>%
       grepl("BOOTH", stock) ~ "Fraser_Fall",
       grepl("WORTH", stock) ~ "Fraser_Fall",
       grepl("HICKS", stock) ~ "Fraser_Fall",
-      grepl("CHILLIWACK", stock) ~ "Fraser_Fall",
+      grepl("CHILLIWA", stock) ~ "Fraser_Fall",
       grepl("CHILQUA", stock) ~ "Fraser_Fall",
       grepl("HARRISON", stock) ~ "Fraser_Fall",
       grepl("PORTA", stock) ~ "Fraser_Summer_5.2",
