@@ -4,14 +4,8 @@ library(tidyverse)
 
 
 stock_key <- readRDS(
-  here::here("data", "generated", "finalStockList_Dec2024.rds")
+  here::here("data", "generated", "finalStockList_Feb2024.rds")
   )
-
-seb_key <- read.csv(
-  here::here(
-    "data", "juvenile-marine-chinook-key-20240829-pardo.csv"
-    )
-)
 
 
 dum <- stock_key %>% 
@@ -31,10 +25,14 @@ dum <- stock_key %>%
       Region1Name == "Fraser_Summer_4.1" ~ "Fraser Summer 4.1", 
       Region1Name == "N_California/S_Oregon_Coast" | 
         Region2Name == "California" ~ "Cali",
-      Region2Name == "Oregon Coastal North Migrating" | pst_agg == "WACST" ~
-        "WA/OR Coastal",
+      Region1Name == "Juan_de_Fuca" | grepl("NICOMEK", stock) | 
+        grepl("SERPEN", stock) | 
+        (grepl("CAMPB", stock) & Region1Name == "Fraser_Fall") ~ 
+        "Salish Coastal",
       Region1Name %in% c("Fraser_Fall", "SOMN") | pst_agg %in% c("PSD", "SOG") ~ 
         "Salish Coastal",
+      Region2Name == "Oregon Coastal North Migrating" | pst_agg == "WACST" ~
+        "WA/OR Coastal",
       pst_agg == "NBC_SEAK" ~ "NBC/SEAK",
       pst_agg %in% c("WCVI", "Russia", "Yukon") ~ pst_agg
     )
@@ -44,9 +42,6 @@ dum <- stock_key %>%
 filter(dum, is.na(juv_marine))
 
 
-saveRDS(
-  dum, here::here("data", "generated", "seb_key.rds")
-)
 
 saveRDS(
   dum, here::here("data", "generated", paste0("seb_key_",ymd(Sys.Date()),".rds"))
