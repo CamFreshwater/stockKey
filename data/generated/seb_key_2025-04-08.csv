@@ -1,0 +1,1379 @@
+stock,Region1Name,Region2Name,Region3Name,Region4Name,pst_agg,juv_marine
+EEL_F,California_Coast,California,Oregon/California,CoastUS,CA_ORCST,Cali
+EEL_R,California_Coast,California,Oregon/California,CoastUS,CA_ORCST,Cali
+EEL_RIVER_FALL,California_Coast,California,Oregon/California,CoastUS,CA_ORCST,Cali
+RUSSIAN_R,California_Coast,California,Oregon/California,CoastUS,CA_ORCST,Cali
+SALMON_CAL,California_Coast,California,Oregon/California,CoastUS,CA_ORCST,Cali
+SALMON_RIVER_CA_SPRING,California_Coast,California,Oregon/California,CoastUS,CA_ORCST,Cali
+AMERICAN,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+AMERICAN RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+AMERICAN_R,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+AMERICAN_RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+BATTLE_CR,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+BATTLE_CREEK,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+BUTTE_CREEK_FALL,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+BUTTE_F,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+CLEAR_CR,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+CLEAR_CR_H,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+COLEMAN NFH,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+FEATHER R HATCHERY,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+FEATHER RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+FEATHER_F,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+FEATHER_H_FA,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+FEATHER_RIVER_FALL,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+MARBLE_CREEK_CC,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+MERCED,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+MERCED RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+MERCED_RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+MOK R FISH INS,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+MOKELUMNE,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+MOKELUMNE RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+NIMBUS FISH HATCHERY,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+SACRAMENTO_H,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+SACRAMENTO_RIVER-LATE_FALL,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+SACR_F,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+SACR_LF,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+STANISLAUS,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+STANISLAUS_R,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+STANISLAUS_RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TOULUMNE,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TOULUMNE_RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TUOLUMNE_RIVER,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+YUBA,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+YUBA_RIVER._FALL,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+YUBA_RIVER_FALL,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+YUBA_RIVER_SPRING,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+YUBA_SP,Central_Valley_fa,California,Oregon/California,CoastUS,CA_ORCST,Cali
+AMERICAN_SP,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+BUTTE_CREEK,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+BUTTE_CR_SP,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+DEER_CR_SP,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+FEATHER_H_SP,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+FEATHER_RIVER_SPRING,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+FEATHER_SP,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+MILL_CR_SP,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+WARM_SPRINGS_H,Central_Valley_sp,California,Oregon/California,CoastUS,CA_ORCST,Cali
+BLUE_CREEK_CA,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+IRON GATE HATCHERY,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+KLAMATH RIVER,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+KLAMATH_R_FA,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TRINITY RIVER,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TRINITY_F,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TRINITY_H_SP,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TRINITY_RIVER_HATCHERY_FALL,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TRINITY_SP,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+TRINITY_SPRING,Klamath_R,California,Oregon/California,CoastUS,CA_ORCST,Cali
+ALSEA_R,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+BANDON HATCHERY,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+CLEELMHATCH,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+COOS R,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+COOS_H,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+ELK,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+ELK R HATCHERY,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+ELK_H,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+ELK_RIVER,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+GARDINER CR (UMPQUA),Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+MILLICOMA HATCHERY(STEP),Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+MILLICOMA_R,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+MORGAN CR (STEP-COOS,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NOBLE CR (STEP-COOS),Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SALMON R FISH CULTUR,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SALMON R HATCHERY,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SIUSLAW,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SIUSLAW R,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SIUSLAW_RIVER,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SIXES_R,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SMITH_RIVER_(UMPQUA),Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SMITH_RIVER_UMPQUA,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+SMITH_RIVER__UMPQUA,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+S_COOS_R,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+S_UMPQUA_H,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+TAHKENITCH_L,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+TAHKENITCH_LAKE,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+UMPQUA R (ROCK CR HT),Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+UMPQUA_H,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+UMPQUA_R,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+UMPQUA_SMITH,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+UMPQUA_SP,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+UMPQUA_SPRING,Mid_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+APPLEGATE_CR,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+CHETCO R,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+CHETCO_R,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+COLE,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+COLE RIVER,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+COLEEN_RIVER,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+COLE_RIVER,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+COLE_RIVERS_H,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+COQUILLE R,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+COQUILLE_R,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+ELK R (ELK R HT),N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+HUNTER_CR,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+HUNTER_CREEK,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+LOBSTER_CR,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+LOBSTER_CREEK,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+PISTOL,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+PISTOL_RIVER,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+ROWDY CREEK HATCHERY,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+"ROWDY CREEK, SMITH R",N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+WINCHUK,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+WINCHUK_RIVER,N_California/S_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,Cali
+EUCHRE_CR,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+EUCHRE_CREEK,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+MINAM_CR,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+MINAM_CREEK,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+MINAM_R,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NECANICUM_H,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NEHALEM,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NEHALEM_R,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NEHALEM_RIVER,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NESTUCCA R (CEDAR CR,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NESTUCCA_F,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NESTUCCA_H,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+NESTUCCA_RIVER_FALL,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+TRASK R (TRASK HT),N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+TRASK R HATCHERY,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+TRASK_HATCHERY,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+TRASK_HAT_F,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+TRASK_HAT_SP,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+TRASK_R,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+WILSON_R,N_Oregon_Coast,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+COLE RIVERS HATCHERY,Rogue_R,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+COLUMBIA_ROGUE,Rogue_R,Oregon Coastal North Migrating,Oregon/California,CoastUS,CA_ORCST,WA/OR Coastal
+DUNGENESS R  18.0018,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+DUNGENESS_H,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+DUNGENESS_R,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+ELWHA HATCHERY,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+ELWHA R      18.0272,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+ELWHA_F,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+ELWHA_FALL,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+ELWHA_R,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+HOKO R       19.0148,Juan_de_Fuca,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,Salish Sea
+BINGHAM_CR_HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+COOK CR      21.0429,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+FORKS CREEK HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+FORKS_CREEK_HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+FORKS_CR_H,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+HOH_R,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+HOH_RIVER,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+HOH_RIVER_SP_S,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+HOKO FALLS HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+HOKO_H_FA,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+HUMPTULIPS HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+HUMPTULIPS R 22.0004,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+HUMPTULIPS_H,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+KILCHIS_R,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+LONESOME CR HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+MAKAH NFH ON TSOO-YESS R,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+MAKAH_H,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+NASELLE HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+NASELLE R    24.0543,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+NEMAH HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+NEMAH R      24.0460,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUEETS,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUEETS R     21.0016,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUEETS_R,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUEETS_RIVER,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUILAYUTE_R,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUILLAYUTE,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUILLAYUTE R 20.0096,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUINAULT LK   (21),Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUINAULT LK HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUINAULT NFH -COOK C,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUINAULT R   21.0398,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUINAULT_F,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+QUINAULT_RIVER,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+SATSOP R     22.0360,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+SHALE_H,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+SOL DUC R   20.0096,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+SOLDUC HATCHERY,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+SOLDUC_F,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+SOL_DUC_H,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+SOL_DUC_RIVER,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+TSOO-YESS R      20.0015,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+VAN WINKLE C 22.0240,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+WILLAPA,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+WILLAPA R    24.0251,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+WILLAPA_CR,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+WILLAPA_R,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+WILLIPA_CREEK,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+YAQUINA_R,Washington_Coast,Washington Coast/Juan de Fuca,Washington Coast,CoastUS,WACST,WA/OR Coastal
+ABERNATHY CR 25.0297,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+ABERNATHY F,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+ABERNATHY_CR_FA,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+ABERNATHY_F,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+ABERNATHY_NFH_F,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+ABERNATHY_RIVER,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+BIG CR HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+BIG_CR,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+BIG_CR_H_COL,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+BING_CR_HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+BONNEVILLE HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+BONNEVILLE LADDER,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+BONNEVILLE POOL,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+BONNEVILLE_HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COLUMBIA R TULES,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWEEMAN,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWEEMAN_R_FA,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWLITZ,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWLITZ R    26.0002,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWLITZ R -LOWER,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWLITZ R -UPPER,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWLITZ R @ MAYFIELD,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWLITZ SALMON HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWLITZ_H_FA,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWLITZ_R_HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+ELOCHOMAN R  25.0236,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+ELOCHOMAN_R_FA,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+FALLERT CR HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+KALAMA CR HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+KALAMA FALLS HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+KALAMA_H_SP,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+KLASKANINE HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+LEWIS,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+LEWIS_LAKE,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+LEWIS_R_F,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+LEWIS_R_HATCH,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+LEWIS_R_LSU,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+LEWIS_R_SU,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+NORTH TOUTLE HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+SANDY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+SANDY HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+SANDY HATCHERY (SANDY R),L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+SANDY_R,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+SANDY_RIVER,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+TANNER CR (BNVILLE),L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+WASHOUGAL HATCHERY,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+WASHOUGAL R  28.0159,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+WASHOUGAL_R_FA,L_Columbia_R_fa,Fall Cowlitz/Willamette,Columbia,ColR,CR-lower_fa,Col. Coastal
+CLACKAMAS R EARLY,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+CLACKAMAS_N,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+CLACKAMAS_NO,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+CLACKAMAS_RIVER,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+CLACKAMUS_R,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+MACKENZIE,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+MCKENZIE HATCHERY,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+MCKENZIE_H,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+MID WILLAMETTE R,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+NORTH SANTIAM,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+NORTH_SANTIAM,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+N_SANTIAM_H,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+SANTIAM R N FK,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+SANTIAM R S FK,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+SANTIAM_RIVER_NORTH,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+SANTIAM_RIVER_North,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+WILLAMETTE HATCHERY,Willamette_R,Fall Cowlitz/Willamette,Columbia,ColR,CR-upper_sp,Col. North
+ELOCHOMAN,Mid_Columbia_R_tule,Mid-Columbia Brights/Upriver Brights,Columbia,ColR,CR-lower_fa,Col. Coastal
+ELOCHOMAN E,Mid_Columbia_R_tule,Mid-Columbia Brights/Upriver Brights,Columbia,ColR,CR-lower_fa,Col. Coastal
+ELOCHOMAN_H,Mid_Columbia_R_tule,Mid-Columbia Brights/Upriver Brights,Columbia,ColR,CR-lower_fa,Col. Coastal
+SPRING CR NFH,Mid_Columbia_R_tule,Mid-Columbia Brights/Upriver Brights,Columbia,ColR,CR-lower_fa,Col. Coastal
+SPRING_CREEK_H,Mid_Columbia_R_tule,Mid-Columbia Brights/Upriver Brights,Columbia,ColR,CR-lower_fa,Col. Coastal
+SPRING_CREEK_HATCHERY,Mid_Columbia_R_tule,Mid-Columbia Brights/Upriver Brights,Columbia,ColR,CR-lower_fa,Col. Coastal
+SPRING_CR_COL,Mid_Columbia_R_tule,Mid-Columbia Brights/Upriver Brights,Columbia,ColR,CR-lower_fa,Col. Coastal
+SPRING_CR_H,Mid_Columbia_R_tule,Mid-Columbia Brights/Upriver Brights,Columbia,ColR,CR-lower_fa,Col. Coastal
+COWEEMAN R   26.0003,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+COWLITZ_HATCHERY_SPRING,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+COWLITZ_H_SP,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+KALAMA R     27.0002,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+LEWIS R      27.0168,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+LEWIS R -NF  27.0168,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+LEWIS RIVER HATCHERY,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+LEWIS_H_SP,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+SPRING CR    29.0159,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+TOUTLE R     26.0227,L_Columbia_R_sp,Spring Cowlitz,Columbia,ColR,CR-lower_sp,Col. North
+CARLTON ACCLIMATION POND,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+CHELAN FALLS EASTBANK OF,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+CHELAN FALLS HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+CHIEF JOSEPH HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+DESCHUTES R,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+DESCHUTES-F,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+DESCHUTES_RIVER,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+DRYDEN POND,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+HANFORD REACH,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+HANFORD REACH   (36),U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+HANFORD REACH STOCK,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+HANFORD_REACH,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+HANFORD_REACH_,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+HOOD R,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+KLICKITAT HATCHERY (YKFP),U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+KLICKITAT R  30.0002,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+KLICKITAT_H,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+KLICKITAT_R_SP,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+LEAVENWORTH HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+L_DESCHUTES_R,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+L_WH_SAL_H_SF,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+MARION YAKAMA TRIB HAT,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+MARION_DRAIN_FA,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+METHOW & OKANOGAN,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+METHOW R     48.0002,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+METHOW R     48.0007,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+METHOW_R,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+NPT HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+OKANAGAN,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+OKANAGAN_R,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+OKANAGAN_RIVER,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+OKANOGAN R   49.0019,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+OSOYOOS_LAKE,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+OSOYOOS_RESID,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+PRIEST RAPIDS   (36),U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+PRIEST RAPIDS HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+PRIEST_RAPIDS_H,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+PRIEST_RAPID_H,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+RINGOLD SPRINGS HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+SILMILKAMEEN_S,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+SIMILKAMEEN,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+SIMILKAMEEN HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+SIMILKAMEEN R 490325,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+UMATILLA HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+UMATILLA R,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+UMATILLA_H,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+UMATILLA_H_FA,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+U_DESCHUTES_R,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WARM SPRINGS R,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WASHINGTON BRIGHTS,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WELLS DAM       (47),U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WELLS HATCHERY,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WELLS_H,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WENATCHEE R  45.0030,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WENATCHEE SU,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WENATCHEE_H_SP,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WENATCHEE_RIVER,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WENATCHEE_R_SF,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WENATCHEE_R_SP,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+WENATCHEE_SU,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+YAKIMA R-LOW 37.0002,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+YAKIMA R-UPR 39.0002,U_Columbia_R_su/fa,Up-Columbia S-F,Columbia,ColR,CR-upper_su/fa,Col. North
+CHEWUCH SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CHEWUCH_RIVER,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CHEWUCH_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CHEWUCK_RIVER,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CHIWAWA SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CHIWAWA_RIVER_SPRING,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CHIWAWA_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CLE_ELM_HATCH,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CLE_ELUM_HATCHERY,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+COLUMBIA R -MID,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+COLUMBIA R UPRIVER S,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+ENTIAT,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+ENTIAT NFH,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+ENTIAT_H,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+ENTIAT_RIVER,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+ENTIAT_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN DAY MID,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHNDAY_R,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN_DAY_EAST_FORK,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN_DAY_MAIN,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN_DAY_MAIN_FORK,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN_DAY_MID,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN_DAY_N,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN_DAY_NORTH,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN_DAY_NORTH_FORK,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+JOHN_DAY_R,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+LITTLENACHES_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+L_WH_SAL_H_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+METHOW_R_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+MF_JOHNDAY_R,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+NACHES_RIVER,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+NACHES_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+NF_JOHNDAY_R,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+SHITIKE_H,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+TUCANNON_H,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+TUCANNON_R,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+TUCANNON_RIVER,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+TUCANNON_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+TWISP_RIVER,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+TWISP_R_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+TWISP_SP,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+U_YAKIMA_H,Mid_and_Upper_Columbia_R_sp,Up-Columbia_sp,Columbia,ColR,CR-upper_sp,Upper Col. Yearling
+CLEARWATERRFA,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+GLENLYON_RIVER,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+IRRIGON HATCHERY,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+LYON'S_FERRY,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+LYON'S_FERRY_F,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+LYONS FERRY HATCHERY,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+LYONS_FERRY_H,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+LYON_CR,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+NEZ_PERCET_H,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+SALMON_R_F,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+SNAKE R FALL,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+WENAHA,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+WENAHA_R,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+WENAHA_RIVER,Snake_R_fa,Snake Fall,Snake,ColR,CR-upper_su/fa,Col. Coastal
+BEAR_VALLEY_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+BUTTE_CR_F,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+BUTTE_SP,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+CAMAS_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+CAPEHORN_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+CATHERINE_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+CHAMBERLAIN_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+CROOKED_FK_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+F SNAKE R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+FRENCHMAN-SP,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+FRENCHMAN_CREEK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+GRANITE,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+GRANITE_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+GRANITE_CREEK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+IMNAHA,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+IMNAHA R AND TRIBS,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+IMNAHA_R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+JOHNSON_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+JOHNSON_CREEK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+JOHNSON_H,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+LOCHSA_R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+LOLO_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+LOOKINGGLASS CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+LOOKINGGLASS_H,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+LOSTINE R ENDEMIC,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MARSH CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MARSH CREEK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MARSH_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MARSH_CREEK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MCCALL,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MCCALL HAT,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MCCALL_CREEK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MCCALL_HAT,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MCCALL_HATCHERY,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+MCCALL_RIVER,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+NEWSOME_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+OXBOW HATCHERY,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+PAH CH-2,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+PAHSIMEROI_R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+RAPID SP,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+RAPID_RIVER,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+RAPID_R_H,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+RAPID_SP,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+RED_R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+S FK SALMON,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SALMON E.FORK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SALMON R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SALMON R WILD,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SALMON_E_FORK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SAWTOOTH_H,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SECECH,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SECECH_R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SECECH_RIVER,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SECESH_R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SNAKE R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SNAKE R-LOWR 33.0002,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SNAKE R. X,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+SNAKE_S,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+TUCANNON R   35.0009,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+TUCANNON R CAPTIVE,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+UPPER_SALMON_SNAKE_R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+UPPER_SALMON_SR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+UPPER_VALLEY,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+UPPER_VALLEY_CREEK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+UP_SALMON-SP,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+VALLEY_CR,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+VALLEY_CREEK,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+WALLOWA R,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+YAQUINA B SALMON RAN,Snake_R_sp/su,Snake Sp-Su,Snake,ColR,CR-upper_sp,Upper Col. Yearling
+BLANCHARD,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BLANCHARD_RIVER,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KLUKSHU,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KLUKSHU_RIVER,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KUDWAT_CR,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KUDWAT_CREEK,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TAKHANNE,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TAKHANNE_RIVER,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TATSHENSHINI_RIVER,Alsek,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ASHLULM_CREEK,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+ASHLU_CREEK,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+CHUCKWALLA,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+CHUCKWALLA_RIVER,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DEAN,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DEAN_RIVER,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DEAN_RIVER-LOWER,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DEAN_RIVER-UPPER,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DOCEE_RIVER,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NEKITE_CH,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+RIVERS INLET SEAPEN,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+SHEEMAHANT_R,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+U_DEAN,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+WANNOCK,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+WANNOCK_R,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+WANNOCK_RIVER,Central_Coast,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DEENA_CR,Haida_Gwaii,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+PALLANT_CR,Haida_Gwaii,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+YAKOUN_RIVER,Haida_Gwaii,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+CAMPBELL_RIVER,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+GLENLION_R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+GOODSPEED_R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KEOGH R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KEOGH_R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NAHWITTI_R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NIMPKISH,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NIMPKISH_RIVER,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+QUATSE,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+QUATSESE_R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+QUATSE_RIVER,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+S-NIMPKISH R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+S-NIMPKISH/WOSS R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+S-WOSS R,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+STEPHENS_CR,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+WOSS_LAKE,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+WOSS_Lake,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+WOSS_RIVER,NEVI,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+AALTANHASH R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+AALTANHASH_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+ATNARKO,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+ATNARKO_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+ATNARKO_RIVER_UPPER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DOCEE,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DRAKE_CR,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+DUNN_CR,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+ECSTALL_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+EVELYN_CR,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+HAGENSBORG_SL,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+HIRSCH,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+HIRSCH_CREEK,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+HUGH_CR,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KASIKS,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KASIKS_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KASIKS_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KHUTZE RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KHUTZE_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KILBELLA,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KILBELLA_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KILBELLA_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KILDALA,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KILDALA_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KILTUISH_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KITIMAT,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KITIMAT_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KITIMAT_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KITLOPE,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+KITLOPE_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+LOWATNARKO,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+LOWATNARKO(11),NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NEECHANZE,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NEECHANZE_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NEECHANZ_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NUSATSUM,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+NUSATSUM_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+QUAAL_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+S-ATNARKO R LOW,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+S-ATNARKO R UP,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+S-KILBELLA R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+SALLOOMT_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+SALLOOMT_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+SALOOMPT,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+SNOOTLI CREEK H,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+SNOOTLI_CR,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+TAKIA,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+TAKIA_RIVER,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+TANKEEAH_R,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+U_ATNARKO,NOMN,North/Central BC,North/Central BC,NBC,NBC_SEAK,Central BC
+CRANBERRY,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+CRANBERRY_RIVER,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+DAMDOCHAX,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+DAMDOCHAX_CREEK,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ISHKHEENICKH,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ISHKHEENICKH_RIVER,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KATEEN,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KATEEN_RIVER,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KINCOLITH,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KINCOLITH_RIVER,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KITEEN,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KITEEN_RIVER,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KWINAGEESE,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KWINAGEESE_RIVER,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KWINAMASS,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KWINAMASS_RIVER,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+MEZIADIN,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+MEZIADIN_RIVER,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+OWEEGEE_CREEK,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+OWEGEE,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SEASKINNISH,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SEASKINNISH_CREEK,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SNOWBANK,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SNOWBANK_CREEK,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TEIGEN,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TEIGEN_CREEK,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TSEAX,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TSEAX_R,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TSEAX_SLOUGH,Nass,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+YAKOUN,QCI,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BULKLEY,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BULKLEY_EARLY,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BULKLEY_RIVER-UPPER,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BULKLEY_SP,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+MORICE,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+MORICE_R,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+MORICE_RIVER,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+S-BULKLEY R UP,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+S-KITSUM ABV CANYON,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+S-KITSUM BEL CANYON,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+S-MORICE R,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SUSKWA,Skeena_Bulkley,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ECSTALL,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+EXCHAMSIKS,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+EXCHAMSIKS_RIVER,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+EXSTEW_R,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+EXSTEW_RIVER,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+FIDDLER_CR,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+FIDDLER_CREEK,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+GITNADOIX,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+GITNADOIX_RIVER,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KHYEX_R,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KHYEX_RIVER,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KLOIYA_RIVER,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+L_KALUM,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+L_KALUM@AC,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ZYMAGOTITZ_RIVER,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ZYMOGOTITZ,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ZYMOGOTITZ_R,Skeena_Lower,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BABINE,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BABINE FENCE,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BABINE_RIVER-SECTIONS_1_TO_3,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BABINE_RIVER_SECTIONS_1_TO_3,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BABINE_RIVER___SECTION_4,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KISPIOX,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KISPIOX_RIVER,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KITSUMKALUM_R,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KITSUMKALUM_RIVER-LOWER,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KITWANGA,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KITWANGA_RIVER,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+NANGEESE_R,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+NANGEESE_RIVER,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SHEGUNIA_R,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SHEGUNIA_RIVER,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SICINTINE_RIVER,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SKEENA@TERRACE,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SKEENA_RIVER,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SWEETIN,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SWEETIN_RIVER,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+THOMAS_CR,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+THOMAS_CREEK,Skeena_Mid,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BEAR,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+BEAR_RIVER,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KITSEGUECLA_R,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KLUATANTAN,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KLUATANTAN_RIVER,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KLUAYAZ_CR,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KLUAYAZ_CREEK,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KULDO_C,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+KULDO_CREEK,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+OTSI_CR,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+OTSI_CREEK,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SICINTINE_R,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SLAMGEESH,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SLAMGEESH_RIVER,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SQUINGULA,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SQUINGULA_R,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SQUINGULA_RIVER,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SUSTUT,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SUSTUT_RIVER,Skeena_Upper,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ANDREAFSKY_RIVER,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ANDREAFSKY_RIVER_EAST_FORK,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ANDREW_CR,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ANDREW_CREEK,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ANDREW_CRYH,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+ANDREW_MEDH,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+CHRISTINA,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+CHRISTINA_CREEK,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+CRAIG,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+CRAIG_RIVER,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+DWORSHAK_H,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+JOHNNY_TASHOOT,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+JOHNNY_TASHOOTS_CREEK,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+LITTLE_TAHLTAN,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+LITTLE_TAHLTAN_RIVER,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+L_TAHLTAN_R,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SHAKES_CR,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+SHAKES_CREEK,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TAHLTAN_R,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TAHLTAN_RIVER,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TUYA_R,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+TUYA_RIVER,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+VERRETT,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+VERRETT_RIVER,Stikine,North/Central BC,North/Central BC,NBC,NBC_SEAK,NBC/SEAK
+QUINSAM,NEVI,Upper Strait of Georgia,North/Central BC,NBC,NBC_SEAK,Central BC
+QUINSAM RIVER H,NEVI,Upper Strait of Georgia,North/Central BC,NBC,NBC_SEAK,Central BC
+QUINSAM_R,NEVI,Upper Strait of Georgia,North/Central BC,NBC,NBC_SEAK,Central BC
+QUINSAM_RIVER,NEVI,Upper Strait of Georgia,North/Central BC,NBC,NBC_SEAK,Central BC
+S-QUINSAM R,NEVI,Upper Strait of Georgia,North/Central BC,NBC,NBC_SEAK,Central BC
+APUKA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+AVACHA,Russia,Russia,Russia,Russia,Russia,Russia
+BISTRAYA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+BOLSHAYA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+ICHA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+KAMCHATKA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+KARYMAY_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+KIKCHIK_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+KOL_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+PAHACHA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+PALANA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+PYMTA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+TIGIL_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+VOROVSKAJA_RIVER,Russia,Russia,Russia,Russia,Russia,Russia
+BIG_BOULDER_C,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+BIG_BOULDER_CREEK,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CHATANIKA_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CHENA_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+DECEPTION CR 247-41,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+GISASA_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+GOODPASTER_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+HENSHAW_CREEK,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KANTISHNA_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KATEEL_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KING_SALMON,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KING_SALMON_R,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KING_SALMON_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KOYUKUK_RIVER_MID_FORK,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KOYUKUK_RIVER_SOUTH_FORK,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+NULATO_RIVER_NORTH_FORK,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+NULATO_RIVER_SOUTH_FORK,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+SALCHA_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+SITUK,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+SITUK_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TAHINI,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TAHINI_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TEEDRAANJIK_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+UNUK,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+UNUK_RIVER,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+WHITMAN LAKE H,Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+BIG_BOULDER_CR,NSE_Alaska_Chilkat_R,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TAHINI_R,NSE_Alaska_Chilkat_R,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KLUKSHU_R,N_Gulf_Coast_Alsek_R,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+SITUK_R,N_Gulf_Coast_Situk_R,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CHICKALOON VILLAGE CIF,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CHICKAMIN,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CHICKAMIN_H,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CHICKAMIN_R,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CHICKAMIN_RIVER,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CRIPPLE_CR,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KETA CREEK COMPLEX,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KETA_R,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KING_CR,SSE_Alaska,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+CRIPPLE_CREEK,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+DUDIDONTU,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+DUDIDONTU_R,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+DUDIDONTU_RIVER,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+HACKETT_R,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+HACKETT_RIVER,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KOWATUA,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KOWATUA_CREEK,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+LITTLE_TATSAM,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+LITTLE_TATSAMENIE_RIVER,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+LITTLE_TRAPPER,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+NAHLIN,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+NAHLIN_RIVER,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+NAKINA,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+NAKINA_R,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+NAKINA_RIVER,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TATSAMENIE,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TATSAMENIE_(LAKE_OUTLET),Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TATSAMENIE_LAKE_OUTLET,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TSETA,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TSETA_CREEK,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+YETH_CR,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+YETH_RIVER,Taku,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+KOWATUA_CR,Taku_R,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+NAHLIN_R_U,Taku_R,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+TATSATUA_CR,Taku_R,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+U_NAHLIN_R,Taku_R,Alaska South SE,Alaska South SE,SEAK,NBC_SEAK,NBC/SEAK
+BESSETTE,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BESSETTE_CR,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BESSETTE_CREEK,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BONAPARTE,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BONAPARTE_R,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BONAPARTE_RIVER,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+COLDWATER,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+COLDWATER_R,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+COLDWATER_RIVER,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+COLDWATER_RIVER-UPPER,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+DEADMAN,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+DEADMAN_RIVER,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+DUTEAU_CR,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+DUTEAU_CREEK,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+LOUIS,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+LOUIS_CREEK,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NICOLA,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NICOLA_RIVER,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+S-NICOLA R,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SPIUS,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SPIUS CREEK H,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SPIUS_CREEK,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SPIUS_CREEK-UPPER,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+U_COLDWAT_SP,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+U_SPIUS_SP,Fraser_Spring_4.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BAEZAEKO,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BAEZAEKO_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BAKER_CR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BAKER_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BIG_SALMON_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BIRKENHEAD,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BIRKENHEAD_R,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BIRKENHEAD_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BLUE,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BLUECR_UPPITT,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BLUE_CR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BLUE_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BLUE_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BOWRON,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BOWRON_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BRIDGE,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BRIDGE_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILAKO,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILAKO_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILCOTIN,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILCOTIN_MIX,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILCOTIN_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILCOTIN_RIVER-LOWER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILCOTIN_RIVER-UPPER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+COTTONWOOD,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+COTTONWOOD_RIVER_LOWER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+DOME,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+DOME_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+EAGLE,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+EAGLE_R,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+EAGLE_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+ENDAKO,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+ENDAKO_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+FINN,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+FINN_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+FONTONIKO,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+FONTONIKO_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+GOAT,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+GOAT_CR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+GOAT_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+GOAT_CREEK(Alsek),Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+GOAT_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+HOLLIDAY_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+HOLMES,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+HOLMES_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+HORSEFLY,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+HORSEFLY_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+HORSEY,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+HORSEY_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+INDIANPOINT,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+INDIANPOINT_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+JAMES,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+JAMES_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+KENNETH,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+KENNETH_CR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+KENNETH_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+LITTLE_SALMON_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+L_CHILCOTI,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+MCGREGOR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+MCGREGOR_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+MCKINLEY_CR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+MORKILL,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+MORKILL_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NAZKO,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NAZKO_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NEVIN,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NEVIN_CR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NEVIN_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+PITT_RIVER-UPPER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+PTARMIGAN,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+PTARMIGAN_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SALMON@PG,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SALMON_CR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SALMON_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SALMON_RIVER(THOM),Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SALMON_RIVER(Thom),Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SALMON_RIVER_CR_EAST_FORK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SALMON_RIVER_SOTH,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SAMPSON_CR,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SEYMOUR@THOMP,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SEYMOUR_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SEYMOUR_R_JNST,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SLIM,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SLIM_C,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SLIM_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SWIFT,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SWIFT_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+TASEKO,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+TETE_JAUNE,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+THORSEN_CR_CCST,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+TORPY,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+TORPY_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+UPPER_BIRKENHEAD_R,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+UPPER_PITT,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+U_CHILCOTIN,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WALKER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WALKER_CREEK,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WESTROAD,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WEST_ROAD_(BLACKWATER)_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WEST_ROAD_BLACKWATER_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WEST_ROAD__BLACKWATER_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WILLOW,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WILLOW_R,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+WILLOW_RIVER,Fraser_Spring_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+ADAMS_RIVER,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+HARBOUR_CR,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+L. THOMPSON,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+LITTLE,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+LITTLE_R,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+LITTLE_RIVER,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+L_ADAMS,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+L_SHUS@U_ADAMS,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+L_SHUSWAP,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+L_THOMPSON,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+MARIA_SLOUGH,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+MOMICH_R,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+M_SHUSWAP,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+S-SALMON R/TOMF,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+S-SHUSWAP R LOW,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+S-SHUSWAP R MIDDLE,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+SALMON@SA,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+"SHUSWAP RIVER, MIDDLE, H",Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+SHUSWAP_RIVER-LOWER,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+SHUSWAP_RIVER-MIDDLE,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+SHUSWAP_R_MIDDLE,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+SOUTH_THOM,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+SOUTH_THOMPSON_RIVER,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+THOMPSON_RIVER_BELOW_KAMLOOPS_LAKE,Fraser_Summer_4.1,Fraser Early,Fraser River,SalSea,FR-early,Fraser Summer 4.1
+AVOLA_CR,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BARRIERE,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BARRIERE_R,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BARRIERE_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BIG_SILVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BIG_SILVER_CREEK,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+BIRCH_ISLAND_CHANNEL,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CARIBOO_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CARIBOO_RIVER-UPPER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHEHALIS_RIVER_SUMMER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILKO,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILKO_R,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILKO_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CHILLIWACK_RIVER_SUMMER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CLEARWA US,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CLEARWATER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CLEARWATER_CR,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+CLEARWATER_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+ELKIN,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+ELKIN_CREEK,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+ELKIN_R,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+FENNELL_CR,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+GATES_CR,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+KUZKWA_CR,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+KUZKWA_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+LEMIEUX,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+LEMIEUX_CR,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+LEMIEUX_CREEK,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+L_CARIBOO,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+MCQUESTEN_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NECHAKO,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NECHAKO_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+NORTH_THOMPSON_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+N_THOM@MAIN,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+PINCHI_CREEK,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+PORTAGE,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+PORTAGE_C,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+PORTAGE_CREEK,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+QUESNEL,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+QUESNEL_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+RAFT,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+RAFT_R,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+RAFT_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+S-CHEHALIS R,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+S-CHILKO R,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+S-CHILLIWACK R,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SLOQUET_CR,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+SLOQUET_CREEK,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+STUART,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+STUART_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+TASEKO_RIVER,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+U_CARIBOO,Fraser_Summer_5.2,Fraser Early,Fraser River,SalSea,FR-early,Fraser Yearling
+ALOUETTE_R_S,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+BOOTH CR,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHEHALIS RIVER H,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHEHALIS_R,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHEHALIS_RIVER,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHILLIWAC@STAV,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHILLIWACK RIVER H,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHILLIWACK_F,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHILLIWACK_R,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHILLIWACK_RIVER_FALL,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHILLIWACK_RIVER_fall,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHILLIWACK_VEDDER_RIVER,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CHILQUA_CR,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+FINCH CR     16.0222,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+H-CHILLIWACK RIVER H,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+HARRISON,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+HARRISON_RIVER,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+HICKS_CR,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+INCH CREEK H,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+LITTLECAMPBELL,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Salish Sea
+LITTLE_CAMPBELL_R,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Salish Sea
+LITTLE_CAMPBELL_RIVER,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Salish Sea
+NAHATLATCH_R,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+NAHATLATCH_RIVER,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+NICOMEKL_R,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Salish Sea
+NICOMEKL_RIVER,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Salish Sea
+NORRISH_CR,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+POST_CR,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+R_CHEHALIS,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+R_CHILLIWACK,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+S-HARRISON R,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+S-INCH CR,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+SANDY COVE SEAPEN,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+SERPENTINE,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Salish Sea
+SERPENTINE_RIVER,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Salish Sea
+SILVERDALE_CR,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+STAVE_R,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+STAVE_RIVER,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+WORTH_CR,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+W_CHILLIWACK,Fraser_Fall,Fraser Late,Fraser River,SalSea,FR-late,Fraser Fall 4.1
+CAPILANO,SOMN,SOMN,Fraser River,SalSea,FR-early,Salish Sea
+BEAR_CR_SUFA,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+BIG SOOS CR  09.0072,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+CEDAR_EARLY,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+CEDAR_RIVER,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+CEDAR_R_SUFA,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+CLARKS CR    10.0027,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GROVERS CR   15.0299,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+ISSAQUAH CR  08.0178,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+LTL WHITE SALMON NFH,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+LTL WHITE SALMON-NFH,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+PORTAGE BAY STOCK UW,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+VOIGHT CR    10.0414,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WA URB LITTLE WHITE,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WALLACE R HATCHERY,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WALLACE RIVER HATCHERY,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WHITE R      10.0031,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WHITE_F,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WHITE_H,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WHITE_R,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WHITE_RIVER,C_Puget_Sound,Central Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+DEWATTO_R_HOOD_CANAL,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+GEORGE ADAMS (PURDY),Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+GEORGE ADAMS HATCHERY,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+GEORGE_ADAMS_H,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+HAMMA HAMMA  16.0251,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+HAMMA_HAMMA_R,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+HOODSPORT HATCHERY,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+NF_SKOKOMISH_F,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+QUILCENE NFH,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+QUILCENE_R,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+SKOKOMISH R  16.0001,Hood_Canal,Hood Canal,Puget Sound,SalSea,PSD,Salish Sea
+BRENNER HATCHERY,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+FORTSON POND NET PEN,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GLENWOOD SPRINGS,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GRIZZLY,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GRIZZLY_R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+HURD CR HATCHERY,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+JONES_CR,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+LUMMI SEA PONDS,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+L_SAUK_R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+L_SKAGIT_R_FA,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+MARBLEMOUNT HATCH,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+MARBLEMOUNT HATCHERY,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+MARBLEMOUNT_H,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+MARBLEMOUNT_HSP,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+MARBLEMOUNT_HSU,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+NF_NOOKSACK_H,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+NOOKSACK -SF 01.0246,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+NOOKSACK R   01.0120,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+NOOKSACK_RIVER,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+NOOKSACK_SF,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SAMISH   (FRIDAY CR),N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SAMISH HATCHERY,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SAMISH R     03.0005,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SAMISH_H,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SKAGIT R     03.0176,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SKAGIT_R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SKAGIT_RIVER,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SKOOKUM CR   01.0273,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SKOOKUM CR HATCHERY,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SKYKOMISH R  07.0012,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SKYKOMISH_R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SKYKOMISH_RIVER,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SNOHOMISH R  07.0012,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SNOHOMISH_R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SNOHOMISH_RIVER,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SNOQUALMIE_R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+STILLAGUAMISH R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+STILLAGUAMISH R -NF,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+STILLAGUAMISHS,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+STILLAGUAMISH_RIVER,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+U_SAUK_R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+U_SAUK_R_SPSU,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+U_SKAGIT_R,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WALLACE R    07.0940,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WALLACE R + SAMISH,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WHITEHORSE POND,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+WHITEHORSE_RIVER,N_Puget_Sound,North Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+NOOKSACK_SP@KE,N_Puget_Sound,Puget Sound Spring,Puget Sound,SalSea,PSD,Salish Sea
+SKAGIT_SU,N_Puget_Sound,Puget Sound Summer,Puget Sound,SalSea,PSD,Salish Sea
+SKYKOMISH_SU,N_Puget_Sound,Puget Sound Summer,Puget Sound,SalSea,PSD,Salish Sea
+BERNIE GOBIN HATCH,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+CHAMBERS CR  12.0007,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+CLARKS CRK HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+CLEAR CR    11.0013C,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+CLEAR CREEK HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+DESCHUTES R  13.0028,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GARRISON HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GORST CR REARING PND,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GREEN,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GREEN@KENDAL_F,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GREEN_F@SOOS,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GREEN_RIVER,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GREEN_RIVER-KENDAL,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GREEN_RIVER-Kendal,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GREEN_R_FA,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GROVERS CR HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+GROVERS_CR_H,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+HUPP SPRINGS REARING,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+HUPP_SP_H,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+ICY CR HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+ISSAQUAH HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+ISSAQUAH_CR,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+KALAMA CR    11.0017,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+KENDALL CR HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+MINTER CR    15.0048,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+MINTER CR HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+MINTER_CR,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+NISQUALLY R  11.0008,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+PALMER HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+PUYALLUP_R,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SOOS CREEK HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SOOS_CREEK,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SOOS_CR_H,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+SOOS_H,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+S_PRAIRIE_CR,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+TUMWATER FALLS HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+UW_H_SUFA,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+VOIGHTS CR HATCHERY,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+VOIGHTS_H,S_Puget_Sound,South Puget Sound Fall,Puget Sound,SalSea,PSD,Salish Sea
+BIG,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+BIG QUALICUM RIVER H,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+BIGQUL@LANG,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+BIG_QUALICUM,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+BIG_QUALICUM_R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEMAINUS,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEMAINUS_RIVER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+COWICHAN,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+COWICHAN RIVER H,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+COWICHAN_R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+COWICHAN_RIVER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+DISCOVERY PASSAGE SEAPENS,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+FANNY BAY/ JNST SEAPEN,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+LITTLE_QUALICUM_RIVER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+L_QUALICUM,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMOSU_BACKX,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMOUPPER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_F,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_RIVER-UPPER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_RIVER_F,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_RIVER_FALL,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_RIVER_S,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_RIVER_SUMMER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_SP,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_SU,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NANAIMO_UNKNOWN,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NATHAN_CR_VI,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+NISQUALLY_R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+OYSTER_RIVER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE RIVER H,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGESUM,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE_BACKX,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE_F,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE_R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE_RIVER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE_RIVER(FALL),ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE_RIVER(fall),ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE_RIVER_FALL,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLEDGE_SU,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PUNTLED_SU,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+QUALICUM_RIVER,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+ROSEWALL CREEK H,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+ROSEWALL_CR,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-BIG QUALICUM R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-CHEMAINUS R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-COWICHAN R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-FIRST LK/GSVI,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-L QUALICUM R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-NANAIMO R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-PUNTLEDGE R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+SORENSON_CR,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+TRENT_R,ECVI,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+AHNUHATI_R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+ASHLULM,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CAPILANO RIVER H,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CAPILANO_R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CAPILANO_RIVER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEAKAMUS,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEAKAMUS_F,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEAKAMUS_RIVER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEAKAMUS_RIVER-TENDERFOOT,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEAKAMUS_RIVER_FALL,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEAKAMUS_RIVER_SUMMER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+CHEAKAMUS_SU,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+DEVEREUX_CREEK,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+HEYDON_CR,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+HOMATHKO_R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+HOMATHKO_RIVER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+KAKWEIKEN_R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+KLINAKLINI_RIVER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+MAMQUAM,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+MAMQUAM_R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+MAMQUAM_RIVER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PHILLIPS,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PHILLIPS RIVER H,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PHILLIPS_R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PHILLIPS_RIVER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+PORTEAU_COVE,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-ASHLU CR,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-CHEAKAMUS R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-MAMQUAM R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-PHILLIPS R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-PORTEAU CV,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-SALMON R/JNST,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+S-SHOVELNOSE CR,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+SALMON_RIVER_JNST,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+SHOVELNOSE_CR,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+SHOVELNOSE_CREEK,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+SHOVEL_CREEK,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+SOUTHGATE_RIVER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+SQUAMISH,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+SQUAMISH_RIVER,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+TENDERFOOT,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+TENDERFOOT CREEK H,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+TENDERFOOT_CR,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+TENDERFOOT_CREEK,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+WAKEMAN_R,SOMN,Lower Strait of Georgia/Lower GS Hatchery,SOG,SalSea,SOG,Salish Sea
+BUTE,SOMN,Upper Strait of Georgia,SOG,SalSea,SOG,Salish Sea
+DEVEREUX,SOMN,Upper Strait of Georgia,SOG,SalSea,SOG,Salish Sea
+HOMATHKO,SOMN,Upper Strait of Georgia,SOG,SalSea,SOG,Salish Sea
+KLINAKLINI,SOMN,Upper Strait of Georgia,SOG,SalSea,SOG,Salish Sea
+GOLDSTREAM_R,ECVI,West Coast Hatchery,SOG,SalSea,SOG,Salish Sea
+8702GOLD,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+CONUMA,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+GOLD(83-86),WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+GOLD_R,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+GOLD_RIVER,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+NITINAT,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+OMEGA PACIFIC H,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+ROB@GOLD,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+ROBERTSON,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+S-GOLD R,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+THORNTON,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+TOQUART,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+TOQUART RIVER,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+TOQUART_RIVER,WCVI,West Coast Hatchery,WCVI,WCVI,WCVI,WCVI
+ALBERNI INLET SEAPEN,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+ARTLISH_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+BEDWELL EST SEAPEN,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+BEDWELL_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+BURMAN,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+BURMAN_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+COLONIAL_CAY,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+COLONIAL_CREEK,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+CONUMA_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+CONUMA_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+CYPRE_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+CYPRE_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+GORDON_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+GORDON_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+H-CONUMA R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+H-ESQUIMALT HB,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+H-NITINAT RIVER H,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+H-ROBERTSON CR,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+H-SAN JUAN R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+H-SOOKE RIVER H,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+H-TAHSIS INLET SEAPEN,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+H-TAHSIS RIVER H,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+KAOUK_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+KAOUK_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+KENNEDY,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+KENNEDY_RIVER-LOWER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+KENNEDY_R_UP,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+KOOTOWIS_CR,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+LEINER_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+LEINER_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+MARBLE@NVI,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+MARBLE_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+MEGIN,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+MEGIN_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+MEGIN_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+MOYEHA_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+MOYEHA_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+NAHMINT,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+NAHMINT_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+NITINAT RIVER H,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+NITINAT_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+NITINAT_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+PORT RENFREW SEAPEN,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+ROBERTSON CREEK H,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+ROBERTSON_CR,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+ROBERTSON_CREEK,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-BEDWELL R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-BURMAN R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-CONUMA R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-DOME CR,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-KITIMAT R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-LEINER R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-MARBLE R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-NAHMINT R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-NITINAT R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-ROBERTSON CR,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-SAN JUAN R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-SARITA R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-SOOKE R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-SUCWOA R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-SUCWOA/TLUPANA R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-TAHSIS R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+S-TLUPANA R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+SAN_JUAN,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+SAN_JUAN_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+SARITA,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+SARITA_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+SOOKE,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+SOOKE HARBOUR SEAPEN,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+SOOKE_R,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+SOOKE_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+STAMP,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+STAMP_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+STAMP_RIVER-ABOVE_FALLS,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TAHSIS,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TAHSISH_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TAHSIS_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+THORNTON CREEK H,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+THORNTON_CR,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+THORNTON_CREEK,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TLUPANA,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TLUPANA_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TOFINO H,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TRANQUIL,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TRANQUIL_CR,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+TRANQUIL_CREEK,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+ZEBALLOS,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+ZEBALLOS_RIVER,WCVI,West Coast Wild,WCVI,WCVI,WCVI,WCVI
+ANVIK_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+ARCHUELINGIK_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+BEAVER_CREEK,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+BLIND_CREEK,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+CHANDALAR_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+CHANDINDU_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+EARN_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+HOOLE_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+HUNDRED-MILE_CREEK,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+KALZAS_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+KANDIK_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+KLONDIKE_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+MAYO_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+MCNEIL_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+MORLEY_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+NISLING_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+NISUTLIN_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+NORDENSKIOLD_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+PELLY_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+PORCUPINE_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+ROSS_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+SALMON_FORK_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+SHEENJEK_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+STEWART_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+SWIFT_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+TAKHINI_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+TATCHUN_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+TESLIN_LAKE,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+TESLIN_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+TINCUP_CREEK,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+TOZITA_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+WOLF_RIVER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon
+YUKON_RIVER-LOWER,Yukon,Yukon,Yukon,Yukon,Yukon,Yukon

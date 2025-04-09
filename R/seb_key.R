@@ -28,9 +28,10 @@ dum <- stock_key %>%
       Region1Name == "Juan_de_Fuca" | grepl("NICOMEK", stock) | 
         grepl("SERPEN", stock) | 
         (grepl("CAMPB", stock) & Region1Name == "Fraser_Fall") ~ 
-        "Salish Coastal",
-      Region1Name %in% c("Fraser_Fall", "SOMN") | pst_agg %in% c("PSD", "SOG") ~ 
-        "Salish Coastal",
+        "Salish Sea",
+      Region1Name %in% c("SOMN") | pst_agg %in% c("PSD", "SOG") ~ 
+        "Salish Sea",
+      Region1Name == "Fraser_Fall" ~ "Fraser Fall 4.1",
       Region2Name == "Oregon Coastal North Migrating" | pst_agg == "WACST" ~
         "WA/OR Coastal",
       pst_agg == "NBC_SEAK" ~ "NBC/SEAK",
