@@ -4,7 +4,7 @@ library(tidyverse)
 
 
 stock_key <- readRDS(
-  here::here("data", "generated", "finalStockList_Feb2024.rds")
+  here::here("data", "generated", "finalStockList_Mar2024.rds")
   )
 
 
