@@ -15,10 +15,14 @@ dum <- stock_key %>%
         stock %in% c("DEENA_CR", "PALLANT_CR") ~ "Central BC",
       Region1Name %in% c("Mid_and_Upper_Columbia_R_sp", "Snake_R_sp/su") ~ 
         "Upper Col. Yearling",
-      Region1Name %in% c("L_Columbia_R_fa", "Snake_R_fa", 
-                         "Mid_Columbia_R_tule") ~"Col. Coastal",
-      Region1Name %in% c("Willamette_R", "L_Columbia_R_sp", 
-                         "U_Columbia_R_su/fa") ~ "Col. North",
+      Region1Name %in% c("L_Columbia_R_fa", "Willamette_R", "L_Columbia_R_sp",  
+                         "Mid_Columbia_R_tule") ~"Lower Col.",
+      Region1Name %in% c("U_Columbia_R_su/fa", "Snake_R_fa") ~
+        "Upper Col. Subyearling",
+      # Region1Name %in% c("L_Columbia_R_fa", "Snake_R_fa", 
+      #                    "Mid_Columbia_R_tule") ~"Col. Coastal",
+      # Region1Name %in% c("Willamette_R", "L_Columbia_R_sp", 
+      #                    "U_Columbia_R_su/fa") ~ "Col. North",
       Region1Name %in% c("Fraser_Spring_4.2", "Fraser Spring 5.2",
                          "Fraser_Spring_5.2",
                          "Fraser_Summer_5.2") ~ "Fraser Yearling",
