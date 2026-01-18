@@ -1,0 +1,78 @@
+stock,cu_name,agg_name,genetic_source,stock_id,osu_group
+ABERNATHY_RIVER,Lower Columbia River,Low Col.,GSI,gsi,Interior ocean-type
+ADAMS_RIVER,South Thompson_SU_0.3,Fraser 4.1,GSI,gsi,Fraser summer ocean-type
+AMERICAN_RIVER,California Central Valley_Fall,Cali,GSI,gsi,California Central Valley
+BATTLE_CREEK,California Central Valley_Fall,Cali,GSI,gsi,California Central Valley
+CAPILANO_RIVER,Lower Fraser River_FA_0.3,Fraser Fall,PBT,gsi,ECVI
+CAPILANO_RIVER,Lower Fraser River_FA_0.3,Fraser Fall,GSI,gsi,ECVI
+CARIBOO_RIVER,Middle Fraser River_SU_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+CHEMAINUS_RIVER,East Vancouver Island-Nanaimo and Chemainus_FA_0.x,ECVI,GSI,gsi,ECVI
+CHILCOTIN_RIVER-LOWER,Middle Fraser River_SP_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+CHILKO_RIVER,Middle Fraser River_SU_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+CHILLIWACK_RIVER_fall,Lower Fraser River_FA_0.3,Fraser Fall,PBT,gsi,Fraser fall ocean-type
+CHILLIWACK_RIVER_fall,Lower Fraser River_FA_0.3,Fraser Fall,GSI,gsi,Fraser fall ocean-type
+CHILLIWACK_VEDDER_RIVER,Lower Fraser River_FA_0.3,Fraser Fall,PBT,gsi,Fraser fall ocean-type
+CHILLIWACK_VEDDER_RIVER,Lower Fraser River_FA_0.3,Fraser Fall,GSI,gsi,Fraser fall ocean-type
+CLACKAMAS_RIVER,Upper Willamette River,Low Col.,GSI,gsi,Interior stream-type
+COLDWATER_RIVER-UPPER,Lower Thompson_SP_1.2,Fraser Year.,GSI,gsi,Fraser stream-type
+COWEEMAN,Lower Columbia River,Low Col.,GSI,gsi,Interior ocean-type
+COWICHAN_RIVER,East Vancouver Island-Georgia Strait_SU_0.3,ECVI,GSI,gsi,ECVI
+COWICHAN_RIVER,East Vancouver Island-Cowichan and Koksilah_FA_0.x,ECVI,GSI,gsi,ECVI
+COWLITZ_HATCHERY_SPRING,Lower Columbia River,Low Col.,GSI,gsi,Interior ocean-type
+DEADMAN_RIVER,Lower Thompson_SP_1.2,Fraser Year.,GSI,gsi,Fraser stream-type
+DESCHUTES_RIVER,Upper Columbia River_SU_FA,Up Col.,GSI,gsi,Interior ocean-type
+EAGLE_RIVER,South Thompson_SU_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+EUCHRE_CREEK,North & Central Oregon,WA_OR,GSI,gsi,Oregon Coast
+EUCHRE_CREEK,South Oregon coastal,WA_OR,GSI,gsi,Southern OR / Northern CA
+FEATHER_RIVER_FALL,California Central Valley_Fall,Cali,GSI,gsi,California Central Valley
+FEATHER_RIVER_SPRING,California Central Valley_Spring,Cali,GSI,gsi,California Central Valley
+FORKS_CREEK_HATCHERY,Coastal Washington,WA_OR,GSI,gsi,WA Coast
+GREEN_RIVER,South Puget Sound,South Puget,GSI,gsi,Puget Sound
+GREEN_RIVER-Kendal,South Puget Sound,South Puget,GSI,gsi,Puget Sound
+HANFORD_REACH,Upper Columbia River_SU_FA,Up Col.,GSI,gsi,Interior ocean-type
+HARRISON_RIVER,Lower Fraser River_FA_0.3,Fraser Fall,GSI,gsi,Fraser fall ocean-type
+HARRISON_RIVER,Lower Fraser River_FA_0.3,Fraser Fall,PBT,gsi,Fraser fall ocean-type
+HUNTER_CREEK,South Oregon coastal,WA_OR,GSI,gsi,Southern OR / Northern CA
+LITTLE_RIVER,South Thompson_SU_0.3,Fraser 4.1,GSI,gsi,Fraser summer ocean-type
+LYON'S_FERRY,Snake River_FA,Up Col.,GSI,gsi,Interior ocean-type
+MERCED_RIVER,California Central Valley_Fall,Cali,GSI,gsi,California Central Valley
+NECHAKO_RIVER,Middle Fraser River_SU_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+NESTUCCA_RIVER_FALL,North & Central Oregon,WA_OR,GSI,gsi,Oregon Coast
+NICOLA_RIVER,Lower Thompson_SP_1.2,Fraser Year.,PBT,gsi,Fraser stream-type
+NICOLA_RIVER,Lower Thompson_SP_1.2,Fraser Year.,GSI,gsi,Fraser stream-type
+NOOKSACK_RIVER,North Puget Sound,North Puget,GSI,gsi,Puget Sound
+NORTH_THOMPSON_RIVER,North Thompson_SU_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+OKANAGAN_RIVER,Okanagan_1.x,Up Col.,GSI,gsi,Interior ocean-type
+QUALICUM_RIVER,East Vancouver Island-Qualicum and Puntledge_FA_0.x,ECVI,GSI,gsi,ECVI
+QUATSE_RIVER,East Vancouver Island-North_FA_0.x,ECVI,GSI,gsi,ECVI
+RAFT_RIVER,North Thompson_SU_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+ROBERTSON_CREEK,West Vancouver Island-South_FA_0.x,WCVI,PBT,gsi,WCVI
+ROBERTSON_CREEK,West Vancouver Island-South_FA_0.x,WCVI,GSI,gsi,WCVi
+SANDY_RIVER,Upper Willamette River,Low Col.,GSI,gsi,Interior ocean-type
+SANTIAM_RIVER_North,Upper Willamette River,Low Col.,GSI,gsi,Interior ocean-type
+SAN_JUAN_RIVER,West Vancouver Island-South_FA_0.x,WCVI,PBT,gsi,WCVI
+SERPENTINE_RIVER,NA,NA,GSI,missing,Fraser fall ocean-type
+SHOVEL_CREEK,Middle Fraser River_SP_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+SHUSWAP_RIVER-LOWER,Shuswap River_SU_0.3,Fraser 4.1,PBT,gsi,Fraser summer ocean-type
+SHUSWAP_RIVER-LOWER,Shuswap River_SU_0.3,Fraser 4.1,GSI,gsi,Fraser summer ocean-type
+SIMILKAMEEN,Upper Columbia River_SU_FA,Up Col.,GSI,gsi,Interior ocean-type
+SKAGIT_RIVER,North Puget Sound,North Puget,GSI,gsi,Puget Sound
+SKYKOMISH_RIVER,North Puget Sound,South Puget,GSI,gsi,Puget Sound
+SNOHOMISH_RIVER,North Puget Sound,South Puget,GSI,gsi,Puget Sound
+SOOKE_RIVER,West Vancouver Island-South_FA_0.x,WCVI,GSI,gsi,WCVI
+SOOS_CREEK,South Puget Sound,South Puget,GSI,gsi,Puget Sound
+THOMPSON_RIVER_BELOW_KAMLOOPS_LAKE,South Thompson_SU_0.3,Fraser 4.1,GSI,gsi,Fraser summer ocean-type
+THORNTON_CREEK,West Vancouver Island-South_FA_0.x,WCVI,GSI,gsi,WCVI
+TRASK_HATCHERY,North & Central Oregon,WA_OR,GSI,gsi,Oregon Coast
+UMPQUA_SPRING,South Oregon coastal,WA_OR,GSI,gsi,Southern OR / Northern CA
+WENATCHEE_RIVER,Upper Columbia River_SU_FA,Up Col.,GSI,gsi,Interior ocean-type
+WEST_ROAD_BLACKWATER_RIVER,Middle Fraser River_SP_1.3,Fraser Year.,GSI,gsi,Fraser stream-type
+WHITE_RIVER,South Puget Sound,South Puget,GSI,gsi,Puget Sound
+NA,NA,Fraser Sub.,NA,rec,NA
+NA,NA,NA,NA,missing,NA
+NA,NA,South Puget,NA,rec,Puget Sound
+NA,Snake River_FA,Up Col.,NA,pit,Interior ocean-type
+NA,NA,Low Col.,NA,rec,Interior ocean-type
+NA,Upper Columbia River_SU_FA,Up Col.,NA,pit,Interior ocean-type
+NA,South Puget Sound,South Puget,NA,recap,Puget Sound
+NA,NA,South Puget,NA,recap,Puget Sound
