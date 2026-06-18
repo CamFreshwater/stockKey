@@ -137,7 +137,11 @@ dum_stock <- data.frame(
             "KING_CREEK_CHICKAMIN", "BRADFIELD_RIVER","KERR_CREEK",
             "BUTLER_CREEK", "SLIAMMON_CREEK", "TOBA_RIVER",                    
             "SAN JUAN RIVER H", "CEDC NET PENS", "MEMEKAY RIVER H",               
-             "PUNTLEDGE_RIVER_SUMMER_NATURAL", "ROBSON_RIVER"
+             "PUNTLEDGE_RIVER_SUMMER_NATURAL", "ROBSON_RIVER", "CHILLIWACK",
+            "PUNTLEDGE", "SHUSWAP R", "BIG QUALICUM", "PHILLIPS RIVER", "LWTH",
+            "NOTH", "BQR/PUNTLEDGE", "CHILLIWACK/HARRISON", "CAPILANO RIVER",
+            "SHOVELNOSE", "ASHLU_CR", "TENDERFOOT_MAMQUAM", 
+            "TENDERFOOT_SHOVELNOSE", "SPIUS-NICOLA"
             ),
   cu = NA
 )
@@ -684,6 +688,10 @@ key1 <- key_rts %>%
       grepl("PIST", stock) ~ "N_California/S_Oregon_Coast",
       grepl("HUNTER", stock) ~ "N_California/S_Oregon_Coast",
       grepl("NORTH_THOMP", stock) ~ "Fraser_Summer_5.2",
+      stock == "NOTH" ~ "Fraser_Summer_5.2",
+      grepl("THOMP", stock) ~ "Fraser_Summer_4.1",
+      grepl("LOWER_THOMP", stock) ~ "Fraser_Spring_4.2",
+      stock %in% c("L. THOMPSON", "L_THOMPSON", "LWTH") ~ "Fraser_Spring_4.2",
       grepl("THOMP", stock) ~ "Fraser_Summer_4.1",
       grepl("SANDY", stock) ~ "L_Columbia_R_fa",
       grepl("FALLERT CR", stock) ~ "L_Columbia_R_fa",
@@ -990,7 +998,7 @@ key_out %>%
   select(stock, Region1Name)
 
 # save
-saveRDS(key_out, here::here("data", "generated", "finalStockList_Sep2025.rds"))
-write.csv(key_out, here::here("data", "generated", "finalStockList_Sep2025.csv"),
+saveRDS(key_out, here::here("data", "generated", "finalStockList_Jun2026.rds"))
+write.csv(key_out, here::here("data", "generated", "finalStockList_Jun2026.csv"),
           row.names = FALSE)
 
